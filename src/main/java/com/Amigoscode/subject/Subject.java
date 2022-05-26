@@ -60,4 +60,11 @@ public class Subject {
 
     public Subject() {
     }
+
+    public Subject(Long id, String name, Integer year, Set<Enrolment> enrolments) {
+        this.id = id;
+        this.name = name;
+        this.year = year;
+        this.enrolment = enrolments;
+    }
 }

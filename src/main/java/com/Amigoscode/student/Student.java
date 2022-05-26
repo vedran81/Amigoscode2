@@ -2,6 +2,7 @@ package com.Amigoscode.student;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.mentor.Mentor;
+import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -9,7 +10,7 @@ import java.time.Period;
 import java.util.Set;
 
 @Entity //mapira klasu u bazu
-@Table(name = "Student")
+@Table(name = "student")
 public class Student {
     @Id
     @SequenceGenerator(
@@ -39,13 +40,27 @@ public class Student {
     public Set<Enrolment> getEnrolment() {
         return enrolments;
     }
-    public void setEnrolment(Set<Enrolment> enrolment) {
-        this.enrolments = enrolment;
+    public void setEnrolment(Set<Enrolment> enrolments) {
+        this.enrolments = enrolments;
     }
 
 
+    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, Integer age, String status, Integer studyYear, Set<Enrolment> enrolments, @Nullable Mentor mentor) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.dateOfBirth = dateOfBirth;
+        this.age = age;
+        this.status = status;
+        this.studyYear = studyYear;
+        this.enrolments = enrolments;
+        this.mentor = mentor;
+    }
+
     @ManyToOne
     @JoinColumn(name = "mentor_id")
+    @Nullable
     private Mentor mentor;
 
     public Mentor getMentor() {

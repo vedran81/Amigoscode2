@@ -9,12 +9,11 @@ import org.springframework.data.jpa.domain.Specification;
 
 public class StudentSpecification extends EntitySpecification<Student> {
     public StudentSpecification() {
-        addJoin(JoinEnum.ENROLMENT_LIST);
-
+        addJoin(JoinEnum.ENROLMENTS);
     }
 
     public Specification<Student> StudentBySubject (Long subjId){
-        addCriteria(new SearchCriteria(PropertyEnum.ID, subjId, SearchOperation.EQUAL));
+        addCriteria(new SearchCriteria(PropertyEnum.ENROLMENTS, subjId, SearchOperation.EQUAL));
         return generateSpecification();
     }
 
