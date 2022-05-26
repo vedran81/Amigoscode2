@@ -36,11 +36,11 @@ public class Student {
     Set<Enrolment> enrolments;
 
 
-    public Set<Enrolment> getEnrolments() {
+    public Set<Enrolment> getEnrolment() {
         return enrolments;
     }
-    public void setEnrolments(Set<Enrolment> enrolments) {
-        this.enrolments = enrolments;
+    public void setEnrolment(Set<Enrolment> enrolment) {
+        this.enrolments = enrolment;
     }
 
 

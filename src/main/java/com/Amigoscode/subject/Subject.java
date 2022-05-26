@@ -18,16 +18,16 @@ public class Subject {
 
     private Integer year;
 
-    public Set<Enrolment> getEnrolments() {
-        return enrolments;
+    public Set<Enrolment> getEnrolment() {
+        return enrolment;
     }
 
-    public void setEnrolments(Set<Enrolment> enrolments) {
-        this.enrolments = enrolments;
+    public void setEnrolment(Set<Enrolment> enrolment) {
+        this.enrolment = enrolment;
     }
 
     @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
-    Set<Enrolment> enrolments;
+    Set<Enrolment> enrolment;
 
     public String getName() {
         return name;
