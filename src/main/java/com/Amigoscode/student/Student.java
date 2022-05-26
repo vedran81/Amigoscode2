@@ -32,16 +32,17 @@ public class Student {
     private Integer studyYear;
 
 
+    @OneToMany(mappedBy = "student", fetch = FetchType.LAZY)
+    Set<Enrolment> enrolments;
+
+
     public Set<Enrolment> getEnrolments() {
         return enrolments;
     }
-
     public void setEnrolments(Set<Enrolment> enrolments) {
         this.enrolments = enrolments;
     }
 
-    @OneToMany(mappedBy = "subject")
-    Set<Enrolment> enrolments;
 
     @ManyToOne
     @JoinColumn(name = "mentor_id")

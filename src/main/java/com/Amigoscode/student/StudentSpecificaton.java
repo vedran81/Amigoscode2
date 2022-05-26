@@ -15,7 +15,7 @@ public class StudentSpecificaton extends EntitySpecification<Student> {
     }
 
     public Specification<Student> StudentBySubject (Long subjId){
-        addCriteria(new SearchCriteria(PropertyEnum.ENROL_LIST, subjId, SearchOperation.EQUAL));
+        addCriteria(new SearchCriteria(PropertyEnum.ENROLMENTS, subjId, SearchOperation.EQUAL));
         return generateSpecification();
     }
 

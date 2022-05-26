@@ -10,25 +10,24 @@ import java.util.Set;
 public class Subject {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "subject_sequence")
-    @SequenceGenerator(name = "subject_sequence",  allocationSize = 1)
+    @SequenceGenerator(name = "subject_sequence", allocationSize = 1)
     private Long id;
-
 
 
     private String name;
 
     private Integer year;
 
-    public Set<Enrolment> getEnrolmentList() {
-        return enrolmentList;
+    public Set<Enrolment> getEnrolments() {
+        return enrolments;
     }
 
-    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
-        this.enrolmentList = enrolmentList;
+    public void setEnrolments(Set<Enrolment> enrolments) {
+        this.enrolments = enrolments;
     }
 
-    @OneToMany(mappedBy = "subject")
-    Set<Enrolment> enrolmentList;
+    @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
+    Set<Enrolment> enrolments;
 
     public String getName() {
         return name;
