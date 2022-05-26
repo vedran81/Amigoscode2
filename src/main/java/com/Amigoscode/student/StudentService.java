@@ -114,7 +114,7 @@ public class StudentService {
 
 
 
-    StudentSpecification stSpec = new StudentSpecification();
+    StudentSpecificaton stSpec = new StudentSpecificaton();
 
     public List<Student> findStudentsBySubject(Long subjId) {
 

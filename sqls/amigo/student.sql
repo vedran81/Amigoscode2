@@ -28,16 +28,11 @@ CREATE TABLE IF NOT EXISTS `student` (
   CONSTRAINT `FKfmk16k9whxemgkowg3mt24m3w` FOREIGN KEY (`mentor_id`) REFERENCES `mentor` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table amigo.student: ~7 rows (approximately)
+-- Dumping data for table amigo.student: ~2 rows (approximately)
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-REPLACE INTO `student` (`id`, `date_of_birth`, `email`, `first_name`, `last_name`, `status`, `study_year`, `mentor_id`) VALUES
-	(1, '2003-11-11', 'mariam@gmail.com', 'Mariam', 'Jamal', '', 1, NULL),
-	(2, '2002-12-01', 'alex@gmail.com', 'Alex', 'Ivancic', 'part-time', 3, 2),
-	(5, '2000-05-06', 'ivanz@gmail.com', 'Ivan', 'Zec', '', 1, NULL),
-	(6, '1998-06-09', 'vedran.smolec@gmail.com', 'Marta', 'Kos', ' ', 3, 1),
-	(7, '2004-01-06', 'mz2@yahoo.com', 'Marko', 'Zoltan', '', 2, NULL),
-	(8, '2002-05-12', 'kbah@serv.net', 'Kata', 'Bah', '', 1, NULL),
-	(9, '2022-05-12', 'macan@gmail.com', 'Matej', 'Car', 'placa svima kavu kad polozi do kraja', 4, 2);
+INSERT IGNORE INTO `student` (`id`, `date_of_birth`, `email`, `first_name`, `last_name`, `status`, `study_year`, `mentor_id`) VALUES
+	(1, '2003-11-11', 'mariam@gmail.com', 'Mariam', 'Jamal', 'freshment', 1, NULL),
+	(2, '2002-12-01', 'alex@gmail.com', 'Alex', 'Ivancic', 'part-time', 3, NULL);
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

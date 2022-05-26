@@ -21,9 +21,9 @@ CREATE TABLE IF NOT EXISTS `subject` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table amigo.subject: ~14 rows (approximately)
+-- Dumping data for table amigo.subject: ~16 rows (approximately)
 /*!40000 ALTER TABLE `subject` DISABLE KEYS */;
-REPLACE INTO `subject` (`id`, `name`, `year`) VALUES
+INSERT IGNORE INTO `subject` (`id`, `name`, `year`) VALUES
 	(1, 'Matematika I.', 1),
 	(2, 'Informatika I.', 1),
 	(3, 'Engleski jezik I.', 1),

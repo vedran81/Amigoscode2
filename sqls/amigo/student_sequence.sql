@@ -20,8 +20,8 @@ CREATE TABLE IF NOT EXISTS `student_sequence` (
 
 -- Dumping data for table amigo.student_sequence: ~0 rows (approximately)
 /*!40000 ALTER TABLE `student_sequence` DISABLE KEYS */;
-REPLACE INTO `student_sequence` (`next_val`) VALUES
-	(7);
+INSERT IGNORE INTO `student_sequence` (`next_val`) VALUES
+	(3);
 /*!40000 ALTER TABLE `student_sequence` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

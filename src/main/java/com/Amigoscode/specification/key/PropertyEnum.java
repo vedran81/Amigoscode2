@@ -19,7 +19,7 @@ public enum PropertyEnum {
     NAME_FIRST("firstName"),
     NAME_LAST("lastName"),
     EMAIL("email"),
-    ENROLMENTS("enrolment"),
+    ENROL_LIST("enrolmenz"),
     SUBJECT("subject"),
     STUDENT("student"),
     GRADE("grade");

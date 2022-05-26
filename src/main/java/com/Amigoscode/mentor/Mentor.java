@@ -1,18 +1,9 @@
 package com.Amigoscode.mentor;
 
-import com.Amigoscode.student.Student;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "mentor")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id")
 public class Mentor {
     @Id
     @SequenceGenerator(
@@ -26,12 +17,18 @@ public class Mentor {
     )
 
     private Long id;
-
     private String firstName;
-   private String lastName;
+    private String lastName;
     private String email;
 
     public Mentor() {
+    }
+
+    public Mentor(Long id, String firstName, String lastName, String email) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
     }
 
     public Mentor(String firstName, String lastName, String email) {
@@ -81,17 +78,4 @@ public class Mentor {
     public void setEmail(String email) {
         this.email = email;
     }
-
-        public List<Student> getStudentList() {
-        return studentList;
-    }
-
-    public void setStudentList(List<Student> studentList) {
-        this.studentList = studentList;
-    }
-
-    @OneToMany(fetch = FetchType.LAZY)
-    @JsonBackReference
-    private List<Student> studentList;
-
 }

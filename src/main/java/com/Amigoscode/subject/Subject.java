@@ -1,40 +1,34 @@
 package com.Amigoscode.subject;
 
 import com.Amigoscode.enrolment.Enrolment;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
-import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "subject")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id")
 public class Subject {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "subject_sequence")
-    @SequenceGenerator(name = "subject_sequence", allocationSize = 1)
+    @SequenceGenerator(name = "subject_sequence",  allocationSize = 1)
     private Long id;
+
 
 
     private String name;
 
     private Integer year;
 
-    public List<Enrolment> getEnrolmentList() {
+    public Set<Enrolment> getEnrolmentList() {
         return enrolmentList;
     }
 
-    public void setEnrolmentList(List<Enrolment> enrolmentList) {
+    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
         this.enrolmentList = enrolmentList;
     }
 
-    @OneToMany(fetch = FetchType.LAZY)
-    @JsonBackReference
-    private List<Enrolment> enrolmentList;
+    @OneToMany(mappedBy = "subject")
+    Set<Enrolment> enrolmentList;
 
     public String getName() {
         return name;
@@ -66,12 +60,5 @@ public class Subject {
     }
 
     public Subject() {
-    }
-
-    public Subject(Long id, String name, Integer year, List<Enrolment> enrolmentList) {
-        this.id = id;
-        this.name = name;
-        this.year = year;
-        this.enrolmentList = enrolmentList;
     }
 }

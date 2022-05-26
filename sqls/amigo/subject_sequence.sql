@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `subject_sequence` (
 
 -- Dumping data for table amigo.subject_sequence: ~0 rows (approximately)
 /*!40000 ALTER TABLE `subject_sequence` DISABLE KEYS */;
-REPLACE INTO `subject_sequence` (`next_val`) VALUES
+INSERT IGNORE INTO `subject_sequence` (`next_val`) VALUES
 	(17);
 /*!40000 ALTER TABLE `subject_sequence` ENABLE KEYS */;
 

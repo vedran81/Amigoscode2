@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `mentor_sequence` (
 
 -- Dumping data for table amigo.mentor_sequence: ~0 rows (approximately)
 /*!40000 ALTER TABLE `mentor_sequence` DISABLE KEYS */;
-REPLACE INTO `mentor_sequence` (`next_val`) VALUES
+INSERT IGNORE INTO `mentor_sequence` (`next_val`) VALUES
 	(3);
 /*!40000 ALTER TABLE `mentor_sequence` ENABLE KEYS */;
 

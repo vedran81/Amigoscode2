@@ -2,18 +2,14 @@ package com.Amigoscode.student;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.mentor.Mentor;
-import com.fasterxml.jackson.annotation.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.List;
+import java.util.Set;
 
-@Entity
-@Table(name = "student")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id")
+@Entity //mapira klasu u bazu
+@Table(name = "Student")
 public class Student {
     @Id
     @SequenceGenerator(
@@ -36,36 +32,19 @@ public class Student {
     private Integer studyYear;
 
 
-    public List<Enrolment> getEnrolmentList() {
-        return enrolmentList;
+    public Set<Enrolment> getEnrolments() {
+        return enrolments;
     }
 
-    public void setEnrolmentList(List<Enrolment> enrolmentList) {
-        this.enrolmentList = enrolmentList;
+    public void setEnrolments(Set<Enrolment> enrolments) {
+        this.enrolments = enrolments;
     }
 
-    @OneToMany(fetch = FetchType.LAZY)
-    @JsonBackReference
-    private List<Enrolment> enrolmentList;
+    @OneToMany(mappedBy = "subject")
+    Set<Enrolment> enrolments;
 
-    public Student() {
-    }
-
-
-    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.dateOfBirth = dateOfBirth;
-        this.status = status;
-        this.studyYear = studyYear;
-    }
-
-
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "mentor_id")
-    @JsonManagedReference
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
     private Mentor mentor;
 
     public Mentor getMentor() {
@@ -76,6 +55,30 @@ public class Student {
         this.mentor = mentor;
     }
 
+
+    public Student() {
+        this.status = "";
+        this.mentor = null;
+    }
+
+    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.dateOfBirth = dateOfBirth;
+        this.status = status;
+        this.studyYear = studyYear;
+    }
+
+    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.dateOfBirth = dateOfBirth;
+        this.status = status;
+        this.studyYear = studyYear;
+    }
 
     public Long getId() {
         return id;
@@ -141,7 +144,7 @@ public class Student {
         this.studyYear = studyYear;
     }
 
-   /* @Override
+    @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
@@ -153,5 +156,5 @@ public class Student {
                 ", studentStatus='" + status + '\'' +
                 ", yearOfEnrollment=" + studyYear +
                 '}';
-    }*/
+    }
 }

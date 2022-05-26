@@ -3,31 +3,23 @@ package com.Amigoscode.enrolment;
 
 import com.Amigoscode.student.Student;
 import com.Amigoscode.subject.Subject;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "enrolment")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id")
 public class Enrolment {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enrolment_sequence")
     @SequenceGenerator(name = "enrolment_sequence",  allocationSize = 1)
     private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "student_id")
-    @JsonManagedReference
     private Student student;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "subject_id")
-    @JsonManagedReference
     private Subject subject;
 
     private Integer grade;
