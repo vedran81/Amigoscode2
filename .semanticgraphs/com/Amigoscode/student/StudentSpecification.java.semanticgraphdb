@@ -1,0 +1,62 @@
+
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.javaá	
++com.Amigoscode.student.StudentSpecificationCLASS`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java	 	(!"!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"∂
+declarationString†<mark class="modifier">public </mark><mark class="modifier">class </mark>StudentSpecification<mark class="modifier"> extends </mark>EntitySpecification<Student>"
+accesspublic*StudentSpecification2≥
+Bcom.Amigoscode.student.StudentSpecification.StudentSpecification()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java
+ 
+(2Ω
+Lcom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java" (22ú
+0com.Amigoscode.specification.EntitySpecificationEXTEND`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java	* 	(=2ò
+com.Amigoscode.student.StudentEXTEND_TYPE_ARGUMENT`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java	> 	(E¶
+Bcom.Amigoscode.student.StudentSpecification.StudentSpecification()CONSTRUCTOR`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java
+ 
+("l
+declarationStringW<mark class="modifier">public </mark><mark class="method">StudentSpecification</mark>()*StudentSpecification2Õ
+ccom.Amigoscode.specification.EntitySpecification.addJoin(com.Amigoscode.specification.key.JoinEnum)CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java (2ú
++com.Amigoscode.student.StudentSpecificationRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java
+ 
+(–
+Lcom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java" (2"
+isFinalfalse"ê
+declarationString{<mark class="modifier">public </mark>Specification&lt;Student&gt; <mark class="method">StudentBySubject</mark>(Long subjId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSpecification<Student>*StudentBySubject2”
+icom.Amigoscode.specification.EntitySpecification.addCriteria(com.Amigoscode.specification.SearchCriteria)CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java (2≤
+Hcom.Amigoscode.specification.EntitySpecification.generateSpecification()CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java ($2¥
+…com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java (&2Ω
+Scom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)!subjIdCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java8 (>2¬
+Scom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)!subjId	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java9 (?2¢
+1org.springframework.data.jpa.domain.SpecificationRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java (2ò
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java ( Ü
+Scom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)!subjId	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java9 (?"
+typeLong"
+isFinalfalse" 
+declarationStringLong subjId*subjId2x
+java.lang.LongTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentSpecification.java4 (8

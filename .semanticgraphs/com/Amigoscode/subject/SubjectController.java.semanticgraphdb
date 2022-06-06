@@ -1,0 +1,184 @@
+
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java∑
+(com.Amigoscode.subject.SubjectControllerCLASS]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ("!
+packagecom.Amigoscode.subject"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ó
+declarationStringÿ<mark class="annotation">@RestController</mark> <br><mark class="annotation">@RequestMapping(path = "api/subject")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SubjectController"
+accesspublic*SubjectController2œ
+acom.Amigoscode.subject.SubjectController.SubjectController(com.Amigoscode.subject.SubjectService)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2§
+6com.Amigoscode.subject.SubjectController.getSubjects()DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ($2“
+dcom.Amigoscode.subject.SubjectController.findByYear(org.springframework.web.bind.annotation.Integer)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (#2—
+ccom.Amigoscode.subject.SubjectController.findByName(org.springframework.web.bind.annotation.String)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (#2“
+dcom.Amigoscode.subject.SubjectController.deleteSubject(org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$ $(2É
+îcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java) )(2±
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java! (/Í	
+acom.Amigoscode.subject.SubjectController.SubjectController(com.Amigoscode.subject.SubjectService)CONSTRUCTOR]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ("Ü
+declarationString// govori da private final studentService treba biti "autowired" u konstruktor
+<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">SubjectController</mark>(SubjectService subjectService)*SubjectController2◊
+pcom.Amigoscode.subject.SubjectController.SubjectController(com.Amigoscode.subject.SubjectService)!subjectServiceCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (,2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2‹
+pcom.Amigoscode.subject.SubjectController.SubjectController(com.Amigoscode.subject.SubjectService)!subjectService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java, (:2ñ
+(com.Amigoscode.subject.SubjectControllerRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (Ÿ
+pcom.Amigoscode.subject.SubjectController.SubjectController(com.Amigoscode.subject.SubjectService)!subjectService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java, (:"
+typeSubjectService"
+isFinalfalse"2
+declarationStringSubjectService subjectService*subjectService2å
+%com.Amigoscode.subject.SubjectServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (+˝
+6com.Amigoscode.subject.SubjectController.getSubjects()METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ($"
+isFinalfalse"®
+declarationStringí<mark class="annotation">@GetMapping</mark> <br><mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">getSubjects</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Subject>*getSubjects2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2ï
+com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (˜
+
+dcom.Amigoscode.subject.SubjectController.findByYear(org.springframework.web.bind.annotation.Integer)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (#"
+isFinalfalse" 
+declarationString¥ = "by_year/{year}") <br><mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">findByYear</mark>(<mark class="annotation">@PathVariable</mark> Integer year)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Subject>*
+findByYear2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2–
+icom.Amigoscode.subject.SubjectController.findByYear(org.springframework.web.bind.annotation.Integer)!yearCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java, (02’
+icom.Amigoscode.subject.SubjectController.findByYear(org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java: (>2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2ï
+com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (Ë
+icom.Amigoscode.subject.SubjectController.findByYear(org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java: (>"
+typeInteger"
+isFinalfalse"O
+declarationString:<mark class="annotation">@PathVariable</mark> Integer year*year2ñ
+/org.springframework.web.bind.annotation.IntegerTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java2 (9Û
+
+ccom.Amigoscode.subject.SubjectController.findByName(org.springframework.web.bind.annotation.String)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (#"
+isFinalfalse"…
+declarationString≥ = "by_name/{name}") <br><mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">findByName</mark>(<mark class="annotation">@PathVariable</mark> String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Subject>*
+findByName2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java   (2œ
+hcom.Amigoscode.subject.SubjectController.findByName(org.springframework.web.bind.annotation.String)!nameCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ,  (02‘
+hcom.Amigoscode.subject.SubjectController.findByName(org.springframework.web.bind.annotation.String)!name	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java9 (=2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (2ï
+com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java (‰
+hcom.Amigoscode.subject.SubjectController.findByName(org.springframework.web.bind.annotation.String)!name	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java9 (="
+typeString"
+isFinalfalse"N
+declarationString9<mark class="annotation">@PathVariable</mark> String name*name2ï
+.org.springframework.web.bind.annotation.StringTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java2 (8Ò	
+dcom.Amigoscode.subject.SubjectController.deleteSubject(org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$ $("
+isFinalfalse"‚
+declarationStringÃ = "{subjectId}/delete") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteSubject</mark>(<mark class="annotation">@PathVariable</mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteSubject2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java% %(2’
+ncom.Amigoscode.subject.SubjectController.deleteSubject(org.springframework.web.bind.annotation.Long)!subjectIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java%% %(.2⁄
+ncom.Amigoscode.subject.SubjectController.deleteSubject(org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$1 $(:2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$ $(Ó
+ncom.Amigoscode.subject.SubjectController.deleteSubject(org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$1 $(:"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long subjectId*	subjectId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java$, $(0Ω
+îcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java) )("
+isFinalfalse"õ
+declarationStringÖ String name<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@PathVariable</mark> Integer year)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+addSubject2™
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java+ +(2Å
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!nameCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java+1 +(52Å
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!yearCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java+7 +(;2Ü
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!name	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)0 )(42Ü
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)L )(P2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java) )(ñ
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!name	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)0 )(4"
+typeString"
+isFinalfalse"N
+declarationString9<mark class="annotation">@PathVariable</mark> String name*name2ï
+.org.springframework.web.bind.annotation.StringTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)) )(/ô
+ôcom.Amigoscode.subject.SubjectController.addSubject(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)L )(P"
+typeInteger"
+isFinalfalse"O
+declarationString:<mark class="annotation">@PathVariable</mark> Integer year*year2ñ
+/org.springframework.web.bind.annotation.IntegerTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java)D )(K∫
+Ccom.Amigoscode.subject.SubjectController?subjectService@13.33:13.47VALUE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java! (/"
+isFinaltrue"
+typeSubjectService"û
+declarationStringà<mark class="modifier">private </mark><mark class="modifier">final </mark>SubjectService <mark class="class-field">subjectService</mark>"
+isStaticfalse"
+accessprivate*subjectService2å
+%com.Amigoscode.subject.SubjectServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectController.java ( 

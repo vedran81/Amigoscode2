@@ -1,0 +1,333 @@
+
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaÄ
+com.Amigoscode.subject.SubjectCLASSS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java
+ 
+("!
+packagecom.Amigoscode.subject"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"œ
+declarationStringπ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Table(name = "subject")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Subject"
+accesspublic*Subject2ø
+[com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9(2å
+(com.Amigoscode.subject.Subject.Subject()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java> >(2ã
+¶com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A(2î
+0com.Amigoscode.subject.Subject.getEnrolmentSet()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ()2√
+_com.Amigoscode.subject.Subject.setEnrolmenst(java.util.Set<com.Amigoscode.enrolment.Enrolment>)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2å
+(com.Amigoscode.subject.Subject.getName()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java! !(2§
+@com.Amigoscode.subject.Subject.setName(javax.persistence.String)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %(2å
+(com.Amigoscode.subject.Subject.getYear()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java) )(2•
+Acom.Amigoscode.subject.Subject.setYear(javax.persistence.Integer)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- -(2ä
+&com.Amigoscode.subject.Subject.getId()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java1 1(2†
+<com.Amigoscode.subject.Subject.setId(javax.persistence.Long)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5(2ë
+-com.Amigoscode.subject.Subject?id@14.17:14.19DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2ì
+/com.Amigoscode.subject.Subject?name@17.19:17.23DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2ì
+/com.Amigoscode.subject.Subject?year@19.20:19.24DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2õ
+7com.Amigoscode.subject.Subject?enrolmentSet@31.19:31.31DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (≠
+[com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)CONSTRUCTORS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9("µ
+declarationStringü<mark class="modifier">public </mark><mark class="method">Subject</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year)*Subject2Ω
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!nameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java: :(2Ω
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!yearCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java; ;(2å
+/com.Amigoscode.subject.Subject?name@17.19:17.23CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java: :(2å
+/com.Amigoscode.subject.Subject?year@19.20:19.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java; ;(2¬
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9(2¬
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9( 9(,2Ç
+com.Amigoscode.subject.SubjectRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9(É
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9 9(Ü
+`com.Amigoscode.subject.Subject.Subject(javax.persistence.String, javax.persistence.Integer)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9( 9(,"
+typeInteger"
+isFinalfalse"!
+declarationStringInteger year*year2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java9  9('˚
+(com.Amigoscode.subject.Subject.Subject()CONSTRUCTORS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java> >("_
+declarationStringJ<mark class="modifier">public </mark><mark class="method">Subject</mark>()*Subject2Ç
+com.Amigoscode.subject.SubjectRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java> >(∑
+¶com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)CONSTRUCTORS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A("Ÿ
+declarationString√<mark class="modifier">public </mark><mark class="method">Subject</mark>(Long id<mark class="modifier"><mark class="modifier">,</mark></mark> String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year<mark class="modifier"><mark class="modifier">,</mark></mark> Set&lt;Enrolment&gt; enrolmentSet)*Subject2á
+©com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!idCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaB B(2â
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!nameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaC C(2â
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!yearCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaD D(2ë
+≥com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSetCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaE E((2ä
+-com.Amigoscode.subject.Subject?id@14.17:14.19CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaB B(2å
+/com.Amigoscode.subject.Subject?name@17.19:17.23CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaC C(2å
+/com.Amigoscode.subject.Subject?year@19.20:19.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaD D(2î
+7com.Amigoscode.subject.Subject?enrolmentSet@31.19:31.31CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaE E(2å
+©com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A(2é
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA# A('2é
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA1 A(52ñ
+≥com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSet	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaAF A(R2Ç
+com.Amigoscode.subject.SubjectRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A(√
+©com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2s
+javax.persistence.LongTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A(œ
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA# A('"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA A("“
+´com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA1 A(5"
+typeInteger"
+isFinalfalse"!
+declarationStringInteger year*year2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA) A(0˜
+≥com.Amigoscode.subject.Subject.Subject(javax.persistence.Long, javax.persistence.String, javax.persistence.Integer, java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSet	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaAF A(R"
+typeSet<Enrolment>"
+isFinalfalse"0
+declarationStringSet<Enrolment> enrolmentSet*enrolmentSet2j
+java.util.SetTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA7 A(:2à
+"com.Amigoscode.enrolment.EnrolmentTYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.javaA; A(Dû
+0com.Amigoscode.subject.Subject.getEnrolmentSet()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ()"
+isFinalfalse"|
+declarationStringg<mark class="modifier">public </mark>Set&lt;Enrolment&gt; <mark class="method">getEnrolmentSet</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSet<Enrolment>*getEnrolmentSet2î
+7com.Amigoscode.subject.Subject?enrolmentSet@31.19:31.31CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2q
+java.util.SetRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2è
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (Ï
+_com.Amigoscode.subject.Subject.setEnrolmenst(java.util.Set<com.Amigoscode.enrolment.Enrolment>)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ("
+isFinalfalse"®
+declarationStringí<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEnrolmenst</mark>(Set&lt;Enrolment&gt; enrolments)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setEnrolmenst2«
+jcom.Amigoscode.subject.Subject.setEnrolmenst(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentsCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (&2î
+7com.Amigoscode.subject.Subject?enrolmentSet@31.19:31.31CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2Ã
+jcom.Amigoscode.subject.Subject.setEnrolmenst(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolments	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- (72h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (©
+jcom.Amigoscode.subject.Subject.setEnrolmenst(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolments	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- (7"
+typeSet<Enrolment>"
+isFinalfalse".
+declarationStringSet<Enrolment> enrolments*
+enrolments2j
+java.util.SetTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (!2à
+"com.Amigoscode.enrolment.EnrolmentTYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java" (+·
+(com.Amigoscode.subject.Subject.getName()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java! !("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2å
+/com.Amigoscode.subject.Subject?name@17.19:17.23CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java" "(2|
+javax.persistence.StringRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java! !(⁄
+@com.Amigoscode.subject.Subject.setName(javax.persistence.String)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %("
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setName</mark>(String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setName2¢
+Ecom.Amigoscode.subject.Subject.setName(javax.persistence.String)!nameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java& &(2å
+/com.Amigoscode.subject.Subject?name@17.19:17.23CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java& &(2ß
+Ecom.Amigoscode.subject.Subject.setName(javax.persistence.String)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %(#2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %(Ë
+Ecom.Amigoscode.subject.Subject.setName(javax.persistence.String)!name	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %(#"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java% %(‰
+(com.Amigoscode.subject.Subject.getYear()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java) )("
+isFinalfalse"g
+declarationStringR<mark class="modifier">public </mark>Integer <mark class="method">getYear</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeInteger*getYear2å
+/com.Amigoscode.subject.Subject?year@19.20:19.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java* *(2}
+javax.persistence.IntegerRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java) )(ﬁ
+Acom.Amigoscode.subject.Subject.setYear(javax.persistence.Integer)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- -("
+isFinalfalse"é
+declarationStringy<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setYear</mark>(Integer year)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setYear2£
+Fcom.Amigoscode.subject.Subject.setYear(javax.persistence.Integer)!yearCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java. .(2å
+/com.Amigoscode.subject.Subject?year@19.20:19.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java. .(2®
+Fcom.Amigoscode.subject.Subject.setYear(javax.persistence.Integer)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java-  -($2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- -(Ï
+Fcom.Amigoscode.subject.Subject.setYear(javax.persistence.Integer)!year	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java-  -($"
+typeInteger"
+isFinalfalse"!
+declarationStringInteger year*year2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java- -(”
+&com.Amigoscode.subject.Subject.getId()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java1 1("
+isFinalfalse"b
+declarationStringM<mark class="modifier">public </mark>Long <mark class="method">getId</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLong*getId2ä
+-com.Amigoscode.subject.Subject?id@14.17:14.19CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java2 2(2z
+javax.persistence.LongRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java1 1(¿
+<com.Amigoscode.subject.Subject.setId(javax.persistence.Long)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setId</mark>(Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setId2ú
+?com.Amigoscode.subject.Subject.setId(javax.persistence.Long)!idCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java6 6(2ä
+-com.Amigoscode.subject.Subject?id@14.17:14.19CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java6 6(2°
+?com.Amigoscode.subject.Subject.setId(javax.persistence.Long)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5(2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5(ÿ
+?com.Amigoscode.subject.Subject.setId(javax.persistence.Long)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2s
+javax.persistence.LongTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java5 5(‚
+-com.Amigoscode.subject.Subject?id@14.17:14.19VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ("
+isFinalfalse"
+typeLong"í
+declarationString¸<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.SEQUENCE, generator = "subject_sequence")
+@SequenceGenerator(name = "subject_sequence"<mark class="modifier">,</mark> allocationSize = 1)
+private Long id;"
+isStaticfalse"
+accessprivate*id2s
+javax.persistence.LongTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (æ
+/com.Amigoscode.subject.Subject?name@17.19:17.23VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (¡
+/com.Amigoscode.subject.Subject?year@19.20:19.24VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ("
+isFinalfalse"
+typeInteger"h
+declarationStringS<mark class="modifier">private </mark>Integer <mark class="class-field">year</mark>"
+isStaticfalse"
+accessprivate*year2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (◊
+7com.Amigoscode.subject.Subject?enrolmentSet@31.19:31.31VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java ("
+isFinalfalse"
+typeSet<Enrolment>"ﬂ
+declarationString…<mark class="modifier"> </mark>Set<Enrolment> <mark class="class-field">enrolmentSet</mark> = "subject"<mark class="modifier">,</mark> fetch = FetchType.LAZY)
+@JsonIgnore
+Set<Enrolment> enrolmentSet;"
+isStaticfalse"
+accesspackage_private*enrolmentSet2j
+java.util.SetTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (2à
+"com.Amigoscode.enrolment.EnrolmentTYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/subject/Subject.java (

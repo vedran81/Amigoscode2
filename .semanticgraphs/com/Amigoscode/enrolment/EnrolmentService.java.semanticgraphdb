@@ -1,0 +1,324 @@
+
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.javaÑ
+)com.Amigoscode.enrolment.EnrolmentServiceCLASS^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ("#
+packagecom.Amigoscode.enrolment"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ú
+declarationStringÜ<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>EnrolmentService"
+accesspublic*EnrolmentService2¨
+ºcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (2ß
+8com.Amigoscode.enrolment.EnrolmentService.getEnrolment()DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ('2∏
+Icom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java   (2≈
+Vcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java' '(2¡
+Rcom.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java? ?(2∏
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java& (92∂
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$ (52∂
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$ (5Â
+ºcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)CONSTRUCTOR^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ("Å
+declarationStringÎ<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">EnrolmentService</mark>(EnrolmentRepository enrolmentRepository<mark class="modifier"><mark class="modifier">,</mark></mark> StudentRepository studentRepository<mark class="modifier"><mark class="modifier">,</mark></mark> SubjectRepository subjectRepository)*EnrolmentService2π
+–com.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!enrolmentRepositoryCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java# (62∑
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!studentRepositoryCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java! (22∑
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!subjectRepositoryCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java! (22±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ( 2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (2æ
+–com.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!enrolmentRepository	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java0 (C2º
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!studentRepository	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.javaW (h2Ω
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!subjectRepository	PARAMETER_
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java| (ç2ò
+)com.Amigoscode.enrolment.EnrolmentServiceRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (◊
+–com.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!enrolmentRepository	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java0 (C"
+typeEnrolmentRepository"
+isFinalfalse"<
+declarationString'EnrolmentRepository enrolmentRepository*enrolmentRepository2î
+,com.Amigoscode.enrolment.EnrolmentRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (/…
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!studentRepository	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.javaW (h"
+typeStudentRepository"
+isFinalfalse"8
+declarationString#StudentRepository studentRepository*studentRepository2ê
+(com.Amigoscode.student.StudentRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.javaE (V 
+Œcom.Amigoscode.enrolment.EnrolmentService.EnrolmentService(com.Amigoscode.enrolment.EnrolmentRepository, com.Amigoscode.student.StudentRepository, com.Amigoscode.subject.SubjectRepository)!subjectRepository	PARAMETER_
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java| (ç"
+typeSubjectRepository"
+isFinalfalse"8
+declarationString#SubjectRepository subjectRepository*subjectRepository2ê
+(com.Amigoscode.subject.SubjectRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.javaj ({·
+8com.Amigoscode.enrolment.EnrolmentService.getEnrolment()METHOD^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ('"
+isFinalfalse"z
+declarationStringe<mark class="modifier">public </mark>List&lt;Enrolment&gt; <mark class="method">getEnrolment</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Enrolment>*getEnrolment2±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java ("2}
+java.util.ListRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (2ö
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENT^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (Œ
+Icom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)METHOD^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java   ("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteEnrolment</mark>(Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteEnrolment2´
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java! !()2Ø
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java" "(+2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java! !(2¥
+Lcom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)!idCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java!* !(,2¥
+Lcom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)!idCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java"C "(E2±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$ $(2¥
+Lcom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)!idCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$' $()2π
+Lcom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)!id	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java %  ('2s
+voidRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java   (Û
+Lcom.Amigoscode.enrolment.EnrolmentService.deleteEnrolment(java.lang.Long)!id	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java %  ('"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2v
+java.lang.LongTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java    ($è?
+Vcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)METHOD^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java' '("
+isFinalfalse"‚
+declarationStringÃ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addEnrolment</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addEnrolment2´
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java( (()2´
+Ccom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java(K ((U2‘
+lcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java+  +(?2∞
+Hcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java.' .(62∞
+Hcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/' /(62ï
+-com.Amigoscode.student.Student.getStudyYear()CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java3 3(2ê
+(com.Amigoscode.subject.Subject.getYear()CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java3) 3(02µ
+Mcom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java8
+ 8(2µ
+Mcom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java9
+ 9(2ï
+-java.io.PrintStream.println(java.lang.String)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java: :(2Ø
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java) )(+2Ø
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java, ,(+2Ø
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java4 4(+2ñ
+.com.Amigoscode.enrolment.Enrolment.Enrolment()CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java7 7(#2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java( ((2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java(* ((32Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java(9 ((J2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java(V ((_2±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java+ +(2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java+@ +(I2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java+K +(T2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java. .(&2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java.7 .(@2Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/ /(&2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/7 /(@2Õ
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?st@46.16:46.18CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java3 3(2Õ
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?su@47.16:47.18CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java3& 3((2Ã
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java8 8(	2Õ
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?st@46.16:46.18CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java8 8(2Ã
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java9 9(	2Õ
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?su@47.16:47.18CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java9 9(2Ã
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java:' :((2±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java; ;(2Ã
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java;! ;("2Õ
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java'" '(+2Õ
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java'2 '(;2‘
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?st@46.16:46.18DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java. .(2‘
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?su@47.16:47.18DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/ /(2”
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java7 7(2s
+voidRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java' '(¬
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?st@46.16:46.18VARIABLE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java. .("
+typeStudent"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>Student <mark class="class-field">st</mark> = studentRepository.findStudentById(studentId)*st2Ü
+com.Amigoscode.student.StudentTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java. .(2∞
+Hcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java.' .(62Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java. .(&2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java.7 .(@¬
+ecom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?su@47.16:47.18VARIABLE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/ /("
+typeSubject"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>Subject <mark class="class-field">su</mark> = subjectRepository.findSubjectById(subjectId)*su2Ü
+com.Amigoscode.subject.SubjectTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/ /(2∞
+Hcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/' /(62Ø
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/ /(&2»
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java/7 /(@í
+dcom.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)?e@55.18:55.19VARIABLE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java7 7("
+type	Enrolment"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Enrolment <mark class="class-field">e</mark> = new Enrolment()*e2ä
+"com.Amigoscode.enrolment.EnrolmentTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java7 7(2ñ
+.com.Amigoscode.enrolment.Enrolment.Enrolment()CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java7 7(#ï
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!studentId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java'" '(+"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2v
+java.lang.LongTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java' '(!ï
+`com.Amigoscode.enrolment.EnrolmentService.addEnrolment(java.lang.Long, java.lang.Long)!subjectId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java'2 '(;"
+typeLong"
+isFinalfalse"#
+declarationStringLong subjectId*	subjectId2v
+java.lang.LongTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java'- '(1∞
+Rcom.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)METHOD^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java? ?("
+isFinalfalse"≈
+declarationStringØ<mark class="modifier">public </mark>Enrolment <mark class="method">getByIds</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	Enrolment*getByIds2“
+jcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java@# @(@2±
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java@ @("2ƒ
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!studentIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java@A @(J2ƒ
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!subjectIdCALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java@L @(U2…
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!studentId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java?# ?(,2…
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!subjectId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java?3 ?(<2ë
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java? ?(ë
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!studentId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java?# ?(,"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2v
+java.lang.LongTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java? ?("ë
+\com.Amigoscode.enrolment.EnrolmentService.getByIds(java.lang.Long, java.lang.Long)!subjectId	PARAMETER^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java?3 ?(<"
+typeLong"
+isFinalfalse"#
+declarationStringLong subjectId*	subjectId2v
+java.lang.LongTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java?. ?(2›
+Icom.Amigoscode.enrolment.EnrolmentService?enrolmentRepository@16.38:16.57VALUE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java& (9"
+isFinaltrue"
+typeEnrolmentRepository"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">final </mark>EnrolmentRepository <mark class="class-field">enrolmentRepository</mark>"
+isStaticfalse"
+accessprivate*enrolmentRepository2î
+,com.Amigoscode.enrolment.EnrolmentRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (%œ
+Gcom.Amigoscode.enrolment.EnrolmentService?studentRepository@17.36:17.53VALUE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$ (5"
+isFinaltrue"
+typeStudentRepository"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>StudentRepository <mark class="class-field">studentRepository</mark>"
+isStaticfalse"
+accessprivate*studentRepository2ê
+(com.Amigoscode.student.StudentRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (#œ
+Gcom.Amigoscode.enrolment.EnrolmentService?subjectRepository@18.36:18.53VALUE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java$ (5"
+isFinaltrue"
+typeSubjectRepository"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>SubjectRepository <mark class="class-field">subjectRepository</mark>"
+isStaticfalse"
+accessprivate*subjectRepository2ê
+(com.Amigoscode.subject.SubjectRepositoryTYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentService.java (#

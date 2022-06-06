@@ -1,0 +1,69 @@
+
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java¯
+$com.Amigoscode.student.StudentConfigCLASSY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ("!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ü
+declarationStringâ<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>StudentConfig"
+accesspublic*StudentConfig2 
+`com.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)DECLARATIONY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ('Ã
+`com.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)METHODY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ('"
+isFinalfalse"º
+declarationString¶<mark class="annotation">@Bean</mark> <br><mark class="modifier"> </mark>CommandLineRunner <mark class="method">commandLineRunner</mark>(StudentRepository repository)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeCommandLineRunner*commandLineRunner2z
+java.util.List.of(E, E)CALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java!, !(.2Œ
+kcom.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)!repositoryCALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java (2Œ
+kcom.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)!repositoryCALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java! !(2È
+Öcom.Amigoscode.student.StudentConfig.Anonymous-fe091498-afe7-40a4-a34d-8c3bab2fa66a.run(java.time.Month.String...)?mariam@19.28:19.34CALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java!/ !(52Á
+Écom.Amigoscode.student.StudentConfig.Anonymous-7a69e4a9-ba51-4aa5-b45c-a0766dacd3da.run(java.time.Month.String...)?alex@26.28:26.32CALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java!7 !(;2”
+kcom.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)!repository	PARAMETERY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java: (D2
+Öcom.Amigoscode.student.StudentConfig.Anonymous-1ada9981-b2e8-4b45-b651-f026df173b33.run(java.time.Month.String...)?mariam@19.28:19.34DECLARATIONY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ("2Ó
+Écom.Amigoscode.student.StudentConfig.Anonymous-db5f7177-c258-4b27-8c22-f5dc6a0afd2f.run(java.time.Month.String...)?alex@26.28:26.32DECLARATIONY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ( 2î
+*org.springframework.boot.CommandLineRunnerRETURN_TYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java (Ä
+Öcom.Amigoscode.student.StudentConfig.Anonymous-fe254473-09f8-43c3-aba2-88be1f382127.run(java.time.Month.String...)?mariam@19.28:19.34VARIABLEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java (""
+typeStudent"
+isFinalfalse"·
+declarationStringÀ<mark class="modifier"> </mark>Student <mark class="class-field">mariam</mark> = new Student("Mariam"<mark class="modifier">,</mark> "Jamal"<mark class="modifier">,</mark> "mariam@gmail.com"<mark class="modifier">,</mark> LocalDate.of(2003, NOVEMBER, 11)<mark class="modifier">,</mark> "freshment"<mark class="modifier">,</mark> 1)*mariam2Å
+com.Amigoscode.student.StudentTYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java (˜
+Écom.Amigoscode.student.StudentConfig.Anonymous-b889fc84-415f-42d5-b000-802176269d44.run(java.time.Month.String...)?alex@26.28:26.32VARIABLEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ( "
+typeStudent"
+isFinalfalse"‹
+declarationString∆<mark class="modifier"> </mark>Student <mark class="class-field">alex</mark> = new Student("Alex"<mark class="modifier">,</mark> "Ivancic"<mark class="modifier">,</mark> "alex@gmail.com"<mark class="modifier">,</mark> LocalDate.of(2002, DECEMBER, 1)<mark class="modifier">,</mark> "part-time"<mark class="modifier">,</mark> 3)*alex2Å
+com.Amigoscode.student.StudentTYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java (Õ
+kcom.Amigoscode.student.StudentConfig.commandLineRunner(com.Amigoscode.student.StudentRepository)!repository	PARAMETERY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java: (D"
+typeStudentRepository"
+isFinalfalse"1
+declarationStringStudentRepository repository*
+repository2ã
+(com.Amigoscode.student.StudentRepositoryTYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java( (9¶
+wcom.Amigoscode.student.StudentConfig.Anonymous-c064d80d-0b8f-40c9-b84b-f3ff6df86751.run(java.time.Month.String...)!args	PARAMETERY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java& (*"
+typeString"
+isFinalfalse" 
+declarationStringString args*args2{
+java.time.Month.String[]TYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentConfig.java ("

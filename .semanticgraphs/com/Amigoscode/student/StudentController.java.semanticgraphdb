@@ -1,0 +1,335 @@
+
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java¿
+(com.Amigoscode.student.StudentControllerCLASS]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java
+ 
+("!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ó
+declarationStringÿ<mark class="annotation">@RestController</mark> <br><mark class="annotation">@RequestMapping(path = "api/student")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>StudentController"
+accesspublic*StudentController2˚
+åcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2§
+6com.Amigoscode.student.StudentController.getStudents()DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java ($2“
+dcom.Amigoscode.student.StudentController.findByYear(org.springframework.web.bind.annotation.Integer)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (#2—
+ccom.Amigoscode.student.StudentController.findByMentor(org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java" "(%2Ä
+ëcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java' '(2…
+[com.Amigoscode.student.StudentController.registerNewStudent(com.Amigoscode.student.Student)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java, ,("2“
+dcom.Amigoscode.student.StudentController.deleteStudent(org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java1 1(2Ä
+ëcom.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6 6(2Ä
+ëcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java< <(2’
+gcom.Amigoscode.student.StudentController.findAllBySubject(org.springframework.web.bind.annotation.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA A()2±
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java! (/2≥
+Ecom.Amigoscode.student.StudentController?enrolmentService@13.35:13.51DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java# (3ë
+åcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)CONSTRUCTOR]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java ("Â
+declarationStringœ// govori da private final studentService treba biti "autowired" u konstruktor
+<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">StudentController</mark>(StudentService studentService<mark class="modifier"><mark class="modifier">,</mark></mark> EnrolmentService enrolmentService)*StudentController2É
+õcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!studentServiceCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (,2Ö
+ùcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!enrolmentServiceCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java  (02™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2¨
+Ecom.Amigoscode.student.StudentController?enrolmentService@13.35:13.51CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2à
+õcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!studentService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java, (:2ä
+ùcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!enrolmentService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaM (]2ñ
+(com.Amigoscode.student.StudentControllerRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (Ö
+õcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!studentService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java, (:"
+typeStudentService"
+isFinalfalse"2
+declarationStringStudentService studentService*studentService2å
+%com.Amigoscode.student.StudentServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (+ì
+ùcom.Amigoscode.student.StudentController.StudentController(com.Amigoscode.student.StudentService, com.Amigoscode.enrolment.EnrolmentService)!enrolmentService	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaM (]"
+typeEnrolmentService"
+isFinalfalse"6
+declarationString!EnrolmentService enrolmentService*enrolmentService2ê
+)com.Amigoscode.enrolment.EnrolmentServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java< (L˝
+6com.Amigoscode.student.StudentController.getStudents()METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java ($"
+isFinalfalse"®
+declarationStringí<mark class="annotation">@GetMapping</mark> <br><mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">getStudents</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*getStudents2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2ï
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (˜
+
+dcom.Amigoscode.student.StudentController.findByYear(org.springframework.web.bind.annotation.Integer)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (#"
+isFinalfalse" 
+declarationString¥ = "by_year/{year}") <br><mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findByYear</mark>(<mark class="annotation">@PathVariable</mark> Integer year)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*
+findByYear2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2–
+icom.Amigoscode.student.StudentController.findByYear(org.springframework.web.bind.annotation.Integer)!yearCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java) (-2’
+icom.Amigoscode.student.StudentController.findByYear(org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java: (>2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (2ï
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java (Ë
+icom.Amigoscode.student.StudentController.findByYear(org.springframework.web.bind.annotation.Integer)!year	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java: (>"
+typeInteger"
+isFinalfalse"O
+declarationString:<mark class="annotation">@PathVariable</mark> Integer year*year2ñ
+/org.springframework.web.bind.annotation.IntegerTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java2 (9á
+ccom.Amigoscode.student.StudentController.findByMentor(org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java" "(%"
+isFinalfalse"”
+declarationStringΩ = "by_mentor/{mentorId}") <br><mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findByMentor</mark>(<mark class="annotation">@PathVariable</mark> Long mentorId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*findByMentor2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java# #(2”
+lcom.Amigoscode.student.StudentController.findByMentor(org.springframework.web.bind.annotation.Long)!mentorIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java#- #(52ÿ
+lcom.Amigoscode.student.StudentController.findByMentor(org.springframework.web.bind.annotation.Long)!mentorId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java"9 "(A2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java" "(2ï
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java" "(Í
+lcom.Amigoscode.student.StudentController.findByMentor(org.springframework.web.bind.annotation.Long)!mentorId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java"9 "(A"
+typeLong"
+isFinalfalse"P
+declarationString;<mark class="annotation">@PathVariable</mark> Long mentorId*mentorId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java"4 "(8∆
+ëcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java' '("
+isFinalfalse"ü
+declarationStringâ Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@PathVariable</mark> Long mentorId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*assignMentor2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java( ((2É
+õcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java($ ((-2Ç
+öcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!mentorIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java(/ ((72à
+õcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'0 '(92á
+öcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!mentorId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'N '(V2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java' '(ú
+õcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'0 '(9"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long studentId*	studentId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'+ '(/ô
+öcom.Amigoscode.student.StudentController.assignMentor(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!mentorId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'N '(V"
+typeLong"
+isFinalfalse"P
+declarationString;<mark class="annotation">@PathVariable</mark> Long mentorId*mentorId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java'I '(MÕ	
+[com.Amigoscode.student.StudentController.registerNewStudent(com.Amigoscode.student.Student)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java, ,(""
+isFinalfalse"ÿ
+declarationString¬ = "add") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerNewStudent</mark>(<mark class="annotation">@RequestBody</mark> Student student)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerNewStudent2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java- -(2 
+ccom.Amigoscode.student.StudentController.registerNewStudent(com.Amigoscode.student.Student)!studentCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java-% -(,2œ
+ccom.Amigoscode.student.StudentController.registerNewStudent(com.Amigoscode.student.Student)!student	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java,8 ,(?2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java, ,(÷
+ccom.Amigoscode.student.StudentController.registerNewStudent(com.Amigoscode.student.Student)!student	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java,8 ,(?"
+typeStudent"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@RequestBody</mark> Student student*student2Ö
+com.Amigoscode.student.StudentTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java,0 ,(7Ò	
+dcom.Amigoscode.student.StudentController.deleteStudent(org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java1 1("
+isFinalfalse"‚
+declarationStringÃ = "{studentId}/delete") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteStudent</mark>(<mark class="annotation">@PathVariable</mark> Long studentId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteStudent2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java2 2(2’
+ncom.Amigoscode.student.StudentController.deleteStudent(org.springframework.web.bind.annotation.Long)!studentIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java2% 2(.2⁄
+ncom.Amigoscode.student.StudentController.deleteStudent(org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java11 1(:2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java1 1(Ó
+ncom.Amigoscode.student.StudentController.deleteStudent(org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java11 1(:"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long studentId*	studentId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java1, 1(0˙
+ëcom.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6 6("
+isFinalfalse"∫
+declarationString§ Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@RequestBody</mark> StudentUpdateRequest studentUpdateRequest)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*updateStudent2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java7 7(2É
+õcom.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java7% 7(.2é
+¶com.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java70 7(D2à
+õcom.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java61 6(:2ì
+¶com.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequest	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6^ 6(r2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6 6(ú
+õcom.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java61 6(:"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long studentId*	studentId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6, 6(0€
+¶com.Amigoscode.student.StudentController.updateStudent(org.springframework.web.bind.annotation.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequest	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6^ 6(r"
+typeStudentUpdateRequest"
+isFinalfalse"k
+declarationStringV<mark class="annotation">@RequestBody</mark> StudentUpdateRequest studentUpdateRequest*studentUpdateRequest2í
++com.Amigoscode.student.StudentUpdateRequestTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java6I 6(]À
+ëcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java< <("
+isFinalfalse"†
+declarationStringä Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@PathVariable</mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*enrolStudent2¨
+Ecom.Amigoscode.student.StudentController?enrolmentService@13.35:13.51CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java= =(2É
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java=% =(.2É
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java=0 =(92à
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<0 <(92à
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<N <(W2r
+voidRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java< <(ú
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<0 <(9"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long studentId*	studentId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<+ <(/ú
+õcom.Amigoscode.student.StudentController.enrolStudent(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<N <(W"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long subjectId*	subjectId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java<I <(M©
+gcom.Amigoscode.student.StudentController.findAllBySubject(org.springframework.web.bind.annotation.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA A()"
+isFinalfalse"„
+declarationStringÕ = "students_by_subject/{subjectId}") <br><mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findAllBySubject</mark>(<mark class="annotation">@PathVariable</mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*findAllBySubject2™
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47CALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaB B(2ÿ
+qcom.Amigoscode.student.StudentController.findAllBySubject(org.springframework.web.bind.annotation.Long)!subjectIdCALL]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaB4 B(=2›
+qcom.Amigoscode.student.StudentController.findAllBySubject(org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA= A(F2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA A(2ï
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA A(Ò
+qcom.Amigoscode.student.StudentController.findAllBySubject(org.springframework.web.bind.annotation.Long)!subjectId	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA= A(F"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long subjectId*	subjectId2ì
+,org.springframework.web.bind.annotation.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.javaA8 A(<∫
+Ccom.Amigoscode.student.StudentController?studentService@12.33:12.47VALUE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java! (/"
+isFinaltrue"
+typeStudentService"û
+declarationStringà<mark class="modifier">private </mark><mark class="modifier">final </mark>StudentService <mark class="class-field">studentService</mark>"
+isStaticfalse"
+accessprivate*studentService2å
+%com.Amigoscode.student.StudentServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java ( »
+Ecom.Amigoscode.student.StudentController?enrolmentService@13.35:13.51VALUE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java# (3"
+isFinaltrue"
+typeEnrolmentService"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">final </mark>EnrolmentService <mark class="class-field">enrolmentService</mark>"
+isStaticfalse"
+accessprivate*enrolmentService2ê
+)com.Amigoscode.enrolment.EnrolmentServiceTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentController.java ("

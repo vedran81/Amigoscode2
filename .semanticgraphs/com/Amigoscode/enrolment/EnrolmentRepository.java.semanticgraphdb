@@ -1,0 +1,131 @@
+
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java∑
+,com.Amigoscode.enrolment.EnrolmentRepositoryTRAITa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	 	($"#
+packagecom.Amigoscode.enrolment"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationStringò<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>EnrolmentRepository<mark class="modifier"> extends </mark>JpaRepository<Enrolment, Long><mark class="modifier">,</mark> JpaSpecificationExecutor<Enrolment>"
+accesspublic*EnrolmentRepository2ﬁ
+lcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (+2ø
+Mcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_Id(java.lang.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java ($2ø
+Mcom.Amigoscode.enrolment.EnrolmentRepository.findBysubject_Id(java.lang.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java ($2‹
+jcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (+2¢
+5org.springframework.data.jpa.repository.JpaRepositoryEXTENDa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	- 	(:2≠
+@org.springframework.data.jpa.repository.JpaSpecificationExecutorEXTENDa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	M 	(e2ù
+"com.Amigoscode.enrolment.EnrolmentEXTEND_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	; 	(D2â
+java.lang.LongEXTEND_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	F 	(J2ù
+"com.Amigoscode.enrolment.EnrolmentEXTEND_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	f 	(o¢	
+lcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (+"
+isFinalfalse"Ú
+declarationString‹<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsByStudent_IdAndSubject_Id</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> Long subjectId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*existsByStudent_IdAndSubject_Id2Ê
+vcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java1 (:2Ê
+vcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.javaA (J2y
+booleanRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (±
+vcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java1 (:"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java, (0±
+vcom.Amigoscode.enrolment.EnrolmentRepository.existsByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.javaA (J"
+typeLong"
+isFinalfalse"#
+declarationStringLong subjectId*	subjectId2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java< (@°
+Mcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_Id(java.lang.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java ($"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>List&lt;Enrolment&gt; <mark class="method">findByStudent_Id</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Enrolment>*findByStudent_Id2¿
+Pcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_Id(java.lang.Long)!id	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java* (,2Ä
+java.util.ListRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (2ù
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	 (˝
+Pcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_Id(java.lang.Long)!id	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java* (,"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java% ()°
+Mcom.Amigoscode.enrolment.EnrolmentRepository.findBysubject_Id(java.lang.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java ($"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>List&lt;Enrolment&gt; <mark class="method">findBysubject_Id</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Enrolment>*findBysubject_Id2¿
+Pcom.Amigoscode.enrolment.EnrolmentRepository.findBysubject_Id(java.lang.Long)!id	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java* (,2Ä
+java.util.ListRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (2ù
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java	 (˝
+Pcom.Amigoscode.enrolment.EnrolmentRepository.findBysubject_Id(java.lang.Long)!id	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java* (,"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java% ()ö	
+jcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (+"
+isFinalfalse"‘
+declarationStringæ<mark class="modifier"> </mark>Enrolment <mark class="method">findByStudent_IdAndSubject_Id</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> Long subjectId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	Enrolment*findByStudent_IdAndSubject_Id2‰
+tcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java1 (:2‰
+tcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.javaA (J2î
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java (Ø
+tcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java1 (:"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java, (0Ø
+tcom.Amigoscode.enrolment.EnrolmentRepository.findByStudent_IdAndSubject_Id(java.lang.Long, java.lang.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.javaA (J"
+typeLong"
+isFinalfalse"#
+declarationStringLong subjectId*	subjectId2y
+java.lang.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentRepository.java< (@

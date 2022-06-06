@@ -1,0 +1,69 @@
+
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.javañ
+"com.Amigoscode.mentor.MentorConfigCLASSW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java	 	(" 
+packagecom.Amigoscode.mentor"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ž
+declarationStringˆ<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>MentorConfig"
+accesspublic*MentorConfig2Ê
+bcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)DECLARATIONW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (-©
+bcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)METHODW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (-"
+isFinalfalse"Á
+declarationString«<mark class="annotation">@Bean</mark> <br><mark class="modifier"> </mark>CommandLineRunner <mark class="method">commandLineRunnerMentor</mark>(MentorRepository repository)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeCommandLineRunner*commandLineRunnerMentor2x
+java.util.List.of(E, E)CALLW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java, (.2Î
+mcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)!repositoryCALLW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (2Î
+mcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)!repositoryCALLW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (2Ý
+|com.Amigoscode.mentor.MentorConfig.Anonymous-1ca3582d-39d1-4ac9-94fd-dfc85893a880.run(java.lang.String...)?janko@16.27:16.32CALLW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java/ (42Þ
+}com.Amigoscode.mentor.MentorConfig.Anonymous-36bcae78-5cb1-41fb-bd1b-9617cdc308d4.run(java.lang.String...)?helena@18.27:18.33CALLW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java6 (<2Ó
+mcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)!repository	PARAMETERW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java@ (J2ä
+|com.Amigoscode.mentor.MentorConfig.Anonymous-a2218c83-14c7-49d8-9483-d7d2423f0fd2.run(java.lang.String...)?janko@16.27:16.32DECLARATIONW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java ( 2å
+}com.Amigoscode.mentor.MentorConfig.Anonymous-7d6ff6e2-2bf5-4b41-b519-c277efe408dd.run(java.lang.String...)?helena@18.27:18.33DECLARATIONW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (!2’
+*org.springframework.boot.CommandLineRunnerRETURN_TYPEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (ä
+|com.Amigoscode.mentor.MentorConfig.Anonymous-1a1b9acf-c8c7-4c6d-b720-52a0d17b2526.run(java.lang.String...)?janko@16.27:16.32VARIABLEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java ( "
+typeMentor"
+isFinalfalse"Ø
+declarationStringÂ<mark class="modifier"> </mark>Mentor <mark class="class-field">janko</mark> = new Mentor("Janko"<mark class="modifier">,</mark> "Mladic"<mark class="modifier">,</mark> "janko.mladic@gmail.com")*janko2}
+com.Amigoscode.mentor.MentorTYPEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (é
+}com.Amigoscode.mentor.MentorConfig.Anonymous-1cfee5f7-3e2e-4ee7-a0db-be7f215f85af.run(java.lang.String...)?helena@18.27:18.33VARIABLEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (!"
+typeMentor"
+isFinalfalse"Û
+declarationStringÅ<mark class="modifier"> </mark>Mentor <mark class="class-field">helena</mark> = new Mentor("Helena"<mark class="modifier">,</mark> "Jankic"<mark class="modifier">,</mark> "helena.jankic@gmail.com")*helena2}
+com.Amigoscode.mentor.MentorTYPEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java (Ç
+mcom.Amigoscode.mentor.MentorConfig.commandLineRunnerMentor(com.Amigoscode.mentor.MentorRepository)!repository	PARAMETERW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java@ (J"
+typeMentorRepository"
+isFinalfalse"0
+declarationStringMentorRepository repository*
+repository2‡
+&com.Amigoscode.mentor.MentorRepositoryTYPEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java/ (?”
+ocom.Amigoscode.mentor.MentorConfig.Anonymous-6e3bc460-f8d4-4fa1-a867-47594c609ad0.run(java.lang.String...)!args	PARAMETERW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java& (*"
+typeString"
+isFinalfalse" 
+declarationStringString args*args2s
+java.lang.String[]TYPEW
+MF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorConfig.java ("

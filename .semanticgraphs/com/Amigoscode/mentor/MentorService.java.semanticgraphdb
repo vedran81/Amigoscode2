@@ -1,0 +1,100 @@
+
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.javaé
+#com.Amigoscode.mentor.MentorServiceCLASSX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (" 
+packagecom.Amigoscode.mentor"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"™
+declarationStringƒ<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>MentorService"
+accesspublic*MentorService2Â
+Ycom.Amigoscode.mentor.MentorService.MentorService(com.Amigoscode.mentor.MentorRepository)DECLARATIONX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2™
+0com.Amigoscode.mentor.MentorService.getMentors()DECLARATIONX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java ("2·
+Ncom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)DECLARATIONX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2©
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51DECLARATIONX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java
+# 
+(3á
+Ycom.Amigoscode.mentor.MentorService.MentorService(com.Amigoscode.mentor.MentorRepository)CONSTRUCTORX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java ("¶
+declarationString <mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">MentorService</mark>(MentorRepository mentorRepository)*MentorService2Ì
+jcom.Amigoscode.mentor.MentorService.MentorService(com.Amigoscode.mentor.MentorRepository)!mentorRepositoryCALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java  (02¢
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2Ñ
+jcom.Amigoscode.mentor.MentorService.MentorService(com.Amigoscode.mentor.MentorRepository)!mentorRepository	PARAMETERX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java* (:2Œ
+#com.Amigoscode.mentor.MentorServiceRETURN_TYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (Ò
+jcom.Amigoscode.mentor.MentorService.MentorService(com.Amigoscode.mentor.MentorRepository)!mentorRepository	PARAMETERX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java* (:"
+typeMentorRepository"
+isFinalfalse"6
+declarationString!MentorRepository mentorRepository*mentorRepository2ˆ
+&com.Amigoscode.mentor.MentorRepositoryTYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java ()¨
+0com.Amigoscode.mentor.MentorService.getMentors()METHODX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (""
+isFinalfalse"u
+declarationString`<mark class="modifier">public </mark>List&lt;Mentor&gt; <mark class="method">getMentors</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Mentor>*
+getMentors2¢
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2w
+java.util.ListRETURN_TYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2Ž
+com.Amigoscode.mentor.MentorRETURN_TYPE_ARGUMENTX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (Õ
+Ncom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)METHODX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java ("
+isFinalfalse"”
+declarationString<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addNewMentor</mark>(Mentor mentor)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addNewMentor2‰
+'com.Amigoscode.mentor.Mentor.getEmail()CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java2 (:2©
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (+2¢
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2·
+Ucom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)!mentorCALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java+ (12¢
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51CALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (2·
+Ucom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)!mentorCALLX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java ($2¼
+Ucom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)!mentor	PARAMETERX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java$ (*2m
+voidRETURN_TYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (Š
+Ucom.Amigoscode.mentor.MentorService.addNewMentor(com.Amigoscode.mentor.Mentor)!mentor	PARAMETERX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java$ (*"
+typeMentor"
+isFinalfalse""
+declarationStringMentor mentor*mentor2~
+com.Amigoscode.mentor.MentorTYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java (#¶
+@com.Amigoscode.mentor.MentorService?mentorRepository@10.35:10.51VALUEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java
+# 
+(3"
+isFinaltrue"
+typeMentorRepository"¢
+declarationStringŒ<mark class="modifier">private </mark><mark class="modifier">final </mark>MentorRepository <mark class="class-field">mentorRepository</mark>"
+isStaticfalse"
+accessprivate*mentorRepository2ˆ
+&com.Amigoscode.mentor.MentorRepositoryTYPEX
+NF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorService.java
+ 
+("

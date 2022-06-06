@@ -1,0 +1,306 @@
+
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java«
++com.Amigoscode.specification.SearchCriteriaCLASS`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("'
+packagecom.Amigoscode.specification"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">class </mark>SearchCriteria"
+accesspublic*SearchCriteria2≠
+<com.Amigoscode.specification.SearchCriteria.SearchCriteria()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2ª
+…com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2Ê
+Ùcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2ß
+6com.Amigoscode.specification.SearchCriteria.getValue()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java( (02◊
+fcom.Amigoscode.specification.SearchCriteria.setValue(java.lang.Comparable<? extends java.lang.Object>)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# #(2±
+@com.Amigoscode.specification.SearchCriteria.getSearchOperation()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java' '(-2›
+lcom.Amigoscode.specification.SearchCriteria.setSearchOperation(com.Amigoscode.specification.SearchOperation)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+ +("2™
+9com.Amigoscode.specification.SearchCriteria.getProperty()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java/ /(#2ß
+6com.Amigoscode.specification.SearchCriteria.toString()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java4 4(2¶
+5com.Amigoscode.specification.SearchCriteria.getJoin()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java< <(2´
+:com.Amigoscode.specification.SearchCriteria?join@8.18:8.22DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2Ø
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java	 	(!2Æ
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java
+) 
+(.2∏
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (+ƒ
+<com.Amigoscode.specification.SearchCriteria.SearchCriteria()CONSTRUCTOR`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("f
+declarationStringQ<mark class="modifier">public </mark><mark class="method">SearchCriteria</mark>()*SearchCriteria2ú
++com.Amigoscode.specification.SearchCriteriaRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (Ã
+…com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)CONSTRUCTOR`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("ø
+declarationString©<mark class="modifier">public </mark><mark class="method">SearchCriteria</mark>(PropertyEnum property<mark class="modifier"><mark class="modifier">,</mark></mark> Comparable&lt;? extends Object&gt; value<mark class="modifier"><mark class="modifier">,</mark></mark> SearchOperation searchOperation)*SearchCriteria2Ω
+“com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!propertyCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ( 2∫
+œcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!valueCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2ƒ
+Ÿcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperationCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (.2®
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2ß
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2±
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2¬
+“com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!property	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java' (/2ø
+œcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javaN (S2…
+Ÿcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javae (t2ú
++com.Amigoscode.specification.SearchCriteriaRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (∫
+“com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!property	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java' (/"
+typePropertyEnum"
+isFinalfalse"*
+declarationStringPropertyEnum property*property2ó
+-com.Amigoscode.specification.key.PropertyEnumTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (&∑
+œcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javaN (S"$
+typeComparable<? extends Object>"
+isFinalfalse"7
+declarationString"Comparable<? extends Object> value*value2~
+java.lang.ComparableTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java1 (;‘
+Ÿcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javae (t"
+typeSearchOperation"
+isFinalfalse"4
+declarationStringSearchOperation searchOperation*searchOperation2ñ
+,com.Amigoscode.specification.SearchOperationTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javaU (dø#
+Ùcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)CONSTRUCTOR`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("ä
+declarationStringÙ<mark class="modifier">public </mark><mark class="method">SearchCriteria</mark>(JoinEnum join<mark class="modifier"><mark class="modifier">,</mark></mark> PropertyEnum property<mark class="modifier"><mark class="modifier">,</mark></mark> Comparable&lt;? extends Object&gt; value<mark class="modifier"><mark class="modifier">,</mark></mark> SearchOperation searchOperation)*SearchCriteria2‰
+˘com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!joinCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2Ë
+˝com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!propertyCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2Â
+˙com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!valueCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2Ô
+Ñcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperationCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (.2§
+:com.Amigoscode.specification.SearchCriteria?join@8.18:8.22CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2®
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java
+ (2ß
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2±
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (2È
+˘com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!join	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# ('2Ì
+˝com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!property	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java6 (>2Í
+˙com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java] (b2ı
+Ñcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETERa
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javat (É2ú
++com.Amigoscode.specification.SearchCriteriaRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (Õ
+˘com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!join	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# ('"
+typeJoinEnum"
+isFinalfalse""
+declarationStringJoinEnum join*join2ì
+)com.Amigoscode.specification.key.JoinEnumTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("Â
+˝com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!property	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java6 (>"
+typePropertyEnum"
+isFinalfalse"*
+declarationStringPropertyEnum property*property2ó
+-com.Amigoscode.specification.key.PropertyEnumTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java) (5‚
+˙com.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java] (b"$
+typeComparable<? extends Object>"
+isFinalfalse"7
+declarationString"Comparable<? extends Object> value*value2~
+java.lang.ComparableTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java@ (JÄ
+Ñcom.Amigoscode.specification.SearchCriteria.SearchCriteria(com.Amigoscode.specification.key.JoinEnum, com.Amigoscode.specification.key.PropertyEnum, java.lang.Comparable<? extends java.lang.Object>, com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETERa
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javat (É"
+typeSearchOperation"
+isFinalfalse"4
+declarationStringSearchOperation searchOperation*searchOperation2ñ
+,com.Amigoscode.specification.SearchOperationTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.javad (s÷
+6com.Amigoscode.specification.SearchCriteria.getValue()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java( (0"
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark>Comparable&lt;? extends Object&gt; <mark class="method">getValue</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"$
+typeComparable<? extends Object>*getValue2ß
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java   (2Ö
+java.lang.ComparableRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (Ω	
+fcom.Amigoscode.specification.SearchCriteria.setValue(java.lang.Comparable<? extends java.lang.Object>)METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# #("
+isFinalfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setValue</mark>(Comparable&lt;? extends Object&gt; value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setValue2÷
+lcom.Amigoscode.specification.SearchCriteria.setValue(java.lang.Comparable<? extends java.lang.Object>)!valueCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java$ $(2ß
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java$
+ $(2€
+lcom.Amigoscode.specification.SearchCriteria.setValue(java.lang.Comparable<? extends java.lang.Object>)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java#6 #(;2u
+voidRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# #(”
+lcom.Amigoscode.specification.SearchCriteria.setValue(java.lang.Comparable<? extends java.lang.Object>)!value	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java#6 #(;"$
+typeComparable<? extends Object>"
+isFinalfalse"7
+declarationString"Comparable<? extends Object> value*value2~
+java.lang.ComparableTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java# #(#ı
+@com.Amigoscode.specification.SearchCriteria.getSearchOperation()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java' '(-"
+isFinalfalse"z
+declarationStringe<mark class="modifier">public </mark>SearchOperation <mark class="method">getSearchOperation</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSearchOperation*getSearchOperation2±
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java( ((2ù
+,com.Amigoscode.specification.SearchOperationRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java' '(¯	
+lcom.Amigoscode.specification.SearchCriteria.setSearchOperation(com.Amigoscode.specification.SearchOperation)METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+ +(""
+isFinalfalse"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSearchOperation</mark>(SearchOperation searchOperation)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSearchOperation2Ê
+|com.Amigoscode.specification.SearchCriteria.setSearchOperation(com.Amigoscode.specification.SearchOperation)!searchOperationCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java, ,(.2±
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java, ,(2Î
+|com.Amigoscode.specification.SearchCriteria.setSearchOperation(com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+3 +(B2u
+voidRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+ +(ˆ
+|com.Amigoscode.specification.SearchCriteria.setSearchOperation(com.Amigoscode.specification.SearchOperation)!searchOperation	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+3 +(B"
+typeSearchOperation"
+isFinalfalse"4
+declarationStringSearchOperation searchOperation*searchOperation2ñ
+,com.Amigoscode.specification.SearchOperationTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java+# +(2“
+9com.Amigoscode.specification.SearchCriteria.getProperty()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java/ /(#"
+isFinalfalse"p
+declarationString[<mark class="modifier">public </mark>PropertyEnum <mark class="method">getProperty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePropertyEnum*getProperty2®
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java0 0(2û
+-com.Amigoscode.specification.key.PropertyEnumRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java/ /(Æ
+6com.Amigoscode.specification.SearchCriteria.toString()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java4 4("
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">toString</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*toString2®
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java6 6('2ß
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java7 7("2±
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java8' 8(62Å
+java.lang.StringRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java4 4(∂
+5com.Amigoscode.specification.SearchCriteria.getJoin()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java< <("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>JoinEnum <mark class="method">getJoin</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeJoinEnum*getJoin2§
+:com.Amigoscode.specification.SearchCriteria?join@8.18:8.22CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java=	 =(2ö
+)com.Amigoscode.specification.key.JoinEnumRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java< <(˘
+:com.Amigoscode.specification.SearchCriteria?join@8.18:8.22VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java ("
+isFinalfalse"
+typeJoinEnum"i
+declarationStringT<mark class="modifier">private </mark>JoinEnum <mark class="class-field">join</mark>"
+isStaticfalse"
+accessprivate*join2ì
+)com.Amigoscode.specification.key.JoinEnumTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java	 (ë
+>com.Amigoscode.specification.SearchCriteria?property@9.25:9.33VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java	 	(!"
+isFinalfalse"
+typePropertyEnum"q
+declarationString\<mark class="modifier">private </mark>PropertyEnum <mark class="class-field">property</mark>"
+isStaticfalse"
+accessprivate*property2ó
+-com.Amigoscode.specification.key.PropertyEnumTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java	 	(ê
+=com.Amigoscode.specification.SearchCriteria?value@10.41:10.46VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java
+) 
+(."
+isFinalfalse"$
+typeComparable<? extends Object>"~
+declarationStringi<mark class="modifier">private </mark>Comparable<? extends Object> <mark class="class-field">value</mark>"
+isStaticfalse"
+accessprivate*value2~
+java.lang.ComparableTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java
+ 
+(≠
+Gcom.Amigoscode.specification.SearchCriteria?searchOperation@11.28:11.43VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (+"
+isFinalfalse"
+typeSearchOperation"{
+declarationStringf<mark class="modifier">private </mark>SearchOperation <mark class="class-field">searchOperation</mark>"
+isStaticfalse"
+accessprivate*searchOperation2ñ
+,com.Amigoscode.specification.SearchOperationTYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchCriteria.java (

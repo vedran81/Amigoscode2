@@ -1,0 +1,672 @@
+
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaõ-
+com.Amigoscode.student.StudentCLASSS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Á
+declarationString—<mark class="annotation">// mapira klasu u bazu
+@Entity</mark> <br><mark class="annotation">@Table(name = "student")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Student"
+accesspublic*Student2å
+(com.Amigoscode.student.Student.Student()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java0 0(2£
+æcom.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4(2î
+0com.Amigoscode.student.Student.getEnrolmentSet()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java$ $()2≈
+acom.Amigoscode.student.Student.setEnrolmentSet(java.util.Set<com.Amigoscode.enrolment.Enrolment>)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java( ((2é
+*com.Amigoscode.student.Student.getMentor()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaC C(2™
+Fcom.Amigoscode.student.Student.setMentor(com.Amigoscode.mentor.Mentor)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG G(2ä
+&com.Amigoscode.student.Student.getId()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaL L(2†
+<com.Amigoscode.student.Student.setId(javax.persistence.Long)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P(2ë
+-com.Amigoscode.student.Student.getFirstName()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaT T(2©
+Ecom.Amigoscode.student.Student.setFirstName(javax.persistence.String)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX X(2ê
+,com.Amigoscode.student.Student.getLastName()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java\ \(2®
+Dcom.Amigoscode.student.Student.setLastName(javax.persistence.String)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java` `(2ç
+)com.Amigoscode.student.Student.getEmail()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javad d(2•
+Acom.Amigoscode.student.Student.setEmail(javax.persistence.String)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah h(2ì
+/com.Amigoscode.student.Student.getDateOfBirth()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javal l(#2¶
+Bcom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap p(2ã
+'com.Amigoscode.student.Student.getAge()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javat t(2§
+@com.Amigoscode.student.Student.setAge(javax.persistence.Integer)DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x(2é
+*com.Amigoscode.student.Student.getStatus()DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java| |(2®
+Bcom.Amigoscode.student.Student.setStatus(javax.persistence.String)DECLARATIONU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ Ä(2ì
+-com.Amigoscode.student.Student.getStudyYear()DECLARATIONU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÑ Ñ(2¨
+Fcom.Amigoscode.student.Student.setStudyYear(javax.persistence.Integer)DECLARATIONU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà à(2è
+)com.Amigoscode.student.Student.toString()DECLARATIONU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaç ç(2ë
+-com.Amigoscode.student.Student?id@25.17:25.19DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (2ò
+4com.Amigoscode.student.Student?firstName@26.19:26.28DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (2ó
+3com.Amigoscode.student.Student?lastName@27.19:27.27DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (2î
+0com.Amigoscode.student.Student?email@28.19:28.24DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (2ö
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (!2í
+.com.Amigoscode.student.Student?age@31.20:31.23DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (2ï
+1com.Amigoscode.student.Student?status@32.19:32.25DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java   (2ò
+4com.Amigoscode.student.Student?studyYear@33.20:33.29DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java! !(2õ
+7com.Amigoscode.student.Student?enrolmentSet@46.19:46.31DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java. .(2ï
+1com.Amigoscode.student.Student?mentor@65.19:65.25DECLARATIONS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaA A(˚
+(com.Amigoscode.student.Student.Student()CONSTRUCTORS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java0 0("_
+declarationStringJ<mark class="modifier">public </mark><mark class="method">Student</mark>()*Student2Ç
+com.Amigoscode.student.StudentRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java0 0(ò*
+æcom.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)CONSTRUCTORS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4("Ù
+declarationStringﬁ<mark class="modifier">public </mark><mark class="method">Student</mark>(String firstName<mark class="modifier"><mark class="modifier">,</mark></mark> String lastName<mark class="modifier"><mark class="modifier">,</mark></mark> String email<mark class="modifier"><mark class="modifier">,</mark></mark> LocalDate dateOfBirth<mark class="modifier"><mark class="modifier">,</mark></mark> String status<mark class="modifier"><mark class="modifier">,</mark></mark> Integer studyYear)*Student2¶
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!firstNameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java5 5("2•
+«com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!lastNameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java6 6( 2¢
+ƒcom.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!emailCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java7 7(2®
+ com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!dateOfBirthCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java8 8(&2£
+≈com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!statusCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java9 9(2¶
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!studyYearCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java: :("2ë
+4com.Amigoscode.student.Student?firstName@26.19:26.28CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java5 5(2ê
+3com.Amigoscode.student.Student?lastName@27.19:27.27CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java6 6(2ç
+0com.Amigoscode.student.Student?email@28.19:28.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java7 7(2ì
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java8 8(2é
+1com.Amigoscode.student.Student?status@32.19:32.25CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java9 9(2ë
+4com.Amigoscode.student.Student?studyYear@33.20:33.29CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java: :(2´
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!firstName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4(#2™
+«com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!lastName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4, 4(42ß
+ƒcom.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!email	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4= 4(B2≠
+ com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!dateOfBirth	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4N 4(Y2®
+≈com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!status	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4b 4(h2´
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!studyYear	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4r 4({2Ç
+com.Amigoscode.student.StudentRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4(ˆ
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!firstName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4(#"
+typeString"
+isFinalfalse"%
+declarationStringString firstName*	firstName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4 4(Û
+«com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!lastName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4, 4(4"
+typeString"
+isFinalfalse"$
+declarationStringString lastName*lastName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4% 4(+Í
+ƒcom.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!email	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4= 4(B"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java46 4(<˝
+ com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!dateOfBirth	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4N 4(Y"
+type	LocalDate"
+isFinalfalse"*
+declarationStringLocalDate dateOfBirth*dateOfBirth2p
+java.time.LocalDateTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4D 4(MÌ
+≈com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!status	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4b 4(h"
+typeString"
+isFinalfalse""
+declarationStringString status*status2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4[ 4(a˘
+»com.Amigoscode.student.Student.Student(javax.persistence.String, javax.persistence.String, javax.persistence.String, java.time.LocalDate, javax.persistence.String, javax.persistence.Integer)!studyYear	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4r 4({"
+typeInteger"
+isFinalfalse"&
+declarationStringInteger studyYear*	studyYear2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java4j 4(qû
+0com.Amigoscode.student.Student.getEnrolmentSet()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java$ $()"
+isFinalfalse"|
+declarationStringg<mark class="modifier">public </mark>Set&lt;Enrolment&gt; <mark class="method">getEnrolmentSet</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSet<Enrolment>*getEnrolmentSet2î
+7com.Amigoscode.student.Student?enrolmentSet@46.19:46.31CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java% %(2q
+java.util.SetRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java$ $(2è
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java$ $(¸
+acom.Amigoscode.student.Student.setEnrolmentSet(java.util.Set<com.Amigoscode.enrolment.Enrolment>)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java( (("
+isFinalfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEnrolmentSet</mark>(Set&lt;Enrolment&gt; enrolmentSet)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setEnrolmentSet2À
+ncom.Amigoscode.student.Student.setEnrolmentSet(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSetCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java) )((2î
+7com.Amigoscode.student.Student?enrolmentSet@46.19:46.31CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java) )(2–
+ncom.Amigoscode.student.Student.setEnrolmentSet(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSet	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java(/ ((;2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java( ((±
+ncom.Amigoscode.student.Student.setEnrolmentSet(java.util.Set<com.Amigoscode.enrolment.Enrolment>)!enrolmentSet	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java(/ ((;"
+typeSet<Enrolment>"
+isFinalfalse"0
+declarationStringSet<Enrolment> enrolmentSet*enrolmentSet2j
+java.util.SetTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java(  ((#2à
+"com.Amigoscode.enrolment.EnrolmentTYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java($ ((-Ó
+*com.Amigoscode.student.Student.getMentor()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaC C("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>Mentor <mark class="method">getMentor</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMentor*	getMentor2é
+1com.Amigoscode.student.Student?mentor@65.19:65.25CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaD D(2Ä
+com.Amigoscode.mentor.MentorRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaC C(¯
+Fcom.Amigoscode.student.Student.setMentor(com.Amigoscode.mentor.Mentor)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG G("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setMentor</mark>(Mentor mentor)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setMentor2™
+Mcom.Amigoscode.student.Student.setMentor(com.Amigoscode.mentor.Mentor)!mentorCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaH H(2é
+1com.Amigoscode.student.Student?mentor@65.19:65.25CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaH H(2Ø
+Mcom.Amigoscode.student.Student.setMentor(com.Amigoscode.mentor.Mentor)!mentor	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG! G('2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG G(¯
+Mcom.Amigoscode.student.Student.setMentor(com.Amigoscode.mentor.Mentor)!mentor	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG! G('"
+typeMentor"
+isFinalfalse""
+declarationStringMentor mentor*mentor2y
+com.Amigoscode.mentor.MentorTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaG G( ”
+&com.Amigoscode.student.Student.getId()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaL L("
+isFinalfalse"b
+declarationStringM<mark class="modifier">public </mark>Long <mark class="method">getId</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLong*getId2ä
+-com.Amigoscode.student.Student?id@25.17:25.19CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaM M(2z
+javax.persistence.LongRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaL L(¿
+<com.Amigoscode.student.Student.setId(javax.persistence.Long)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setId</mark>(Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setId2ú
+?com.Amigoscode.student.Student.setId(javax.persistence.Long)!idCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaQ Q(2ä
+-com.Amigoscode.student.Student?id@25.17:25.19CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaQ Q(2°
+?com.Amigoscode.student.Student.setId(javax.persistence.Long)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P(2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P(ÿ
+?com.Amigoscode.student.Student.setId(javax.persistence.Long)!id	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2s
+javax.persistence.LongTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaP P(ı
+-com.Amigoscode.student.Student.getFirstName()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaT T("
+isFinalfalse"k
+declarationStringV<mark class="modifier">public </mark>String <mark class="method">getFirstName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getFirstName2ë
+4com.Amigoscode.student.Student?firstName@26.19:26.28CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaU U(2|
+javax.persistence.StringRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaT T(à
+Ecom.Amigoscode.student.Student.setFirstName(javax.persistence.String)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX X("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFirstName</mark>(String firstName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setFirstName2¨
+Ocom.Amigoscode.student.Student.setFirstName(javax.persistence.String)!firstNameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaY Y("2ë
+4com.Amigoscode.student.Student?firstName@26.19:26.28CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaY Y(2±
+Ocom.Amigoscode.student.Student.setFirstName(javax.persistence.String)!firstName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX$ X(-2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX X(¸
+Ocom.Amigoscode.student.Student.setFirstName(javax.persistence.String)!firstName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX$ X(-"
+typeString"
+isFinalfalse"%
+declarationStringString firstName*	firstName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaX X(#Ò
+,com.Amigoscode.student.Student.getLastName()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java\ \("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>String <mark class="method">getLastName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getLastName2ê
+3com.Amigoscode.student.Student?lastName@27.19:27.27CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java] ](2|
+javax.persistence.StringRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java\ \(ˇ
+Dcom.Amigoscode.student.Student.setLastName(javax.persistence.String)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java` `("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLastName</mark>(String lastName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setLastName2™
+Mcom.Amigoscode.student.Student.setLastName(javax.persistence.String)!lastNameCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaa a( 2ê
+3com.Amigoscode.student.Student?lastName@27.19:27.27CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaa a(2Ø
+Mcom.Amigoscode.student.Student.setLastName(javax.persistence.String)!lastName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java`# `(+2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java` `(¯
+Mcom.Amigoscode.student.Student.setLastName(javax.persistence.String)!lastName	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java`# `(+"
+typeString"
+isFinalfalse"$
+declarationStringString lastName*lastName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java` `("Â
+)com.Amigoscode.student.Student.getEmail()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javad d("
+isFinalfalse"g
+declarationStringR<mark class="modifier">public </mark>String <mark class="method">getEmail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getEmail2ç
+0com.Amigoscode.student.Student?email@28.19:28.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javae e(2|
+javax.persistence.StringRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javad d(„
+Acom.Amigoscode.student.Student.setEmail(javax.persistence.String)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah h("
+isFinalfalse"è
+declarationStringz<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEmail</mark>(String email)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setEmail2§
+Gcom.Amigoscode.student.Student.setEmail(javax.persistence.String)!emailCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javai i(2ç
+0com.Amigoscode.student.Student?email@28.19:28.24CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javai i(2©
+Gcom.Amigoscode.student.Student.setEmail(javax.persistence.String)!email	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah  h(%2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah h(Ï
+Gcom.Amigoscode.student.Student.setEmail(javax.persistence.String)!email	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah  h(%"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javah h(˛
+/com.Amigoscode.student.Student.getDateOfBirth()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javal l(#"
+isFinalfalse"p
+declarationString[<mark class="modifier">public </mark>LocalDate <mark class="method">getDateOfBirth</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	LocalDate*getDateOfBirth2ì
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javam m(2w
+java.time.LocalDateRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javal l(é
+Bcom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap p("
+isFinalfalse"ü
+declarationStringâ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDateOfBirth</mark>(LocalDate dateOfBirth)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setDateOfBirth2´
+Ncom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)!dateOfBirthCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaq q(&2ì
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaq q(2∞
+Ncom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap) p(42h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap p(Ä
+Ncom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap) p(4"
+type	LocalDate"
+isFinalfalse"*
+declarationStringLocalDate dateOfBirth*dateOfBirth2p
+java.time.LocalDateTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javap p((¸
+'com.Amigoscode.student.Student.getAge()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javat t("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>Integer <mark class="method">getAge</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeInteger*getAge2x
+java.time.Period.getYears()CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javau< u(D2ü
+Bjava.time.Period.between(java.time.LocalDate, java.time.LocalDate)CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javau u(2v
+java.time.LocalDate.now()CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javau5 u(82ì
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javau u()2}
+javax.persistence.IntegerRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javat t(’
+@com.Amigoscode.student.Student.setAge(javax.persistence.Integer)METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x("
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAge</mark>(Integer age)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setAge2°
+Dcom.Amigoscode.student.Student.setAge(javax.persistence.Integer)!ageCALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javay y(2ã
+.com.Amigoscode.student.Student?age@31.20:31.23CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javay y(2¶
+Dcom.Amigoscode.student.Student.setAge(javax.persistence.Integer)!age	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x("2h
+voidRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x(Ë
+Dcom.Amigoscode.student.Student.setAge(javax.persistence.Integer)!age	PARAMETERS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x(""
+typeInteger"
+isFinalfalse" 
+declarationStringInteger age*age2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javax x(È
+*com.Amigoscode.student.Student.getStatus()METHODS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java| |("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>String <mark class="method">getStatus</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*	getStatus2é
+1com.Amigoscode.student.Student?status@32.19:32.25CALLS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java} }(2|
+javax.persistence.StringRETURN_TYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java| |(ˆ
+Bcom.Amigoscode.student.Student.setStatus(javax.persistence.String)METHODU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ Ä("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStatus</mark>(String status)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setStatus2®
+Icom.Amigoscode.student.Student.setStatus(javax.persistence.String)!statusCALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÅ Å(2ê
+1com.Amigoscode.student.Student?status@32.19:32.25CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÅ Å(2≠
+Icom.Amigoscode.student.Student.setStatus(javax.persistence.String)!status	PARAMETERU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ! Ä('2j
+voidRETURN_TYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ Ä(Ù
+Icom.Amigoscode.student.Student.setStatus(javax.persistence.String)!status	PARAMETERU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ! Ä('"
+typeString"
+isFinalfalse""
+declarationStringString status*status2w
+javax.persistence.StringTYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÄ Ä( ˛
+-com.Amigoscode.student.Student.getStudyYear()METHODU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÑ Ñ("
+isFinalfalse"l
+declarationStringW<mark class="modifier">public </mark>Integer <mark class="method">getStudyYear</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeInteger*getStudyYear2ì
+4com.Amigoscode.student.Student?studyYear@33.20:33.29CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÖ Ö(2
+javax.persistence.IntegerRETURN_TYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaÑ Ñ(ñ
+Fcom.Amigoscode.student.Student.setStudyYear(javax.persistence.Integer)METHODU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà à("
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStudyYear</mark>(Integer studyYear)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setStudyYear2Ø
+Pcom.Amigoscode.student.Student.setStudyYear(javax.persistence.Integer)!studyYearCALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaâ â("2ì
+4com.Amigoscode.student.Student?studyYear@33.20:33.29CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaâ â(2¥
+Pcom.Amigoscode.student.Student.setStudyYear(javax.persistence.Integer)!studyYear	PARAMETERU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà% à(.2j
+voidRETURN_TYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà à(Ñ
+Pcom.Amigoscode.student.Student.setStudyYear(javax.persistence.Integer)!studyYear	PARAMETERU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà% à(."
+typeInteger"
+isFinalfalse"&
+declarationStringInteger studyYear*	studyYear2x
+javax.persistence.IntegerTYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaà à($¶
+)com.Amigoscode.student.Student.toString()METHODU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaç ç("
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">toString</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*toString2å
+-com.Amigoscode.student.Student?id@25.17:25.19CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaè è(2ì
+4com.Amigoscode.student.Student?firstName@26.19:26.28CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaê" ê(+2í
+3com.Amigoscode.student.Student?lastName@27.19:27.27CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaë! ë()2è
+0com.Amigoscode.student.Student?email@28.19:28.24CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaí í(#2ï
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaì# ì(.2ç
+.com.Amigoscode.student.Student?age@31.20:31.23CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaî î(2ê
+1com.Amigoscode.student.Student?status@32.19:32.25CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaï& ï(,2ì
+4com.Amigoscode.student.Student?studyYear@33.20:33.29CALLU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javañ( ñ(12~
+javax.persistence.StringRETURN_TYPEU
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaç ç(§
+-com.Amigoscode.student.Student?id@25.17:25.19VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("
+isFinalfalse"
+typeLong"‘
+declarationStringæ<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = "student_sequence"<mark class="modifier">,</mark> sequenceName = "student_sequence"<mark class="modifier">,</mark> allocationSize = 1)
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "student_sequence")
+private Long id;"
+isStaticfalse"
+accessprivate*id2s
+javax.persistence.LongTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (Õ
+4com.Amigoscode.student.Student?firstName@26.19:26.28VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">firstName</mark>"
+isStaticfalse"
+accessprivate*	firstName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ( 
+3com.Amigoscode.student.Student?lastName@27.19:27.27VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("
+isFinalfalse"
+typeString"k
+declarationStringV<mark class="modifier">private </mark>String <mark class="class-field">lastName</mark>"
+isStaticfalse"
+accessprivate*lastName2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (¡
+0com.Amigoscode.student.Student?email@28.19:28.24VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (‘
+6com.Amigoscode.student.Student?dateOfBirth@29.22:29.33VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (!"
+isFinalfalse"
+type	LocalDate"q
+declarationString\<mark class="modifier">private </mark>LocalDate <mark class="class-field">dateOfBirth</mark>"
+isStaticfalse"
+accessprivate*dateOfBirth2p
+java.time.LocalDateTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (æ
+.com.Amigoscode.student.Student?age@31.20:31.23VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java ("
+isFinalfalse"
+typeInteger"g
+declarationStringR<mark class="modifier">private </mark>Integer <mark class="class-field">age</mark>"
+isStaticfalse"
+accessprivate*age2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java (ƒ
+1com.Amigoscode.student.Student?status@32.19:32.25VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java   ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">status</mark>"
+isStaticfalse"
+accessprivate*status2u
+javax.persistence.StringTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java   (–
+4com.Amigoscode.student.Student?studyYear@33.20:33.29VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java! !("
+isFinalfalse"
+typeInteger"m
+declarationStringX<mark class="modifier">private </mark>Integer <mark class="class-field">studyYear</mark>"
+isStaticfalse"
+accessprivate*	studyYear2v
+javax.persistence.IntegerTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java! !(◊
+7com.Amigoscode.student.Student?enrolmentSet@46.19:46.31VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java. .("
+isFinalfalse"
+typeSet<Enrolment>"ﬂ
+declarationString…<mark class="modifier"> </mark>Set<Enrolment> <mark class="class-field">enrolmentSet</mark> = "student"<mark class="modifier">,</mark> fetch = FetchType.LAZY)
+@JsonIgnore
+Set<Enrolment> enrolmentSet;"
+isStaticfalse"
+accesspackage_private*enrolmentSet2j
+java.util.SetTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java. .(2à
+"com.Amigoscode.enrolment.EnrolmentTYPE_ARGUMENTS
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.java. .(©
+1com.Amigoscode.student.Student?mentor@65.19:65.25VARIABLES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaA A("
+isFinalfalse"
+typeMentor"…
+declarationString≥<mark class="modifier">private </mark>Mentor <mark class="class-field">mentor</mark> = FetchType.LAZY)
+@JoinColumn(name = "mentor_id")
+@JsonBackReference
+private Mentor mentor;"
+isStaticfalse"
+accessprivate*mentor2y
+com.Amigoscode.mentor.MentorTYPES
+IF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/student/Student.javaA A(

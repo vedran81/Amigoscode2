@@ -1,0 +1,35 @@
+
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.javaå
+$com.Amigoscode.AmigoscodeApplicationCLASSY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java (""
+packagecom.Amigoscode"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¯
+declarationString™<mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>AmigoscodeApplication"
+accesspublic*AmigoscodeApplication2§
+=com.Amigoscode.AmigoscodeApplication.main(java.lang.String[])DECLARATIONY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java (û
+=com.Amigoscode.AmigoscodeApplication.main(java.lang.String[])METHODY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2¥
+Bcom.Amigoscode.AmigoscodeApplication.main(java.lang.String[])!argsCALLY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java	5 	(92ª
+Bcom.Amigoscode.AmigoscodeApplication.main(java.lang.String[])!args	PARAMETERY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java" (&2n
+voidRETURN_TYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java (ï
+Bcom.Amigoscode.AmigoscodeApplication.main(java.lang.String[])!args	PARAMETERY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java" (&"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2u
+java.lang.String[]TYPEY
+OF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\AmigoscodeApplication.java (!

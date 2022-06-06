@@ -1,0 +1,354 @@
+
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java≤
+com.Amigoscode.mentor.MentorCLASSQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (" 
+packagecom.Amigoscode.mentor"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Õ
+declarationString∑<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Table(name = "mentor")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Mentor"
+accesspublic*Mentor2á
+%com.Amigoscode.mentor.Mentor.Mentor()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2Ï
+âcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2”
+qcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !(2â
+'com.Amigoscode.mentor.Mentor.toString()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java( ((2Ü
+$com.Amigoscode.mentor.Mentor.getId()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java1 1(2ú
+:com.Amigoscode.mentor.Mentor.setId(javax.persistence.Long)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5(2ç
++com.Amigoscode.mentor.Mentor.getFirstName()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java9 9(2•
+Ccom.Amigoscode.mentor.Mentor.setFirstName(javax.persistence.String)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java= =(2å
+*com.Amigoscode.mentor.Mentor.getLastName()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaA A(2§
+Bcom.Amigoscode.mentor.Mentor.setLastName(javax.persistence.String)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE E(2â
+'com.Amigoscode.mentor.Mentor.getEmail()DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaI I(2°
+?com.Amigoscode.mentor.Mentor.setEmail(javax.persistence.String)DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM M(2ç
++com.Amigoscode.mentor.Mentor?id@18.17:18.19DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2î
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2ì
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2ê
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24DECLARATIONQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (Ô
+%com.Amigoscode.mentor.Mentor.Mentor()CONSTRUCTORQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("^
+declarationStringI<mark class="modifier">public </mark><mark class="method">Mentor</mark>()*Mentor2~
+com.Amigoscode.mentor.MentorRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (Ç
+âcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)CONSTRUCTORQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("À
+declarationStringµ<mark class="modifier">public </mark><mark class="method">Mentor</mark>(Long id<mark class="modifier"><mark class="modifier">,</mark></mark> String firstName<mark class="modifier"><mark class="modifier">,</mark></mark> String lastName<mark class="modifier"><mark class="modifier">,</mark></mark> String email)*Mentor2Ë
+åcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!idCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2Ô
+ìcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("2Ó
+ícom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ( 2Î
+ècom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!emailCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2Ü
++com.Amigoscode.mentor.Mentor?id@18.17:18.19CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2ç
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2å
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2â
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2Ì
+åcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!id	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (2Ù
+ìcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java" (+2Û
+ícom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java4 (<2
+ècom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE (J2~
+com.Amigoscode.mentor.MentorRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (¢
+åcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!id	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2q
+javax.persistence.LongTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (Ω
+ìcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java" (+"
+typeString"
+isFinalfalse"%
+declarationStringString firstName*	firstName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (!∫
+ícom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java4 (<"
+typeString"
+isFinalfalse"$
+declarationStringString lastName*lastName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java- (3±
+ècom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.Long, javax.persistence.String, javax.persistence.String, javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE (J"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java> (D™
+qcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)CONSTRUCTORQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !("Ü
+declarationString<mark class="modifier">public </mark><mark class="method">Mentor</mark>(String firstName<mark class="modifier"><mark class="modifier">,</mark></mark> String lastName<mark class="modifier"><mark class="modifier">,</mark></mark> String email)*Mentor2÷
+{com.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java" "("2’
+zcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java# #( 2“
+wcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!emailCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java$ $(2ç
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java" "(2å
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java# #(2â
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java$ $(2€
+{com.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !("2⁄
+zcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!+ !(32◊
+wcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!< !(A2~
+com.Amigoscode.mentor.MentorRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !(§
+{com.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !(""
+typeString"
+isFinalfalse"%
+declarationStringString firstName*	firstName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java! !(°
+zcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!+ !(3"
+typeString"
+isFinalfalse"$
+declarationStringString lastName*lastName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!$ !(*ò
+wcom.Amigoscode.mentor.Mentor.Mentor(javax.persistence.String, javax.persistence.String, javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!< !(A"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java!5 !(;≥
+'com.Amigoscode.mentor.Mentor.toString()METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java( (("
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">toString</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*toString2Ü
++com.Amigoscode.mentor.Mentor?id@18.17:18.19CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java* *(2ç
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java+" +(+2å
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java,! ,()2â
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java- -(#2z
+javax.persistence.StringRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java( ((…
+$com.Amigoscode.mentor.Mentor.getId()METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java1 1("
+isFinalfalse"b
+declarationStringM<mark class="modifier">public </mark>Long <mark class="method">getId</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLong*getId2Ü
++com.Amigoscode.mentor.Mentor?id@18.17:18.19CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java2 2(2x
+javax.persistence.LongRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java1 1(Æ
+:com.Amigoscode.mentor.Mentor.setId(javax.persistence.Long)METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setId</mark>(Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setId2ò
+=com.Amigoscode.mentor.Mentor.setId(javax.persistence.Long)!idCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java6 6(2Ü
++com.Amigoscode.mentor.Mentor?id@18.17:18.19CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java6 6(2ù
+=com.Amigoscode.mentor.Mentor.setId(javax.persistence.Long)!id	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5(2f
+voidRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5(“
+=com.Amigoscode.mentor.Mentor.setId(javax.persistence.Long)!id	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2q
+javax.persistence.LongTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java5 5(Î
++com.Amigoscode.mentor.Mentor.getFirstName()METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java9 9("
+isFinalfalse"k
+declarationStringV<mark class="modifier">public </mark>String <mark class="method">getFirstName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getFirstName2ç
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java: :(2z
+javax.persistence.StringRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java9 9(ˆ
+Ccom.Amigoscode.mentor.Mentor.setFirstName(javax.persistence.String)METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java= =("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFirstName</mark>(String firstName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setFirstName2®
+Mcom.Amigoscode.mentor.Mentor.setFirstName(javax.persistence.String)!firstNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java> >("2ç
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java> >(2≠
+Mcom.Amigoscode.mentor.Mentor.setFirstName(javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java=$ =(-2f
+voidRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java= =(ˆ
+Mcom.Amigoscode.mentor.Mentor.setFirstName(javax.persistence.String)!firstName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java=$ =(-"
+typeString"
+isFinalfalse"%
+declarationStringString firstName*	firstName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java= =(#Á
+*com.Amigoscode.mentor.Mentor.getLastName()METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaA A("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>String <mark class="method">getLastName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getLastName2å
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaB B(2z
+javax.persistence.StringRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaA A(Ì
+Bcom.Amigoscode.mentor.Mentor.setLastName(javax.persistence.String)METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE E("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLastName</mark>(String lastName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setLastName2¶
+Kcom.Amigoscode.mentor.Mentor.setLastName(javax.persistence.String)!lastNameCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaF F( 2å
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaF F(2´
+Kcom.Amigoscode.mentor.Mentor.setLastName(javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE# E(+2f
+voidRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE E(Ú
+Kcom.Amigoscode.mentor.Mentor.setLastName(javax.persistence.String)!lastName	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE# E(+"
+typeString"
+isFinalfalse"$
+declarationStringString lastName*lastName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaE E("€
+'com.Amigoscode.mentor.Mentor.getEmail()METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaI I("
+isFinalfalse"g
+declarationStringR<mark class="modifier">public </mark>String <mark class="method">getEmail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getEmail2â
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaJ J(2z
+javax.persistence.StringRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaI I(—
+?com.Amigoscode.mentor.Mentor.setEmail(javax.persistence.String)METHODQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM M("
+isFinalfalse"è
+declarationStringz<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEmail</mark>(String email)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setEmail2†
+Ecom.Amigoscode.mentor.Mentor.setEmail(javax.persistence.String)!emailCALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaN N(2â
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24CALLQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaN N(2•
+Ecom.Amigoscode.mentor.Mentor.setEmail(javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM  M(%2f
+voidRETURN_TYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM M(Ê
+Ecom.Amigoscode.mentor.Mentor.setEmail(javax.persistence.String)!email	PARAMETERQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM  M(%"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.javaM M(õ
++com.Amigoscode.mentor.Mentor?id@18.17:18.19VARIABLEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("
+isFinalfalse"
+typeLong"—
+declarationStringª<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = "mentor_sequence"<mark class="modifier">,</mark> sequenceName = "mentor_sequence"<mark class="modifier">,</mark> allocationSize = 1)
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mentor_sequence")
+private Long id;"
+isStaticfalse"
+accessprivate*id2q
+javax.persistence.LongTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java («
+2com.Amigoscode.mentor.Mentor?firstName@19.19:19.28VARIABLEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">firstName</mark>"
+isStaticfalse"
+accessprivate*	firstName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (ƒ
+1com.Amigoscode.mentor.Mentor?lastName@20.19:20.27VARIABLEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("
+isFinalfalse"
+typeString"k
+declarationStringV<mark class="modifier">private </mark>String <mark class="class-field">lastName</mark>"
+isStaticfalse"
+accessprivate*lastName2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (ª
+.com.Amigoscode.mentor.Mentor?email@21.19:21.24VARIABLEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2s
+javax.persistence.StringTYPEQ
+GF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\Mentor.java (

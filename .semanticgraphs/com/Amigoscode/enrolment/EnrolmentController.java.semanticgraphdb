@@ -1,0 +1,123 @@
+
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.javaŒ
+,com.Amigoscode.enrolment.EnrolmentControllerCLASSa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java	 	( "#
+packagecom.Amigoscode.enrolment"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ú
+declarationString‹<mark class="annotation">@RestController</mark> <br><mark class="annotation">@RequestMapping(path = "api/enrolment")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>EnrolmentController"
+accesspublic*EnrolmentController2›
+kcom.Amigoscode.enrolment.EnrolmentController.EnrolmentController(com.Amigoscode.enrolment.EnrolmentService)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2≠
+;com.Amigoscode.enrolment.EnrolmentController.getEnrolment()DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java ('2à
+ïcom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (!2‹
+jcom.Amigoscode.enrolment.EnrolmentController.deleteEnrolment(org.springframework.web.bind.annotation.Long)DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2ª
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51DECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java# (3‚	
+kcom.Amigoscode.enrolment.EnrolmentController.EnrolmentController(com.Amigoscode.enrolment.EnrolmentService)CONSTRUCTORa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java ("º
+declarationString¶<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">EnrolmentController</mark>(EnrolmentService enrolmentService)*EnrolmentController2Á
+|com.Amigoscode.enrolment.EnrolmentController.EnrolmentController(com.Amigoscode.enrolment.EnrolmentService)!enrolmentServiceCALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java  (02¥
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51CALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2Ï
+|com.Amigoscode.enrolment.EnrolmentController.EnrolmentController(com.Amigoscode.enrolment.EnrolmentService)!enrolmentService	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java0 (@2û
+,com.Amigoscode.enrolment.EnrolmentControllerRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (˘
+|com.Amigoscode.enrolment.EnrolmentController.EnrolmentController(com.Amigoscode.enrolment.EnrolmentService)!enrolmentService	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java0 (@"
+typeEnrolmentService"
+isFinalfalse"6
+declarationString!EnrolmentService enrolmentService*enrolmentService2î
+)com.Amigoscode.enrolment.EnrolmentServiceTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (/£
+;com.Amigoscode.enrolment.EnrolmentController.getEnrolment()METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java ('"
+isFinalfalse"´
+declarationStringï<mark class="annotation">@GetMapping</mark> <br><mark class="modifier">public </mark>List&lt;Enrolment&gt; <mark class="method">getEnrolment</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Enrolment>*getEnrolment2¥
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51CALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2Ä
+java.util.ListRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2ù
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPE_ARGUMENTa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (£
+ïcom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (!"
+isFinalfalse"†
+declarationStringä Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@PathVariable</mark> Long subjectId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	Enrolment*getEnrolment2¥
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51CALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2ã
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentIdCALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java) (22ã
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectIdCALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java4 (=2ê
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java5 (>2ê
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.javaS (\2î
+"com.Amigoscode.enrolment.EnrolmentRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (®
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!studentId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java5 (>"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long studentId*	studentId2ó
+,org.springframework.web.bind.annotation.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java0 (4®
+ücom.Amigoscode.enrolment.EnrolmentController.getEnrolment(org.springframework.web.bind.annotation.Long, org.springframework.web.bind.annotation.Long)!subjectId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.javaS (\"
+typeLong"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@PathVariable</mark> Long subjectId*	subjectId2ó
+,org.springframework.web.bind.annotation.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.javaN (R§
+
+jcom.Amigoscode.enrolment.EnrolmentController.deleteEnrolment(org.springframework.web.bind.annotation.Long)METHODa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java ("
+isFinalfalse"Î
+declarationString’ = "{enrolId}/delete") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteEnrolment</mark>(<mark class="annotation">@PathVariable("enrolId")</mark> Long enrolId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteEnrolment2¥
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51CALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (2›
+rcom.Amigoscode.enrolment.EnrolmentController.deleteEnrolment(org.springframework.web.bind.annotation.Long)!enrolIdCALLa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java) (02‚
+rcom.Amigoscode.enrolment.EnrolmentController.deleteEnrolment(org.springframework.web.bind.annotation.Long)!enrolId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java> (E2v
+voidRETURN_TYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java (Å
+rcom.Amigoscode.enrolment.EnrolmentController.deleteEnrolment(org.springframework.web.bind.annotation.Long)!enrolId	PARAMETERa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java> (E"
+typeLong"
+isFinalfalse"Z
+declarationStringE<mark class="annotation">@PathVariable("enrolId")</mark> Long enrolId*enrolId2ó
+,org.springframework.web.bind.annotation.LongTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java9 (=‘
+Icom.Amigoscode.enrolment.EnrolmentController?enrolmentService@11.35:11.51VALUEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java# (3"
+isFinaltrue"
+typeEnrolmentService"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">final </mark>EnrolmentService <mark class="class-field">enrolmentService</mark>"
+isStaticfalse"
+accessprivate*enrolmentService2î
+)com.Amigoscode.enrolment.EnrolmentServiceTYPEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\enrolment\EnrolmentController.java ("

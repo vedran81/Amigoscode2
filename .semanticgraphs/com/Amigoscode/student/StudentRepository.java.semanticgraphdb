@@ -1,0 +1,170 @@
+
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java—
+(com.Amigoscode.student.StudentRepositoryTRAIT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
+ 
+(""!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¨
+declarationString’<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>StudentRepository<mark class="modifier"> extends </mark>JpaRepository<Student, Long><mark class="modifier">,</mark> JpaSpecificationExecutor<Student>"
+accesspublic*StudentRepository2¶
+Hcom.Amigoscode.student.StudentRepository.findByMentor_Id(java.lang.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (!2´
+Fcom.Amigoscode.student.StudentRepository.findByEmail(java.lang.String)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2¶
+Hcom.Amigoscode.student.StudentRepository.existsByEmail(java.lang.String)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2¹
+Kcom.Amigoscode.student.StudentRepository.findByStudyYear(java.lang.Integer)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (!2±
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2¶
+Hcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)DECLARATION]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2ž
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
++ 
+(82©
+@org.springframework.data.jpa.repository.JpaSpecificationExecutorEXTEND]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
+I 
+(a2•
+com.Amigoscode.student.StudentEXTEND_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
+9 
+(@2…
+java.lang.LongEXTEND_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
+B 
+(F2•
+com.Amigoscode.student.StudentEXTEND_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java
+b 
+(iü
+Hcom.Amigoscode.student.StudentRepository.findByMentor_Id(java.lang.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (!"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark>List&lt;Student&gt; <mark class="method">findByMentor_Id</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Student>*findByMentor_Id2·
+Kcom.Amigoscode.student.StudentRepository.findByMentor_Id(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java' ()2|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2•
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java	 (ð
+Kcom.Amigoscode.student.StudentRepository.findByMentor_Id(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java' ()"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2u
+java.lang.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java" (&ß
+Fcom.Amigoscode.student.StudentRepository.findByEmail(java.lang.String)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ("
+isFinalfalse"q
+declarationString\<mark class="modifier"> </mark>Student <mark class="method">findByEmail</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeStudent*findByEmail2¸
+Lcom.Amigoscode.student.StudentRepository.findByEmail(java.lang.String)!email	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ($2Œ
+com.Amigoscode.student.StudentRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (ý
+Lcom.Amigoscode.student.StudentRepository.findByEmail(java.lang.String)!email	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ($"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2w
+java.lang.StringTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (î
+Hcom.Amigoscode.student.StudentRepository.existsByEmail(java.lang.String)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ("
+isFinalfalse"‘
+declarationString|<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsByEmail</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*existsByEmail2º
+Ncom.Amigoscode.student.StudentRepository.existsByEmail(java.lang.String)!email	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java! (&2u
+booleanRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (ÿ
+Ncom.Amigoscode.student.StudentRepository.existsByEmail(java.lang.String)!email	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java! (&"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2w
+java.lang.StringTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ( ò
+Kcom.Amigoscode.student.StudentRepository.findByStudyYear(java.lang.Integer)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (!"
+isFinalfalse"ä
+declarationStringÎ<mark class="annotation">@Query("select</mark> s from Student s where s.studyYear = ?1") <br><mark class="modifier"> </mark>List&lt;Student&gt; <mark class="method">findByStudyYear</mark>(Integer studyYear)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Student>*findByStudyYear2Á
+Ucom.Amigoscode.student.StudentRepository.findByStudyYear(java.lang.Integer)!studyYear	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java* (32|
+java.util.ListRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2•
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java	 (‘
+Ucom.Amigoscode.student.StudentRepository.findByStudyYear(java.lang.Integer)!studyYear	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java* (3"
+typeInteger"
+isFinalfalse"&
+declarationStringInteger studyYear*	studyYear2x
+java.lang.IntegerTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java" ()Ö
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ("
+isFinalfalse"‰
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsById</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+existsById2²
+Fcom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (2u
+booleanRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (ë
+Fcom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ("
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2u
+java.lang.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (ã
+Hcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)METHOD]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ("
+isFinalfalse"p
+declarationString[<mark class="modifier"> </mark>Student <mark class="method">findStudentById</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeStudent*findStudentById2·
+Kcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java! (#2Œ
+com.Amigoscode.student.StudentRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java (ð
+Kcom.Amigoscode.student.StudentRepository.findStudentById(java.lang.Long)!id	PARAMETER]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java! (#"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2u
+java.lang.LongTYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentRepository.java ( 

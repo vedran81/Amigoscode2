@@ -1,0 +1,609 @@
+
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java£
+%com.Amigoscode.student.StudentServiceCLASSZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ("!
+packagecom.Amigoscode.student"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ç
+declarationString˜<mark class="annotation">// govori da se klasa mora instancirati i da je "bean" i na taj naƒçin se povezuje s studentService u controlleru
+@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>StudentService"
+accesspublic*StudentService2 
+ﬁcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (2û
+3com.Amigoscode.student.StudentService.getStudents()DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ($2æ
+Scom.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java" "(2Æ
+Ccom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java* *(2Ø
+Dcom.Amigoscode.student.StudentService.findByMentorId(java.lang.Long)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1 1('2Æ
+Ccom.Amigoscode.student.StudentService.findByYear(java.lang.Integer)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5 5(#2Ω
+Rcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9 9(2€
+pcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL L(2∂
+Kcom.Amigoscode.student.StudentService.findStudentsBySubject(java.lang.Long)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav v(.2Æ
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java$ (52≠
+Bcom.Amigoscode.student.StudentService?mentorRepository@18.35:18.51DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java# (32Æ
+Ccom.Amigoscode.student.StudentService?subjectRepository@19.36:19.53DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java$ (52∞
+Ecom.Amigoscode.student.StudentService?enrolmentRepository@20.38:20.57DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java& (92•
+:com.Amigoscode.student.StudentService?stSpec@116.25:116.31DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat t(–"
+ﬁcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)CONSTRUCTORZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ("ﬁ
+declarationString»<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">StudentService</mark>(StudentRepository studentRepository<mark class="modifier"><mark class="modifier">,</mark></mark> MentorRepository mentorRepository<mark class="modifier"><mark class="modifier">,</mark></mark> SubjectRepository subjectRepository<mark class="modifier"><mark class="modifier">,</mark></mark> EnrolmentRepository enrolmentRepository)*StudentService2’
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!studentRepositoryCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java! (22‘
+Ôcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!mentorRepositoryCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java  (02’
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!subjectRepositoryCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java! (22◊
+Úcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!enrolmentRepositoryCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java# (62ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (2¶
+Bcom.Amigoscode.student.StudentService?mentorRepository@18.35:18.51CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (2ß
+Ccom.Amigoscode.student.StudentService?subjectRepository@19.36:19.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (2©
+Ecom.Amigoscode.student.StudentService?enrolmentRepository@20.38:20.57CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ( 2⁄
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!studentRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java, (=2Ÿ
+Ôcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!mentorRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaP (`2€
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!subjectRepository	PARAMETER[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat (Ö2ﬁ
+Úcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!enrolmentRepository	PARAMETER\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaõ (Æ2ê
+%com.Amigoscode.student.StudentServiceRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java („
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!studentRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java, (="
+typeStudentRepository"
+isFinalfalse"8
+declarationString#StudentRepository studentRepository*studentRepository2å
+(com.Amigoscode.student.StudentRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (+‹
+Ôcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!mentorRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaP (`"
+typeMentorRepository"
+isFinalfalse"6
+declarationString!MentorRepository mentorRepository*mentorRepository2ä
+&com.Amigoscode.mentor.MentorRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java? (O‰
+com.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!subjectRepository	PARAMETER[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat (Ö"
+typeSubjectRepository"
+isFinalfalse"8
+declarationString#SubjectRepository subjectRepository*subjectRepository2å
+(com.Amigoscode.subject.SubjectRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javab (sı
+Úcom.Amigoscode.student.StudentService.StudentService(com.Amigoscode.student.StudentRepository, com.Amigoscode.mentor.MentorRepository, com.Amigoscode.subject.SubjectRepository, com.Amigoscode.enrolment.EnrolmentRepository)!enrolmentRepository	PARAMETER\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaõ (Æ"
+typeEnrolmentRepository"
+isFinalfalse"<
+declarationString'EnrolmentRepository enrolmentRepository*enrolmentRepository2í
+,com.Amigoscode.enrolment.EnrolmentRepositoryTYPE\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaá (öº
+3com.Amigoscode.student.StudentService.getStudents()METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ($"
+isFinalfalse"w
+declarationStringb<mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">getStudents</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*getStudents2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ( 2y
+java.util.ListRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (2í
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (ã
+Scom.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java" "("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addNewStudent</mark>(Student student)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addNewStudent2ç
+)com.Amigoscode.student.Student.getEmail()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java#4 #(<2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java$ $(+2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java# #(2ø
+[com.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)!studentCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java#, #(32ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java' '(2ø
+[com.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)!studentCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java' '(&2ƒ
+[com.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)!student	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java"& "(-2o
+voidRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java" "(õ
+[com.Amigoscode.student.StudentService.addNewStudent(com.Amigoscode.student.Student)!student	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java"& "(-"
+typeStudent"
+isFinalfalse"$
+declarationStringStudent student*student2Ç
+com.Amigoscode.student.StudentTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java" "(%û
+Ccom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java* *("
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteStudent</mark>(Long studentId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteStudent2ß
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java+ +()2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java, ,(-2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java+ +(2±
+Mcom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java+* +(32±
+Mcom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java,F ,(O2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java. .(2±
+Mcom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java.% .(.2∂
+Mcom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java*# *(,2o
+voidRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java* *(˙
+Mcom.Amigoscode.student.StudentService.deleteStudent(java.lang.Long)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java*# *(,"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java* *("˝
+
+Dcom.Amigoscode.student.StudentService.findByMentorId(java.lang.Long)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1 1('"
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findByMentorId</mark>(Long mentorId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*findByMentorId2¨
+Hcom.Amigoscode.student.StudentRepository.findByMentor_Id(java.lang.Long)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java2! 2(02ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java2 2( 2±
+Mcom.Amigoscode.student.StudentService.findByMentorId(java.lang.Long)!mentorIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java21 2(92∂
+Mcom.Amigoscode.student.StudentService.findByMentorId(java.lang.Long)!mentorId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1- 1(52y
+java.util.ListRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1 1(2í
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1 1(¯
+Mcom.Amigoscode.student.StudentService.findByMentorId(java.lang.Long)!mentorId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1- 1(5"
+typeLong"
+isFinalfalse""
+declarationStringLong mentorId*mentorId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java1( 1(,Ï
+
+Ccom.Amigoscode.student.StudentService.findByYear(java.lang.Integer)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5 5(#"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findByYear</mark>(Integer year)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*
+findByYear2Ø
+Kcom.Amigoscode.student.StudentRepository.findByStudyYear(java.lang.Integer)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java6! 6(02ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java6 6( 2¨
+Hcom.Amigoscode.student.StudentService.findByYear(java.lang.Integer)!yearCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java61 6(52±
+Hcom.Amigoscode.student.StudentService.findByYear(java.lang.Integer)!year	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5, 5(02y
+java.util.ListRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5 5(2í
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5 5(Ù
+Hcom.Amigoscode.student.StudentService.findByYear(java.lang.Integer)!year	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5, 5(0"
+typeInteger"
+isFinalfalse"!
+declarationStringInteger year*year2u
+java.lang.IntegerTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java5$ 5(+∏&
+Rcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9 9("
+isFinalfalse"·
+declarationStringÀ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">assignMentor</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> Long mentorId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*assignMentor2ß
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java: :()2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java; ;(+2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java> >(+2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaB' B(<2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaE' E(<2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java: :(2¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java:* :(32¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java;D ;(M2¶
+Bcom.Amigoscode.student.StudentService?mentorRepository@18.35:18.51CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java= =(2ø
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java=) =(12ø
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java>C >(K2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA A(+2¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA5 A(>2¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaBR B([2 
+fcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)?student@65.16:65.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaD D(2¶
+Bcom.Amigoscode.student.StudentService?mentorRepository@18.35:18.51CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaD D(*2ø
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaD4 D(<2ø
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaEQ E(Y2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaH H(2 
+fcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)?student@65.16:65.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaH H(&2≈
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9" 9(+2ƒ
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java92 9(:2—
+fcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)?student@65.16:65.23DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA A(2o
+voidRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9 9(Œ
+
+fcom.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)?student@65.16:65.23VARIABLEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA A("
+typeStudent"
+isFinalfalse"Ó
+declarationStringÿ<mark class="modifier"> </mark>Student <mark class="class-field">student</mark> = studentRepository.findById(studentId).orElseThrow(() -> new IllegalStateException("student with id " + studentId + " does not exist"))*student2Ç
+com.Amigoscode.student.StudentTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA A(2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaB' B(<2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA A(+2¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaA5 A(>2¿
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaBR B([â
+\com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9" 9(+"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9 9(!Ü
+[com.Amigoscode.student.StudentService.assignMentor(java.lang.Long, java.lang.Long)!mentorId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java92 9(:"
+typeLong"
+isFinalfalse""
+declarationStringLong mentorId*mentorId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java9- 9(1Ìã
+pcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL L("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">updateStudent</mark>(Long studentId<mark class="modifier"><mark class="modifier">,</mark></mark> StudentUpdateRequest studentUpdateRequest)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*updateStudent2ß
+Ccom.Amigoscode.student.StudentRepository.existsById(java.lang.Long)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaO O()2û
+:com.Amigoscode.student.StudentUpdateRequest.getFirstName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU! U(-2}
+java.lang.String.length()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU_ U(e2û
+:com.Amigoscode.student.StudentUpdateRequest.getFirstName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaUP U(\2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaUx U(~2ì
+-com.Amigoscode.student.Student.getFirstName()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaUá U(ì2†
+:com.Amigoscode.student.StudentUpdateRequest.getFirstName()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU¨ U(∏2û
+:com.Amigoscode.student.StudentUpdateRequest.getFirstName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaV6 V(B2†
+<com.Amigoscode.student.StudentUpdateRequest.getDateOfBirth()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaY! Y(/2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaYF Y(L2ì
+/com.Amigoscode.student.Student.getDateOfBirth()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaYU Y(c2°
+<com.Amigoscode.student.StudentUpdateRequest.getDateOfBirth()CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaY| Y(ä2¶
+Bcom.Amigoscode.student.Student.setDateOfBirth(java.time.LocalDate)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaZ Z("2†
+<com.Amigoscode.student.StudentUpdateRequest.getDateOfBirth()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaZ8 Z(F2ù
+9com.Amigoscode.student.StudentUpdateRequest.getLastName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]! ](,2}
+java.lang.String.length()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]] ](c2ù
+9com.Amigoscode.student.StudentUpdateRequest.getLastName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]O ](Z2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]v ](|2í
+,com.Amigoscode.student.Student.getLastName()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]Ö ](ê2ü
+9com.Amigoscode.student.StudentUpdateRequest.getLastName()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]© ](¥2ù
+9com.Amigoscode.student.StudentUpdateRequest.getLastName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java^5 ^(@2ö
+6com.Amigoscode.student.StudentUpdateRequest.getEmail()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaa! a()2}
+java.lang.String.length()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaaW a(]2ö
+6com.Amigoscode.student.StudentUpdateRequest.getEmail()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaaL a(T2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaap a(v2é
+)com.Amigoscode.student.Student.getEmail()CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaa a(á2ú
+6com.Amigoscode.student.StudentUpdateRequest.getEmail()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaa† a(®2ç
+)com.Amigoscode.student.Student.getEmail()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javab8 b(@2ö
+6com.Amigoscode.student.StudentUpdateRequest.getEmail()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaf2 f(:2õ
+7com.Amigoscode.student.StudentUpdateRequest.getStatus()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javai! i(*2}
+java.lang.String.length()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaiY i(_2õ
+7com.Amigoscode.student.StudentUpdateRequest.getStatus()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaiM i(V2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javair i(x2ê
+*com.Amigoscode.student.Student.getStatus()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaiÅ i(ä2ù
+7com.Amigoscode.student.StudentUpdateRequest.getStatus()CALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javai£ i(¨2õ
+7com.Amigoscode.student.StudentUpdateRequest.getStatus()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaj3 j(<2û
+:com.Amigoscode.student.StudentUpdateRequest.getStudyYear()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javam! m(-2†
+<java.util.Objects.equals(java.lang.Object, java.lang.Object)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javamD m(J2ë
+-com.Amigoscode.student.Student.getStudyYear()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javamS m(_2ü
+:com.Amigoscode.student.StudentUpdateRequest.getStudyYear()CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javamx m(Ñ2û
+:com.Amigoscode.student.StudentUpdateRequest.getStudyYear()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javan6 n(B2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaP P(+2´
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javac c(/2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaO O(2ﬁ
+zcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaO* O(32ﬁ
+zcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaPD P(M2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaS S(2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaS S(#2ﬁ
+zcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaS, S(52Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU U( 2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU; U(O2Í
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaU U(Ü2Ï
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaUó U(´2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaV V(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaV! V(52Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaY Y( 2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaYM Y(T2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaYg Y({2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaZ Z(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaZ# Z(72Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java] ]( 2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]: ](N2Í
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]} ](Ñ2Ï
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java]î ](®2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java^ ^(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java^  ^(42Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaa a( 2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaa7 a(K2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaaw a(~2Ï
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaaã a(ü2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javab b(!2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javab0 b(72È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaf f(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaf f(12Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javai i( 2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javai8 i(L2Í
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALL[
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaiy i(Ä2Ï
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALL\
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaié i(¢2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaj j(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaj j(22Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javam m( 2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javamK m(R2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javamc m(w2È
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javan n(2Í
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequestCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javan! n(52„
+zcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL# L(,2Ô
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequest	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaLC L(W2
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaM M(2o
+voidRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL L(Ñ
+Ñcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)?student@77.16:77.23VARIABLEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaM M("
+typeStudent"
+isFinalfalse"d
+declarationStringO<mark class="modifier"> </mark>Student <mark class="class-field">student</mark>*student2Ç
+com.Amigoscode.student.StudentTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaM M(ß
+zcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL# L(,"
+typeLong"
+isFinalfalse"#
+declarationStringLong studentId*	studentId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL L("á
+Öcom.Amigoscode.student.StudentService.updateStudent(java.lang.Long, com.Amigoscode.student.StudentUpdateRequest)!studentUpdateRequest	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaLC L(W"
+typeStudentUpdateRequest"
+isFinalfalse">
+declarationString)StudentUpdateRequest studentUpdateRequest*studentUpdateRequest2è
++com.Amigoscode.student.StudentUpdateRequestTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaL. L(Bø
+Kcom.Amigoscode.student.StudentService.findStudentsBySubject(java.lang.Long)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav v(."
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark>List&lt;Student&gt; <mark class="method">findStudentsBySubject</mark>(Long subjId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Student>*findStudentsBySubject2∞
+Lcom.Amigoscode.student.StudentSpecification.StudentBySubject(java.lang.Long)CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javax0 x(@2ß
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javax x( 2û
+:com.Amigoscode.student.StudentService?stSpec@116.25:116.31CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javax) x(/2∂
+Rcom.Amigoscode.student.StudentService.findStudentsBySubject(java.lang.Long)!subjIdCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javaxA x(G2ª
+Rcom.Amigoscode.student.StudentService.findStudentsBySubject(java.lang.Long)!subjId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav4 v(:2y
+java.util.ListRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav v(2í
+com.Amigoscode.student.StudentRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav v(˘
+Rcom.Amigoscode.student.StudentService.findStudentsBySubject(java.lang.Long)!subjId	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav4 v(:"
+typeLong"
+isFinalfalse" 
+declarationStringLong subjId*subjId2r
+java.lang.LongTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javav/ v(3√
+Ccom.Amigoscode.student.StudentService?studentRepository@17.36:17.53VALUEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java$ (5"
+isFinaltrue"
+typeStudentRepository"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>StudentRepository <mark class="class-field">studentRepository</mark>"
+isStaticfalse"
+accessprivate*studentRepository2å
+(com.Amigoscode.student.StudentRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (#º
+Bcom.Amigoscode.student.StudentService?mentorRepository@18.35:18.51VALUEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java# (3"
+isFinaltrue"
+typeMentorRepository"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">final </mark>MentorRepository <mark class="class-field">mentorRepository</mark>"
+isStaticfalse"
+accessprivate*mentorRepository2ä
+&com.Amigoscode.mentor.MentorRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java ("√
+Ccom.Amigoscode.student.StudentService?subjectRepository@19.36:19.53VALUEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java$ (5"
+isFinaltrue"
+typeSubjectRepository"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>SubjectRepository <mark class="class-field">subjectRepository</mark>"
+isStaticfalse"
+accessprivate*subjectRepository2å
+(com.Amigoscode.subject.SubjectRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (#—
+Ecom.Amigoscode.student.StudentService?enrolmentRepository@20.38:20.57VALUEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java& (9"
+isFinaltrue"
+typeEnrolmentRepository"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">final </mark>EnrolmentRepository <mark class="class-field">enrolmentRepository</mark>"
+isStaticfalse"
+accessprivate*enrolmentRepository2ê
+,com.Amigoscode.enrolment.EnrolmentRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.java (%‘
+:com.Amigoscode.student.StudentService?stSpec@116.25:116.31VARIABLEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat t("
+isFinalfalse"
+typeStudentSpecification"é
+declarationStringy<mark class="modifier"> </mark>StudentSpecification <mark class="class-field">stSpec</mark> = new StudentSpecification();"
+isStaticfalse"
+accesspackage_private*stSpec2è
++com.Amigoscode.student.StudentSpecificationTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat t(2¶
+Bcom.Amigoscode.student.StudentSpecification.StudentSpecification()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentService.javat& t(:

@@ -1,0 +1,24 @@
+
+TF:\Projects\Amigoscode2\src\test\java\com\Amigoscode\AmigoscodeApplicationTests.javaõ
+)com.Amigoscode.AmigoscodeApplicationTestsCLASS^
+TF:\Projects\Amigoscode2\src\test\java\com\Amigoscode\AmigoscodeApplicationTests.java ( "
+packagecom.Amigoscode"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"§
+declarationString‘<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>AmigoscodeApplicationTests"
+accesspackage_private*AmigoscodeApplicationTests2§
+8com.Amigoscode.AmigoscodeApplicationTests.contextLoads()DECLARATION^
+TF:\Projects\Amigoscode2\src\test\java\com\Amigoscode\AmigoscodeApplicationTests.java	 	(·
+8com.Amigoscode.AmigoscodeApplicationTests.contextLoads()METHOD^
+TF:\Projects\Amigoscode2\src\test\java\com\Amigoscode\AmigoscodeApplicationTests.java	 	("
+isFinalfalse"¬
+declarationString–<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">contextLoads</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*contextLoads2s
+voidRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\test\java\com\Amigoscode\AmigoscodeApplicationTests.java	 	(
