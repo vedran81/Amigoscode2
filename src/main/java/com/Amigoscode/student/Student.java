@@ -8,11 +8,12 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.List;
+
+@Entity
+@Table(name = "student")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "id")
-@Entity //mapira klasu u bazu
-@Table(name = "student")
 public class Student {
     @Id
     @SequenceGenerator(

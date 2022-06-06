@@ -8,11 +8,11 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import javax.persistence.*;
 import java.util.List;
 
+@Entity
+@Table(name = "mentor")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "id")
-@Entity
-@Table(name = "mentor")
 public class Mentor {
     @Id
     @SequenceGenerator(
