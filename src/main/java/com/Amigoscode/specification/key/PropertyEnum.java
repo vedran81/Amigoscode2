@@ -22,8 +22,8 @@ public enum PropertyEnum {
     ENROLMENTS("enrolment"),
     SUBJECT("subject"),
     STUDENT("student"),
-    GRADE("grade");
-
+    GRADE("grade"),
+    ENROLMENT_LIST("enrolmentList");
 
     private String name;
 

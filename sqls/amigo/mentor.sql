@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `mentor` (
 
 -- Dumping data for table amigo.mentor: ~2 rows (approximately)
 /*!40000 ALTER TABLE `mentor` DISABLE KEYS */;
-INSERT IGNORE INTO `mentor` (`id`, `email`, `first_name`, `last_name`) VALUES
+REPLACE INTO `mentor` (`id`, `email`, `first_name`, `last_name`) VALUES
 	(1, 'janko.mladic@gmail.com', 'Janko', 'Mladic'),
 	(2, 'helena.jankic@gmail.com', 'Helena', 'Jankic');
 /*!40000 ALTER TABLE `mentor` ENABLE KEYS */;

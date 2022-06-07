@@ -6,12 +6,16 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpecificationExecutor<Student> {
     List<Student> findByMentor_Id(Long id);
 
     Student findByEmail(String email);
+
+    @Override
+    Optional<Student> findById(Long aLong);
 
     boolean existsByEmail(String email);
 

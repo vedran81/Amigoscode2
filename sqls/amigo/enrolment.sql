@@ -26,8 +26,16 @@ CREATE TABLE IF NOT EXISTS `enrolment` (
   CONSTRAINT `FKquem30hnspsnegde2q2bhvou` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table amigo.enrolment: ~0 rows (approximately)
+-- Dumping data for table amigo.enrolment: ~7 rows (approximately)
 /*!40000 ALTER TABLE `enrolment` DISABLE KEYS */;
+REPLACE INTO `enrolment` (`id`, `grade`, `student_id`, `subject_id`) VALUES
+	(1, NULL, 1, 1),
+	(2, NULL, 9, 16),
+	(4, NULL, 7, 5),
+	(5, NULL, 7, 6),
+	(6, NULL, 2, 5),
+	(7, NULL, 8, 1),
+	(8, NULL, 5, 1);
 /*!40000 ALTER TABLE `enrolment` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

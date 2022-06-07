@@ -17,8 +17,8 @@ public class EnrolmentController {
     }
 
     @GetMapping
-    public List<Enrolment> getEnrolments() {
-        return enrolmentService.getEnrolments();
+    public List<Enrolment> getEnrolment() {
+        return enrolmentService.getEnrolment();
     }
 
     @GetMapping(path = "{studentId}/{subjectId}")

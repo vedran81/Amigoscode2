@@ -21,7 +21,8 @@ public enum JoinEnum {
     STUDENT("student"),
     SUBJECT("subject"),
     MENTOR("mentor"),
-    ENROLMENTS("enrolments");
+    ENROLMENT("enrolment"),
+    ENROLMENT_LIST("enrolmentList");
 
 
     private String name;

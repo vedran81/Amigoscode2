@@ -26,7 +26,7 @@ public class EnrolmentService {
         this.subjectRepository = subjectRepository;
     }
 
-    public List<Enrolment> getEnrolments() {
+    public List<Enrolment> getEnrolment() {
         return enrolmentRepository.findAll();
     }
 

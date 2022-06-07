@@ -20,8 +20,8 @@ CREATE TABLE IF NOT EXISTS `enrolment_sequence` (
 
 -- Dumping data for table amigo.enrolment_sequence: ~0 rows (approximately)
 /*!40000 ALTER TABLE `enrolment_sequence` DISABLE KEYS */;
-INSERT IGNORE INTO `enrolment_sequence` (`next_val`) VALUES
-	(1);
+REPLACE INTO `enrolment_sequence` (`next_val`) VALUES
+	(9);
 /*!40000 ALTER TABLE `enrolment_sequence` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

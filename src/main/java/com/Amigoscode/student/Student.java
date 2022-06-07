@@ -2,13 +2,17 @@ package com.Amigoscode.student;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.mentor.Mentor;
-import org.springframework.lang.Nullable;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Set;
 
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @Entity //mapira klasu u bazu
 @Table(name = "student")
 public class Student {
@@ -33,34 +37,36 @@ public class Student {
     private Integer studyYear;
 
 
-    @OneToMany(mappedBy = "student", fetch = FetchType.LAZY)
-    Set<Enrolment> enrolments;
-
-
-    public Set<Enrolment> getEnrolment() {
-        return enrolments;
-    }
-    public void setEnrolment(Set<Enrolment> enrolments) {
-        this.enrolments = enrolments;
+    public Set<Enrolment> getEnrolmentList() {
+        return enrolmentList;
     }
 
+    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
+        this.enrolmentList = enrolmentList;
+    }
 
-    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, Integer age, String status, Integer studyYear, Set<Enrolment> enrolments, @Nullable Mentor mentor) {
-        this.id = id;
+    @OneToMany(mappedBy = "student")
+    @JsonBackReference(value = "srtdent-ref")
+    private Set<Enrolment> enrolmentList;
+
+    public Student() {
+    }
+
+
+    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.dateOfBirth = dateOfBirth;
-        this.age = age;
         this.status = status;
         this.studyYear = studyYear;
-        this.enrolments = enrolments;
-        this.mentor = mentor;
     }
+
 
     @ManyToOne
     @JoinColumn(name = "mentor_id")
-    @Nullable
+    @JsonManagedReference(value = "mentor-ref")
+
     private Mentor mentor;
 
     public Mentor getMentor() {
@@ -71,30 +77,6 @@ public class Student {
         this.mentor = mentor;
     }
 
-
-    public Student() {
-        this.status = "";
-        this.mentor = null;
-    }
-
-    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.dateOfBirth = dateOfBirth;
-        this.status = status;
-        this.studyYear = studyYear;
-    }
-
-    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.dateOfBirth = dateOfBirth;
-        this.status = status;
-        this.studyYear = studyYear;
-    }
 
     public Long getId() {
         return id;
@@ -160,7 +142,7 @@ public class Student {
         this.studyYear = studyYear;
     }
 
-    @Override
+   /* @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
@@ -172,5 +154,5 @@ public class Student {
                 ", studentStatus='" + status + '\'' +
                 ", yearOfEnrollment=" + studyYear +
                 '}';
-    }
+    }*/
 }

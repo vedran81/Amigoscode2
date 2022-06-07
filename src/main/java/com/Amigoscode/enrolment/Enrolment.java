@@ -3,11 +3,15 @@ package com.Amigoscode.enrolment;
 
 import com.Amigoscode.student.Student;
 import com.Amigoscode.subject.Subject;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "enrolment")
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Enrolment {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enrolment_sequence")
@@ -16,10 +20,12 @@ public class Enrolment {
 
     @ManyToOne
     @JoinColumn(name = "student_id")
+    @JsonManagedReference(value = "student-ref")
     private Student student;
 
     @ManyToOne
     @JoinColumn(name = "subject_id")
+    @JsonManagedReference(value = "subject-ref")
     private Subject subject;
 
     private Integer grade;
