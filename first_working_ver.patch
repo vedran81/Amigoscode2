@@ -1,0 +1,634 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/pom.xml	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -57,12 +57,12 @@
+ 			<version>1.6.8</version>
+ 		</dependency>
+ 
+-		<dependency>
++		<!-- dependency>
+ 			<groupId>org.hibernate</groupId>
+ 			<artifactId>hibernate-jpamodelgen</artifactId>
+ 			<version>5.4.3.Final</version>
+ 			<optional>true</optional>
+-		</dependency>
++		 dependency> -->
+ 
+ 	</dependencies>
+ 
+Index: sqls/amigo/enrolment.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/enrolment.sql b/sqls/amigo/enrolment.sql
+--- a/sqls/amigo/enrolment.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/enrolment.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -26,8 +26,16 @@
+   CONSTRAINT `FKquem30hnspsnegde2q2bhvou` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ 
+--- Dumping data for table amigo.enrolment: ~0 rows (approximately)
++-- Dumping data for table amigo.enrolment: ~7 rows (approximately)
+ /*!40000 ALTER TABLE `enrolment` DISABLE KEYS */;
++REPLACE INTO `enrolment` (`id`, `grade`, `student_id`, `subject_id`) VALUES
++	(1, NULL, 1, 1),
++	(2, NULL, 9, 16),
++	(4, NULL, 7, 5),
++	(5, NULL, 7, 6),
++	(6, NULL, 2, 5),
++	(7, NULL, 8, 1),
++	(8, NULL, 5, 1);
+ /*!40000 ALTER TABLE `enrolment` ENABLE KEYS */;
+ 
+ /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+Index: sqls/amigo/enrolment_sequence.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/enrolment_sequence.sql b/sqls/amigo/enrolment_sequence.sql
+--- a/sqls/amigo/enrolment_sequence.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/enrolment_sequence.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -20,8 +20,8 @@
+ 
+ -- Dumping data for table amigo.enrolment_sequence: ~0 rows (approximately)
+ /*!40000 ALTER TABLE `enrolment_sequence` DISABLE KEYS */;
+-INSERT IGNORE INTO `enrolment_sequence` (`next_val`) VALUES
+-	(1);
++REPLACE INTO `enrolment_sequence` (`next_val`) VALUES
++	(9);
+ /*!40000 ALTER TABLE `enrolment_sequence` ENABLE KEYS */;
+ 
+ /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+Index: sqls/amigo/mentor.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/mentor.sql b/sqls/amigo/mentor.sql
+--- a/sqls/amigo/mentor.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/mentor.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -24,7 +24,7 @@
+ 
+ -- Dumping data for table amigo.mentor: ~2 rows (approximately)
+ /*!40000 ALTER TABLE `mentor` DISABLE KEYS */;
+-INSERT IGNORE INTO `mentor` (`id`, `email`, `first_name`, `last_name`) VALUES
++REPLACE INTO `mentor` (`id`, `email`, `first_name`, `last_name`) VALUES
+ 	(1, 'janko.mladic@gmail.com', 'Janko', 'Mladic'),
+ 	(2, 'helena.jankic@gmail.com', 'Helena', 'Jankic');
+ /*!40000 ALTER TABLE `mentor` ENABLE KEYS */;
+Index: sqls/amigo/mentor_sequence.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/mentor_sequence.sql b/sqls/amigo/mentor_sequence.sql
+--- a/sqls/amigo/mentor_sequence.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/mentor_sequence.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -20,7 +20,7 @@
+ 
+ -- Dumping data for table amigo.mentor_sequence: ~0 rows (approximately)
+ /*!40000 ALTER TABLE `mentor_sequence` DISABLE KEYS */;
+-INSERT IGNORE INTO `mentor_sequence` (`next_val`) VALUES
++REPLACE INTO `mentor_sequence` (`next_val`) VALUES
+ 	(3);
+ /*!40000 ALTER TABLE `mentor_sequence` ENABLE KEYS */;
+ 
+Index: sqls/amigo/student.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/student.sql b/sqls/amigo/student.sql
+--- a/sqls/amigo/student.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/student.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -28,11 +28,16 @@
+   CONSTRAINT `FKfmk16k9whxemgkowg3mt24m3w` FOREIGN KEY (`mentor_id`) REFERENCES `mentor` (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ 
+--- Dumping data for table amigo.student: ~2 rows (approximately)
++-- Dumping data for table amigo.student: ~7 rows (approximately)
+ /*!40000 ALTER TABLE `student` DISABLE KEYS */;
+-INSERT IGNORE INTO `student` (`id`, `date_of_birth`, `email`, `first_name`, `last_name`, `status`, `study_year`, `mentor_id`) VALUES
+-	(1, '2003-11-11', 'mariam@gmail.com', 'Mariam', 'Jamal', 'freshment', 1, NULL),
+-	(2, '2002-12-01', 'alex@gmail.com', 'Alex', 'Ivancic', 'part-time', 3, NULL);
++REPLACE INTO `student` (`id`, `date_of_birth`, `email`, `first_name`, `last_name`, `status`, `study_year`, `mentor_id`) VALUES
++	(1, '2003-11-11', 'mariam@gmail.com', 'Mariam', 'Jamal', '', 1, NULL),
++	(2, '2002-12-01', 'alex@gmail.com', 'Alex', 'Ivancic', 'part-time', 3, 2),
++	(5, '2000-05-06', 'ivanz@gmail.com', 'Ivan', 'Zec', '', 1, NULL),
++	(6, '1998-06-09', 'vedran.smolec@gmail.com', 'Marta', 'Kos', ' ', 3, 1),
++	(7, '2004-01-06', 'mz2@yahoo.com', 'Marko', 'Zoltan', '', 2, NULL),
++	(8, '2002-05-12', 'kbah@serv.net', 'Kata', 'Bah', '', 1, NULL),
++	(9, '2022-05-12', 'macan@gmail.com', 'Matej', 'Car', 'placa svima kavu kad polozi do kraja', 4, 2);
+ /*!40000 ALTER TABLE `student` ENABLE KEYS */;
+ 
+ /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+Index: sqls/amigo/student_sequence.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/student_sequence.sql b/sqls/amigo/student_sequence.sql
+--- a/sqls/amigo/student_sequence.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/student_sequence.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -20,8 +20,8 @@
+ 
+ -- Dumping data for table amigo.student_sequence: ~0 rows (approximately)
+ /*!40000 ALTER TABLE `student_sequence` DISABLE KEYS */;
+-INSERT IGNORE INTO `student_sequence` (`next_val`) VALUES
+-	(3);
++REPLACE INTO `student_sequence` (`next_val`) VALUES
++	(7);
+ /*!40000 ALTER TABLE `student_sequence` ENABLE KEYS */;
+ 
+ /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+Index: sqls/amigo/subject.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/subject.sql b/sqls/amigo/subject.sql
+--- a/sqls/amigo/subject.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/subject.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -21,9 +21,9 @@
+   PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ 
+--- Dumping data for table amigo.subject: ~16 rows (approximately)
++-- Dumping data for table amigo.subject: ~14 rows (approximately)
+ /*!40000 ALTER TABLE `subject` DISABLE KEYS */;
+-INSERT IGNORE INTO `subject` (`id`, `name`, `year`) VALUES
++REPLACE INTO `subject` (`id`, `name`, `year`) VALUES
+ 	(1, 'Matematika I.', 1),
+ 	(2, 'Informatika I.', 1),
+ 	(3, 'Engleski jezik I.', 1),
+Index: sqls/amigo/subject_sequence.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sqls/amigo/subject_sequence.sql b/sqls/amigo/subject_sequence.sql
+--- a/sqls/amigo/subject_sequence.sql	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/sqls/amigo/subject_sequence.sql	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -20,7 +20,7 @@
+ 
+ -- Dumping data for table amigo.subject_sequence: ~0 rows (approximately)
+ /*!40000 ALTER TABLE `subject_sequence` DISABLE KEYS */;
+-INSERT IGNORE INTO `subject_sequence` (`next_val`) VALUES
++REPLACE INTO `subject_sequence` (`next_val`) VALUES
+ 	(17);
+ /*!40000 ALTER TABLE `subject_sequence` ENABLE KEYS */;
+ 
+Index: src/main/java/com/Amigoscode/enrolment/Enrolment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/enrolment/Enrolment.java b/src/main/java/com/Amigoscode/enrolment/Enrolment.java
+--- a/src/main/java/com/Amigoscode/enrolment/Enrolment.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/enrolment/Enrolment.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -3,11 +3,15 @@
+ 
+ import com.Amigoscode.student.Student;
+ import com.Amigoscode.subject.Subject;
++import com.fasterxml.jackson.annotation.JsonIdentityInfo;
++import com.fasterxml.jackson.annotation.JsonManagedReference;
++import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+ 
+ import javax.persistence.*;
+ 
+ @Entity
+ @Table(name = "enrolment")
++@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+ public class Enrolment {
+     @Id
+     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enrolment_sequence")
+@@ -16,10 +20,12 @@
+ 
+     @ManyToOne
+     @JoinColumn(name = "student_id")
++    @JsonManagedReference(value = "student-ref")
+     private Student student;
+ 
+     @ManyToOne
+     @JoinColumn(name = "subject_id")
++    @JsonManagedReference(value = "subject-ref")
+     private Subject subject;
+ 
+     private Integer grade;
+Index: src/main/java/com/Amigoscode/enrolment/EnrolmentController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/enrolment/EnrolmentController.java b/src/main/java/com/Amigoscode/enrolment/EnrolmentController.java
+--- a/src/main/java/com/Amigoscode/enrolment/EnrolmentController.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/enrolment/EnrolmentController.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -17,8 +17,8 @@
+     }
+ 
+     @GetMapping
+-    public List<Enrolment> getEnrolments() {
+-        return enrolmentService.getEnrolments();
++    public List<Enrolment> getEnrolment() {
++        return enrolmentService.getEnrolment();
+     }
+ 
+     @GetMapping(path = "{studentId}/{subjectId}")
+Index: src/main/java/com/Amigoscode/enrolment/EnrolmentService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/enrolment/EnrolmentService.java b/src/main/java/com/Amigoscode/enrolment/EnrolmentService.java
+--- a/src/main/java/com/Amigoscode/enrolment/EnrolmentService.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/enrolment/EnrolmentService.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -26,7 +26,7 @@
+         this.subjectRepository = subjectRepository;
+     }
+ 
+-    public List<Enrolment> getEnrolments() {
++    public List<Enrolment> getEnrolment() {
+         return enrolmentRepository.findAll();
+     }
+ 
+Index: src/main/java/com/Amigoscode/mentor/Mentor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/mentor/Mentor.java b/src/main/java/com/Amigoscode/mentor/Mentor.java
+--- a/src/main/java/com/Amigoscode/mentor/Mentor.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/mentor/Mentor.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -1,7 +1,14 @@
+ package com.Amigoscode.mentor;
+ 
++import com.Amigoscode.student.Student;
++import com.fasterxml.jackson.annotation.JsonBackReference;
++import com.fasterxml.jackson.annotation.JsonIdentityInfo;
++import com.fasterxml.jackson.annotation.ObjectIdGenerators;
++
+ import javax.persistence.*;
++import java.util.Set;
+ 
++@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+ @Entity
+ @Table(name = "mentor")
+ public class Mentor {
+@@ -17,6 +24,7 @@
+     )
+ 
+     private Long id;
++
+     private String firstName;
+     private String lastName;
+     private String email;
+@@ -24,13 +32,6 @@
+     public Mentor() {
+     }
+ 
+-    public Mentor(Long id, String firstName, String lastName, String email) {
+-        this.id = id;
+-        this.firstName = firstName;
+-        this.lastName = lastName;
+-        this.email = email;
+-    }
+-
+     public Mentor(String firstName, String lastName, String email) {
+         this.firstName = firstName;
+         this.lastName = lastName;
+@@ -78,4 +79,17 @@
+     public void setEmail(String email) {
+         this.email = email;
+     }
++
++    public Set<Student> getStudentList() {
++        return studentList;
++    }
++
++    public void setStudentList(Set<Student> studentList) {
++        this.studentList = studentList;
++    }
++
++    @OneToMany(mappedBy = "mentor")
++    @JsonBackReference(value = "mentor-ref")
++    private Set<Student> studentList;
++
+ }
+\ No newline at end of file
+Index: src/main/java/com/Amigoscode/specification/key/JoinEnum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/specification/key/JoinEnum.java b/src/main/java/com/Amigoscode/specification/key/JoinEnum.java
+--- a/src/main/java/com/Amigoscode/specification/key/JoinEnum.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/specification/key/JoinEnum.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -21,7 +21,8 @@
+     STUDENT("student"),
+     SUBJECT("subject"),
+     MENTOR("mentor"),
+-    ENROLMENTS("enrolments");
++    ENROLMENT("enrolment"),
++    ENROLMENT_LIST("enrolmentList");
+ 
+ 
+     private String name;
+Index: src/main/java/com/Amigoscode/specification/key/PropertyEnum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/specification/key/PropertyEnum.java b/src/main/java/com/Amigoscode/specification/key/PropertyEnum.java
+--- a/src/main/java/com/Amigoscode/specification/key/PropertyEnum.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/specification/key/PropertyEnum.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -22,8 +22,8 @@
+     ENROLMENTS("enrolment"),
+     SUBJECT("subject"),
+     STUDENT("student"),
+-    GRADE("grade");
+-
++    GRADE("grade"),
++    ENROLMENT_LIST("enrolmentList");
+ 
+     private String name;
+ 
+Index: src/main/java/com/Amigoscode/student/Student.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/student/Student.java b/src/main/java/com/Amigoscode/student/Student.java
+--- a/src/main/java/com/Amigoscode/student/Student.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/student/Student.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -2,13 +2,17 @@
+ 
+ import com.Amigoscode.enrolment.Enrolment;
+ import com.Amigoscode.mentor.Mentor;
+-import org.springframework.lang.Nullable;
++import com.fasterxml.jackson.annotation.JsonBackReference;
++import com.fasterxml.jackson.annotation.JsonIdentityInfo;
++import com.fasterxml.jackson.annotation.JsonManagedReference;
++import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+ 
+ import javax.persistence.*;
+ import java.time.LocalDate;
+ import java.time.Period;
+ import java.util.Set;
+ 
++@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+ @Entity //mapira klasu u bazu
+ @Table(name = "student")
+ public class Student {
+@@ -33,34 +37,36 @@
+     private Integer studyYear;
+ 
+ 
+-    @OneToMany(mappedBy = "student", fetch = FetchType.LAZY)
+-    Set<Enrolment> enrolments;
+-
++    public Set<Enrolment> getEnrolmentList() {
++        return enrolmentList;
++    }
+ 
+-    public Set<Enrolment> getEnrolment() {
+-        return enrolments;
++    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
++        this.enrolmentList = enrolmentList;
+     }
+-    public void setEnrolment(Set<Enrolment> enrolments) {
+-        this.enrolments = enrolments;
++
++    @OneToMany(mappedBy = "student")
++    @JsonBackReference(value = "srtdent-ref")
++    private Set<Enrolment> enrolmentList;
++
++    public Student() {
+     }
+ 
+ 
+-    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, Integer age, String status, Integer studyYear, Set<Enrolment> enrolments, @Nullable Mentor mentor) {
+-        this.id = id;
++    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
+         this.firstName = firstName;
+         this.lastName = lastName;
+         this.email = email;
+         this.dateOfBirth = dateOfBirth;
+-        this.age = age;
+         this.status = status;
+         this.studyYear = studyYear;
+-        this.enrolments = enrolments;
+-        this.mentor = mentor;
+     }
++
+ 
+     @ManyToOne
+     @JoinColumn(name = "mentor_id")
+-    @Nullable
++    @JsonManagedReference(value = "mentor-ref")
++
+     private Mentor mentor;
+ 
+     public Mentor getMentor() {
+@@ -72,30 +78,6 @@
+     }
+ 
+ 
+-    public Student() {
+-        this.status = "";
+-        this.mentor = null;
+-    }
+-
+-    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
+-        this.id = id;
+-        this.firstName = firstName;
+-        this.lastName = lastName;
+-        this.email = email;
+-        this.dateOfBirth = dateOfBirth;
+-        this.status = status;
+-        this.studyYear = studyYear;
+-    }
+-
+-    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
+-        this.firstName = firstName;
+-        this.lastName = lastName;
+-        this.email = email;
+-        this.dateOfBirth = dateOfBirth;
+-        this.status = status;
+-        this.studyYear = studyYear;
+-    }
+-
+     public Long getId() {
+         return id;
+     }
+@@ -160,7 +142,7 @@
+         this.studyYear = studyYear;
+     }
+ 
+-    @Override
++   /* @Override
+     public String toString() {
+         return "Student{" +
+                 "id=" + id +
+@@ -172,5 +154,5 @@
+                 ", studentStatus='" + status + '\'' +
+                 ", yearOfEnrollment=" + studyYear +
+                 '}';
+-    }
++    }*/
+ }
+\ No newline at end of file
+Index: src/main/java/com/Amigoscode/student/StudentController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/student/StudentController.java b/src/main/java/com/Amigoscode/student/StudentController.java
+--- a/src/main/java/com/Amigoscode/student/StudentController.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/student/StudentController.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -5,6 +5,7 @@
+ import org.springframework.web.bind.annotation.*;
+ 
+ import java.util.List;
++import java.util.Set;
+ 
+ @RestController
+ @RequestMapping(path = "api/student")
+Index: src/main/java/com/Amigoscode/student/StudentRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/student/StudentRepository.java b/src/main/java/com/Amigoscode/student/StudentRepository.java
+--- a/src/main/java/com/Amigoscode/student/StudentRepository.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/student/StudentRepository.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -6,6 +6,7 @@
+ import org.springframework.stereotype.Repository;
+ 
+ import java.util.List;
++import java.util.Optional;
+ 
+ @Repository
+ public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpecificationExecutor<Student> {
+@@ -13,6 +14,9 @@
+ 
+     Student findByEmail(String email);
+ 
++    @Override
++    Optional<Student> findById(Long aLong);
++
+     boolean existsByEmail(String email);
+ 
+ 
+Index: src/main/java/com/Amigoscode/student/StudentSpecification.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/student/StudentSpecification.java b/src/main/java/com/Amigoscode/student/StudentSpecification.java
+--- a/src/main/java/com/Amigoscode/student/StudentSpecification.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/student/StudentSpecification.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -1,23 +1,25 @@
+ package com.Amigoscode.student;
+ 
+ import com.Amigoscode.specification.EntitySpecification;
+-import com.Amigoscode.specification.SearchCriteria;
+-import com.Amigoscode.specification.SearchOperation;
+ import com.Amigoscode.specification.key.JoinEnum;
+-import com.Amigoscode.specification.key.PropertyEnum;
+ import org.springframework.data.jpa.domain.Specification;
+ 
+ public class StudentSpecification extends EntitySpecification<Student> {
+     public StudentSpecification() {
+-        addJoin(JoinEnum.ENROLMENTS);
++        addJoin(JoinEnum.ENROLMENT);
++        //addJoin(JoinEnum.MENTOR);
+     }
+ 
+-    public Specification<Student> StudentBySubject (Long subjId){
+-        addCriteria(new SearchCriteria(PropertyEnum.ENROLMENTS, subjId, SearchOperation.EQUAL));
+-        return generateSpecification();
++    public static Specification<Student> StudentBySubject(Long subjId) {
++        return (root, query, builder)
++                ->
++                builder.and(builder.equal(root.join("enrolmentList").get("subject").get("id"), subjId));
++
+     }
++}
+ 
+ 
+-}
++
++
+ 
+ 
+Index: src/main/java/com/Amigoscode/subject/Subject.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/Amigoscode/subject/Subject.java b/src/main/java/com/Amigoscode/subject/Subject.java
+--- a/src/main/java/com/Amigoscode/subject/Subject.java	(revision d70718ce4577f31aa056340e341a54c6b9f83a1d)
++++ b/src/main/java/com/Amigoscode/subject/Subject.java	(revision cb3e1db286d2492779e868f09e6f83ca05d117c8)
+@@ -1,12 +1,17 @@
+ package com.Amigoscode.subject;
+ 
+ import com.Amigoscode.enrolment.Enrolment;
++import com.fasterxml.jackson.annotation.JsonBackReference;
++import com.fasterxml.jackson.annotation.JsonIdentityInfo;
++import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+ 
+ import javax.persistence.*;
++import java.util.List;
+ import java.util.Set;
+ 
+ @Entity
+ @Table(name = "subject")
++@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+ public class Subject {
+     @Id
+     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "subject_sequence")
+@@ -18,16 +23,17 @@
+ 
+     private Integer year;
+ 
+-    public Set<Enrolment> getEnrolment() {
+-        return enrolment;
++    public Set<Enrolment> getEnrolmentList() {
++        return enrolmentList;
+     }
+ 
+-    public void setEnrolment(Set<Enrolment> enrolment) {
+-        this.enrolment = enrolment;
++    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
++        this.enrolmentList = enrolmentList;
+     }
+ 
+-    @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
+-    Set<Enrolment> enrolment;
++    @OneToMany(mappedBy = "subject")
++    @JsonBackReference(value = "subject-ref")
++    private Set<Enrolment> enrolmentList;
+ 
+     public String getName() {
+         return name;
+@@ -61,10 +67,10 @@
+     public Subject() {
+     }
+ 
+-    public Subject(Long id, String name, Integer year, Set<Enrolment> enrolments) {
++    public Subject(Long id, String name, Integer year, List<Enrolment> enrolmentList) {
+         this.id = id;
+         this.name = name;
+         this.year = year;
+-        this.enrolment = enrolments;
++        //this.enrolmentList = enrolmentList;
+     }
+ }
+\ No newline at end of file
