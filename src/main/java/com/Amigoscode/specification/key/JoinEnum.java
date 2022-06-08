@@ -24,7 +24,6 @@ public enum JoinEnum {
     ENROLMENT("enrolment"),
     ENROLMENT_LIST("enrolmentList");
 
-
     private String name;
 
     JoinEnum(String name){

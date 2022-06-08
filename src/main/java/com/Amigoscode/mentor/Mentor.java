@@ -2,13 +2,11 @@ package com.Amigoscode.mentor;
 
 import com.Amigoscode.student.Student;
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 import java.util.Set;
 
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @Entity
 @Table(name = "mentor")
 public class Mentor {
@@ -79,17 +77,5 @@ public class Mentor {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public Set<Student> getStudentList() {
-        return studentList;
-    }
-
-    public void setStudentList(Set<Student> studentList) {
-        this.studentList = studentList;
-    }
-
-    @OneToMany(mappedBy = "mentor")
-    @JsonBackReference(value = "mentor-ref")
-    private Set<Student> studentList;
 
 }

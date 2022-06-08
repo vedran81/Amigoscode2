@@ -1,13 +1,16 @@
 package com.Amigoscode.student;
 
 
+import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentRepository;
+import com.Amigoscode.enrolment.EnrolmentService;
 import com.Amigoscode.mentor.MentorRepository;
 import com.Amigoscode.subject.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -19,13 +22,15 @@ public class StudentService {
     private final MentorRepository mentorRepository;
     private final SubjectRepository subjectRepository;
     private final EnrolmentRepository enrolmentRepository;
+    private final EnrolmentService enrolmentService;
 
     @Autowired
-    public StudentService(StudentRepository studentRepository, MentorRepository mentorRepository, SubjectRepository subjectRepository, EnrolmentRepository enrolmentRepository) {
+    public StudentService(StudentRepository studentRepository, MentorRepository mentorRepository, SubjectRepository subjectRepository, EnrolmentRepository enrolmentRepository, EnrolmentService enrolmentService) {
         this.studentRepository = studentRepository;
         this.mentorRepository = mentorRepository;
         this.subjectRepository = subjectRepository;
         this.enrolmentRepository = enrolmentRepository;
+        this.enrolmentService = enrolmentService;
     }
 
     public List<Student> getStudents() {
@@ -42,7 +47,7 @@ public class StudentService {
 
     public void deleteStudent(Long studentId) {
         if (!studentRepository.existsById(studentId)) {
-              throw new IllegalStateException("No student with id " + studentId);
+            throw new IllegalStateException("No student with id " + studentId);
         }
         studentRepository.deleteById(studentId);
     }
@@ -77,7 +82,7 @@ public class StudentService {
     public void updateStudent(Long studentId, StudentUpdateRequest studentUpdateRequest) {
         Student student;
 
-        if (!studentRepository.existsById(studentId)){
+        if (!studentRepository.existsById(studentId)) {
             throw new IllegalStateException("No student with id " + studentId);
         }
 
@@ -113,12 +118,21 @@ public class StudentService {
     }
 
 
-
-    StudentSpecification stSpec = new StudentSpecification();
-
-    public List<Student> findStudentsBySubject(Long subjId) {
-
-        return studentRepository.findAll(stSpec.StudentBySubject(subjId));
+    public List<Student> findStudentsWithSubject(Long subjId) {
+        List<Student> stList = new ArrayList<>();
+        List<Enrolment> enList = new ArrayList<>();
+        enList = enrolmentService.allBySubject(subjId);
+        for (Enrolment en : enList) {
+            stList.add(en.getStudent());
+        }
+        return stList;
     }
+//     return studentRepository.findAll(StudentSpecification.StudentBySubject(subjId));
+// }
+//
+// public List<Student> findWithGradesInDateRange(LocalDate lowBound, LocalDate upBound) {
+//     return studentRepository.findAll(stSpec.byGradeInDateRange(lowBound, upBound));
+// }
+
 
 }

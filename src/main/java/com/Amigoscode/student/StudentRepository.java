@@ -20,7 +20,6 @@ public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpec
     boolean existsByEmail(String email);
 
 
-
     @Query("select s from Student s where s.studyYear = ?1")
     List<Student> findByStudyYear(Integer studyYear);
 

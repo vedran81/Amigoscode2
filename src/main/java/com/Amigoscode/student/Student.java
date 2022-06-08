@@ -1,18 +1,13 @@
 package com.Amigoscode.student;
 
-import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.mentor.Mentor;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Set;
 
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @Entity //mapira klasu u bazu
 @Table(name = "student")
 public class Student {
@@ -36,18 +31,6 @@ public class Student {
     private String status;
     private Integer studyYear;
 
-
-    public Set<Enrolment> getEnrolmentList() {
-        return enrolmentList;
-    }
-
-    public void setEnrolmentList(Set<Enrolment> enrolmentList) {
-        this.enrolmentList = enrolmentList;
-    }
-
-    @OneToMany(mappedBy = "student")
-    @JsonBackReference(value = "srtdent-ref")
-    private Set<Enrolment> enrolmentList;
 
     public Student() {
     }

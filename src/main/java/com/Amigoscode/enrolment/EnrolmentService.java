@@ -18,13 +18,12 @@ public class EnrolmentService {
     private final StudentRepository studentRepository;
     private final SubjectRepository subjectRepository;
 
-
     @Autowired
     public EnrolmentService(EnrolmentRepository enrolmentRepository, StudentRepository studentRepository, SubjectRepository subjectRepository) {
         this.enrolmentRepository = enrolmentRepository;
         this.studentRepository = studentRepository;
         this.subjectRepository = subjectRepository;
-    }
+            }
 
     public List<Enrolment> getEnrolment() {
         return enrolmentRepository.findAll();
@@ -65,7 +64,8 @@ public class EnrolmentService {
         return enrolmentRepository.findByStudent_IdAndSubject_Id(studentId, subjectId);
     }
 
-
-
-
+    public List<Enrolment> allBySubject(Long subjId) {
+        EnrolmentSpecification enSpec = new EnrolmentSpecification();
+        return enrolmentRepository.findAll(enSpec.allBySubject(subjId));
+    }
 }

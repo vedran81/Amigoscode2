@@ -5,19 +5,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Set;
 
 @RestController
 @RequestMapping(path = "api/student")
 public class StudentController {
 
-    private final StudentService studentService;
+    private final StudentService   studentService;
     private final EnrolmentService enrolmentService;
 
 
     @Autowired //govori da private final studentService treba biti "autowired" u konstruktor
     public StudentController(StudentService studentService, EnrolmentService enrolmentService) {
-        this.studentService = studentService;
+        this.studentService   = studentService;
         this.enrolmentService = enrolmentService;
     }
 
@@ -58,14 +57,20 @@ public class StudentController {
 
     }
 
-    @PostMapping (path = "enrol/{studentId}/{subjectId}")
-    public void enrolStudent(@PathVariable Long studentId, @PathVariable Long subjectId){
-       enrolmentService.addEnrolment(studentId, subjectId);
+    @PostMapping(path = "enrol/{studentId}/{subjectId}")
+    public void enrolStudent(@PathVariable Long studentId, @PathVariable Long subjectId) {
+        enrolmentService.addEnrolment(studentId, subjectId);
     }
 
     @GetMapping(path = "students_by_subject/{subjectId}")
     public List<Student> findAllBySubject(@PathVariable Long subjectId) {
-        return studentService.findStudentsBySubject(subjectId);
+        return studentService.findStudentsWithSubject(subjectId);
     }
+/*
+    @GetMapping(path = "students_by_grade_in_daterange/{lowBound}/{upBound}")
+    public List<Student> findAllStudentsByGradeDateRange(@PathVariable @RequestBody LocalDate lowBound, @PathVariable @RequestBody LocalDate upBound) {
+        // LocalDateTime lowBoundDate = LocalDateTime.parse(lowBound);
+        // LocalDateTime upBoundDate = LocalDateTime.parse(upBound);
+        return studentService.findWithGradesInDateRange(lowBound, upBound);
+    }*/
 }
-

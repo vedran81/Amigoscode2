@@ -3,19 +3,18 @@ package com.Amigoscode.enrolment;
 
 import com.Amigoscode.student.Student;
 import com.Amigoscode.subject.Subject;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "enrolment")
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Enrolment {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enrolment_sequence")
-    @SequenceGenerator(name = "enrolment_sequence",  allocationSize = 1)
+    @SequenceGenerator(name = "enrolment_sequence", allocationSize = 1)
     private Long id;
 
     @ManyToOne
@@ -30,17 +29,31 @@ public class Enrolment {
 
     private Integer grade;
 
+
+    public LocalDateTime getDateTimeStamp() {
+        return dateTimeStamp;
+    }
+
+    public void setDateTimeStamp(LocalDateTime dateTimeStamp) {
+        this.dateTimeStamp = dateTimeStamp;
+    }
+
+    private LocalDateTime dateTimeStamp;
+
     public Enrolment() {
     }
 
-    public boolean isCourseFinished() {return ( grade != null);}
+    public boolean isCourseFinished() {
+        return (grade != null);
+    }
 
     public Integer getGrade() {
         return grade;
     }
 
     public void setGrade(Integer grade) {
-        this.grade = grade;
+        this.grade         = grade;
+        this.dateTimeStamp = LocalDateTime.now();
     }
 
     public void setSubject(Subject subject) {
