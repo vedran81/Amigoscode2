@@ -32,7 +32,7 @@ public class SubjectService {
         subjectRepository.save(subject);
     }
 
-    public void deletesubject(Long studentId) {
+    public void deleteSubject(Long studentId) {
         boolean exists = subjectRepository.existsById(studentId);
 
         if (!exists) {

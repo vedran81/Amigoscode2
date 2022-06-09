@@ -8,6 +8,8 @@ import com.Amigoscode.subject.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 
 
@@ -23,7 +25,7 @@ public class EnrolmentService {
         this.enrolmentRepository = enrolmentRepository;
         this.studentRepository = studentRepository;
         this.subjectRepository = subjectRepository;
-            }
+    }
 
     public List<Enrolment> getEnrolment() {
         return enrolmentRepository.findAll();
@@ -67,5 +69,10 @@ public class EnrolmentService {
     public List<Enrolment> allBySubject(Long subjId) {
         EnrolmentSpecification enSpec = new EnrolmentSpecification();
         return enrolmentRepository.findAll(enSpec.allBySubject(subjId));
+    }
+
+    public List<Enrolment> allWithGradesInDateRange(LocalDate baseDate, Period range) {
+        EnrolmentSpecification enSpec = new EnrolmentSpecification();
+        return enrolmentRepository.findAll(enSpec.allWithGradesInDateRange(baseDate, range));
     }
 }

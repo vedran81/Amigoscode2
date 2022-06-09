@@ -22,6 +22,10 @@ public class Enrolment {
     @JsonManagedReference(value = "student-ref")
     private Student student;
 
+    public void setSubject(Subject subject) {
+        this.subject = subject;
+    }
+
     @ManyToOne
     @JoinColumn(name = "subject_id")
     @JsonManagedReference(value = "subject-ref")
@@ -30,15 +34,9 @@ public class Enrolment {
     private Integer grade;
 
 
-    public LocalDateTime getDateTimeStamp() {
-        return dateTimeStamp;
-    }
+    private LocalDateTime enrolTimeStamp;
 
-    public void setDateTimeStamp(LocalDateTime dateTimeStamp) {
-        this.dateTimeStamp = dateTimeStamp;
-    }
-
-    private LocalDateTime dateTimeStamp;
+    private LocalDateTime gradeTimeStamp;
 
     public Enrolment() {
     }
@@ -52,16 +50,8 @@ public class Enrolment {
     }
 
     public void setGrade(Integer grade) {
-        this.grade         = grade;
-        this.dateTimeStamp = LocalDateTime.now();
-    }
-
-    public void setSubject(Subject subject) {
-        this.subject = subject;
-    }
-
-    public Subject getSubject() {
-        return subject;
+        this.grade = grade;
+        this.gradeTimeStamp = LocalDateTime.now();
     }
 
     public Student getStudent() {
@@ -79,5 +69,23 @@ public class Enrolment {
     public void setId(Long id) {
         this.id = id;
     }
+    public Subject getSubject() {
+        return subject;
+    }
 
+    public LocalDateTime getEnrolTimeStamp() {
+        return enrolTimeStamp;
+    }
+
+    public void setEnrolTimeStamp(LocalDateTime enrolTimeStamp) {
+        this.enrolTimeStamp = enrolTimeStamp;
+    }
+
+    public LocalDateTime getGradeTimeStamp() {
+        return gradeTimeStamp;
+    }
+
+    public void setGradeTimeStamp(LocalDateTime gradeTimeStamp) {
+        this.gradeTimeStamp = gradeTimeStamp;
+    }
 }

@@ -35,7 +35,7 @@ public class SubjectController {
 
     @DeleteMapping(path = "{subjectId}/delete")
     public void deleteSubject(@PathVariable Long subjectId) {
-        subjectService.deletesubject(subjectId);
+        subjectService.deleteSubject(subjectId);
     }
 
     @PostMapping(path = "add/{name}/{year}")

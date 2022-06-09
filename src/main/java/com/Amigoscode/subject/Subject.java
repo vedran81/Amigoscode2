@@ -1,11 +1,6 @@
 package com.Amigoscode.subject;
 
-import com.Amigoscode.enrolment.Enrolment;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-
 import javax.persistence.*;
-import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "subject")
@@ -52,10 +47,9 @@ public class Subject {
     public Subject() {
     }
 
-    public Subject(Long id, String name, Integer year, List<Enrolment> enrolmentList) {
+    public Subject(Long id, String name, Integer year) {
         this.id = id;
         this.name = name;
         this.year = year;
-        //this.enrolmentList = enrolmentList;
     }
 }

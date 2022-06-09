@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -117,22 +119,20 @@ public class StudentService {
         }
     }
 
-
     public List<Student> findStudentsWithSubject(Long subjId) {
         List<Student> stList = new ArrayList<>();
-        List<Enrolment> enList = new ArrayList<>();
-        enList = enrolmentService.allBySubject(subjId);
+        List<Enrolment> enList = enrolmentService.allBySubject(subjId);
         for (Enrolment en : enList) {
             stList.add(en.getStudent());
         }
         return stList;
     }
-//     return studentRepository.findAll(StudentSpecification.StudentBySubject(subjId));
-// }
-//
-// public List<Student> findWithGradesInDateRange(LocalDate lowBound, LocalDate upBound) {
-//     return studentRepository.findAll(stSpec.byGradeInDateRange(lowBound, upBound));
-// }
+
+    public List<Student> findWithGradesInDateRange(LocalDate baseDate, Period range) {
+        List<Student> stList = new ArrayList<>();
+        List<Enrolment> enList = enrolmentService.allWithGradesInDateRange(baseDate, range);
+        return stList;
+    }
 
 
 }

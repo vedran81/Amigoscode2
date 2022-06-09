@@ -4,6 +4,8 @@ import com.Amigoscode.enrolment.EnrolmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 
 @RestController
@@ -66,11 +68,11 @@ public class StudentController {
     public List<Student> findAllBySubject(@PathVariable Long subjectId) {
         return studentService.findStudentsWithSubject(subjectId);
     }
-/*
-    @GetMapping(path = "students_by_grade_in_daterange/{lowBound}/{upBound}")
-    public List<Student> findAllStudentsByGradeDateRange(@PathVariable @RequestBody LocalDate lowBound, @PathVariable @RequestBody LocalDate upBound) {
+
+    @GetMapping(path = "students_graded_in_daterange/{baseDate}/{range}")
+    public List<Student> findAllStudentsWithGradesInDateRange(@PathVariable @RequestBody LocalDate baseDate, @PathVariable @RequestBody Period range) {
         // LocalDateTime lowBoundDate = LocalDateTime.parse(lowBound);
         // LocalDateTime upBoundDate = LocalDateTime.parse(upBound);
-        return studentService.findWithGradesInDateRange(lowBound, upBound);
-    }*/
+        return studentService.findWithGradesInDateRange(baseDate, range);
+    }
 }

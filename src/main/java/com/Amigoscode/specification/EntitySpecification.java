@@ -13,7 +13,7 @@ import java.util.Map;
 
 public abstract class EntitySpecification<T> implements Specification<T> {
 
-    private static final long serialVersionUID = 795559827320722608L;
+    //private static final long serialVersionUID = 795559827320722608L;
     protected List<SearchCriteria> listCriteria = new ArrayList<SearchCriteria>();
     protected List<JoinEnum> listDefaultJoin = new ArrayList<JoinEnum>();
     protected Map<JoinEnum, List<JoinEnum>> listMapJoin = new HashMap<JoinEnum, List<JoinEnum>>();
