@@ -3,10 +3,9 @@ package com.Amigoscode.enrolment;
 
 import com.Amigoscode.student.Student;
 import com.Amigoscode.subject.Subject;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "enrolment")
@@ -19,7 +18,7 @@ public class Enrolment {
 
     @ManyToOne
     @JoinColumn(name = "student_id")
-    @JsonManagedReference(value = "student-ref")
+    //@JsonManagedReference(value = "student-ref")
     private Student student;
 
     public void setSubject(Subject subject) {
@@ -28,15 +27,23 @@ public class Enrolment {
 
     @ManyToOne
     @JoinColumn(name = "subject_id")
-    @JsonManagedReference(value = "subject-ref")
+    //@JsonManagedReference(value = "subject-ref")
     private Subject subject;
 
     private Integer grade;
 
+    //@JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    //@JsonSerialize(using = LocalDateTimeSerializer.class)
+    //@DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
+    //@JsonFormat(pattern = "yyyy-dd-MM")
+    private LocalDate enrolTimeStamp;
 
-    private LocalDateTime enrolTimeStamp;
+    //@JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    //@JsonSerialize(using = LocalDateTimeSerializer.class)
+    //@DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
+    //@JsonFormat(pattern = "yyyy-dd-MM")
+    private LocalDate gradeTimeStamp;
 
-    private LocalDateTime gradeTimeStamp;
 
     public Enrolment() {
     }
@@ -51,7 +58,7 @@ public class Enrolment {
 
     public void setGrade(Integer grade) {
         this.grade = grade;
-        this.gradeTimeStamp = LocalDateTime.now();
+        this.gradeTimeStamp = LocalDate.now();
     }
 
     public Student getStudent() {
@@ -73,19 +80,19 @@ public class Enrolment {
         return subject;
     }
 
-    public LocalDateTime getEnrolTimeStamp() {
+    public LocalDate getEnrolTimeStamp() {
         return enrolTimeStamp;
     }
 
-    public void setEnrolTimeStamp(LocalDateTime enrolTimeStamp) {
+    public void setEnrolTimeStamp(LocalDate enrolTimeStamp) {
         this.enrolTimeStamp = enrolTimeStamp;
     }
 
-    public LocalDateTime getGradeTimeStamp() {
+    public LocalDate getGradeTimeStamp() {
         return gradeTimeStamp;
     }
 
-    public void setGradeTimeStamp(LocalDateTime gradeTimeStamp) {
+    public void setGradeTimeStamp(LocalDate gradeTimeStamp) {
         this.gradeTimeStamp = gradeTimeStamp;
     }
 }

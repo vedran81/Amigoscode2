@@ -3,8 +3,6 @@ package com.Amigoscode.enrolment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.time.Period;
 import java.util.List;
 
 @RestController
@@ -28,13 +26,13 @@ public class EnrolmentController {
         return enrolmentService.getByIds(studentId, subjectId);
     }
 
-    @GetMapping(path = "with_grades_in_datarange")
-    public List<Enrolment> allByGradeInDateRange(@PathVariable @RequestBody LocalDate baseDate, @PathVariable @RequestBody Period range){
-            return enrolmentService.allWithGradesInDateRange(baseDate, range);
+    @GetMapping(path = "with_grades_between/{gradeLow}/{gradeHigh}")
+    public List<Enrolment> findByGradesBetween(@PathVariable Integer gradeLow, Integer gradeHigh) {
+        return enrolmentService.findWithGradesBetween(gradeLow, gradeHigh);
     }
 
     @DeleteMapping(path = "{enrolId}/delete")
-    public void deleteEnrolment(@PathVariable("enrolId") Long enrolId) {
+    public void deleteEnrolment(@PathVariable Long enrolId) {
         enrolmentService.deleteEnrolment(enrolId);
     }
 

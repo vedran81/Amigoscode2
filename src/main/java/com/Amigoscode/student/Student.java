@@ -1,7 +1,6 @@
 package com.Amigoscode.student;
 
 import com.Amigoscode.mentor.Mentor;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -48,7 +47,7 @@ public class Student {
 
     @ManyToOne
     @JoinColumn(name = "mentor_id")
-    @JsonManagedReference(value = "mentor-ref")
+    //@JsonManagedReference(value = "mentor-ref")
 
     private Mentor mentor;
 

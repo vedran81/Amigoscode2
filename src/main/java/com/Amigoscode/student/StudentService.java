@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.time.LocalDate;
-import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -128,9 +126,12 @@ public class StudentService {
         return stList;
     }
 
-    public List<Student> findWithGradesInDateRange(LocalDate baseDate, Period range) {
+    public List<Student> findWithGradeBetween(Integer gradeLow, Integer gradeHigh) {
         List<Student> stList = new ArrayList<>();
-        List<Enrolment> enList = enrolmentService.allWithGradesInDateRange(baseDate, range);
+        List<Enrolment> enList = enrolmentService.findWithGradesBetween(gradeLow, gradeHigh);
+        for (Enrolment e : enList) {
+            stList.add(e.getStudent());
+        }
         return stList;
     }
 
