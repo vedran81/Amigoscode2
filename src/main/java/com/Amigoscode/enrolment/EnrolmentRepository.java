@@ -17,5 +17,5 @@ public interface EnrolmentRepository extends JpaRepository<Enrolment, Long>, Jpa
     Enrolment findByStudent_IdAndSubject_Id(Long studentId, Long subjectId);
 
 
-
+    Enrolment findMentorById(Long enrId);
 }

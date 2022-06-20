@@ -26,4 +26,8 @@ public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpec
     boolean existsById(Long id);
 
     Student findStudentById(Long id);
+
+    List<Student> findByMentorIsNotNull();
+
+
 }

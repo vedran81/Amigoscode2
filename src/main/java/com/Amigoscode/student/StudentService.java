@@ -1,24 +1,18 @@
 package com.Amigoscode.student;
 
 
-import com.Amigoscode.creator.DataCreator;
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentRepository;
 import com.Amigoscode.enrolment.EnrolmentService;
-import com.Amigoscode.mentor.Mentor;
 import com.Amigoscode.mentor.MentorRepository;
-import com.Amigoscode.subject.Subject;
 import com.Amigoscode.subject.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
-import static com.Amigoscode.creator.DataCreator.crand;
 
 
 @Service //govori da se klasa mora instancirati i da je "bean" i na taj način se povezuje s studentService u controlleru
@@ -145,64 +139,4 @@ public class StudentService {
     // ------------------------------------
 
 
-    public Student createRandomStudent(Integer forStudyYear) {
-        List<Mentor> mentors = mentorRepository.findAll();
-
-        Student st = new Student();
-        do {
-
-            st.setFirstName(DataCreator.firstNames.get(crand.nextInt(DataCreator.firstNames.size())));
-            st.setLastName(DataCreator.lastNames.get(crand.nextInt(DataCreator.lastNames.size())));
-            st.setEmail(st.getFirstName() + "." + st.getLastName() + "@gmail.com");
-        } while (studentRepository.existsByEmail(st.getEmail()));
-
-        st.setStudyYear(forStudyYear);
-
-        st.setDateOfBirth(LocalDate.now().minusYears(17 + forStudyYear).withMonth(crand.nextInt(13)).withDayOfMonth(crand.nextInt(29)));
-
-        st.setStatus("-- by the very act of creation --");
-
-        if (crand.nextInt(100) <= 75) {
-            st.setMentor(mentors.get(crand.nextInt(mentors.size())));
-        }
-
-        return st;
     }
-
-
-    public void createBunchOfStudents() {
-
-
-        int uniqueCombos = DataCreator.firstNames.size() * DataCreator.lastNames.size();
-        System.out.println(uniqueCombos);
-
-        for (int year = 1; year <= 4; year++) {
-            int stPerYear = DataCreator.stPerYearBase + crand.nextInt(3);
-            for (int i = 0; i <= stPerYear; i++) {
-                Student student = createRandomStudent(year);
-                studentRepository.save(student);
-                //enroll them to subjects
-                List<Subject> subjList = subjectRepository.findByYear(year);
-
-                for (Subject s : subjList) {
-                    Enrolment enrolment = enrolmentService.addEnrolment(student.getId(), s.getId());
-                    // chance to grade each
-                    if (crand.nextInt(100) <= 67) {
-                        enrolmentService.gradeEnrolment(enrolment.getId(), crand.nextInt(4) + 2);
-                    }
-                }
-
-            }
-        }
-    }
-
-
-
-    public SubjectRepository getSubjectRepository() {
-        return subjectRepository;
-    }
-
-    public EnrolmentRepository getEnrolmentRepository() {
-        return enrolmentRepository;
-    }
-}

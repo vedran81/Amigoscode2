@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
 
-import static com.Amigoscode.creator.DataCreator.crand;
+import static com.Amigoscode.creator.DataCreatorController.crand;
 
 
 @Service
@@ -40,7 +40,7 @@ public class EnrolmentService {
     }
 
     public void gradeEnrolment(Long enrId, Integer grade) {
-        Enrolment e = enrolmentRepository.getById(enrId);
+        Enrolment e = enrolmentRepository.findMentorById(enrId);
         e.setGrade(grade);
         e.setGradeTimeStamp(LocalDate.now().minusDays(crand.nextInt(60)));
         enrolmentRepository.save(e);
@@ -66,6 +66,9 @@ public class EnrolmentService {
         e.setStudent(st);
         e.setSubject(su);
         e.setEnrolTimeStamp(LocalDate.now().withMonth(9));
+        if (LocalDate.now().getMonth().getValue() < 9) {
+            e.setEnrolTimeStamp(e.getEnrolTimeStamp().minusYears(1));
+        }
         System.out.println("saving " + e);
         enrolmentRepository.save(e);
         return e;
