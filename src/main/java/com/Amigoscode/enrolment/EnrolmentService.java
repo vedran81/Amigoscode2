@@ -8,7 +8,10 @@ import com.Amigoscode.subject.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
+
+import static com.Amigoscode.creator.DataCreator.crand;
 
 
 @Service
@@ -39,6 +42,7 @@ public class EnrolmentService {
     public void gradeEnrolment(Long enrId, Integer grade) {
         Enrolment e = enrolmentRepository.getById(enrId);
         e.setGrade(grade);
+        e.setGradeTimeStamp(LocalDate.now().minusDays(crand.nextInt(60)));
         enrolmentRepository.save(e);
     }
 
@@ -47,7 +51,7 @@ public class EnrolmentService {
             throw new IllegalStateException("no such student or subject");
         }
         if (enrolmentRepository.existsByStudent_IdAndSubject_Id(studentId, subjectId)) {
-            throw new IllegalStateException("student already enroled to that subject");
+            throw new IllegalStateException("student already enrolled to that subject");
         }
         Student st = studentRepository.findStudentById(studentId);
         Subject su = subjectRepository.findSubjectById(subjectId);
@@ -61,6 +65,7 @@ public class EnrolmentService {
         Enrolment e = new Enrolment();
         e.setStudent(st);
         e.setSubject(su);
+        e.setEnrolTimeStamp(LocalDate.now().withMonth(9));
         System.out.println("saving " + e);
         enrolmentRepository.save(e);
         return e;

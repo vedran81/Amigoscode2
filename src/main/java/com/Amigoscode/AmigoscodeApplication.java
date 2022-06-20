@@ -14,8 +14,10 @@ public class AmigoscodeApplication implements CommandLineRunner {
 		SpringApplication.run(AmigoscodeApplication.class, args);
 	}
 
+
 	@Override
 	public void run(String... args) throws Exception {
+
 		DataCreator.createUniversity();
 	}
 }

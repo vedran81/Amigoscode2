@@ -2,12 +2,11 @@ package com.Amigoscode.student;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentService;
-import com.Amigoscode.reqcache.ReqCacheRepository;
 import com.Amigoscode.reqcache.ReqCache;
+import com.Amigoscode.reqcache.ReqCacheRepository;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.FileInputStream;
@@ -99,7 +98,7 @@ public class StudentController {
         return studentService.findWithGradeBetween(gradeLow, gradeHigh);
     }
 
-    @Scheduled(cron = "*/2 * * * *", initialDelay = 0)
+    //@Scheduled(cron = "*/5 * * * * *")
     public void saveTopStudentGrades() {
         List<Enrolment> enList = enrolmentService.findWithGradesBetween(4, 5);
         //List<Student> stList = new ArrayList<>();
