@@ -12,8 +12,13 @@
     <artifactId>Amigoscode</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Amigoscode</name>
-    <description>Demo project for Spring Boot</description>
+    <description>UniDatabase for Spring Boot</description>
     <properties>
+        <jasperreports.version>6.19.1</jasperreports.version>
+        <annotations.version>23.0.0</annotations.version>
+        <springdoc-openapi-ui.version>1.6.8</springdoc-openapi-ui.version>
+        <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
+        <mariadb-java-client.version>3.0.5</mariadb-java-client.version>
         <java.version>11</java.version>
     </properties>
     <dependencies>
@@ -30,14 +35,14 @@
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
-            <version>3.0.4</version>
+            <version>${mariadb-java-client.version}</version>
             <scope>runtime</scope>
         </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.29</version>
+            <version>${mysql-connector-java.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -54,13 +59,13 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.6.8</version>
+            <version>${springdoc-openapi-ui.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>23.0.0</version>
+            <version>${annotations.version}</version>
             <scope>compile</scope>
         </dependency>
 
@@ -75,7 +80,7 @@
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
             <artifactId>jasperreports</artifactId>
-            <version>6.19.1</version>
+            <version>${jasperreports.version}</version>
         </dependency>
 
     </dependencies>
