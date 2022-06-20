@@ -99,7 +99,7 @@ public class StudentController {
         return studentService.findWithGradeBetween(gradeLow, gradeHigh);
     }
 
-    @Scheduled(/*cron = "0/10 * * ? * * *"*/ fixedDelay = 60000, initialDelay = 0)
+    @Scheduled(cron = "*/2 * * * *", initialDelay = 0)
     public void saveTopStudentGrades() {
         List<Enrolment> enList = enrolmentService.findWithGradesBetween(4, 5);
         //List<Student> stList = new ArrayList<>();
