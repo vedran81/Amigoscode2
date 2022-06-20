@@ -2,8 +2,8 @@ package com.Amigoscode.student;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentService;
-import com.Amigoscode.reqcache.CacheRepository;
-import com.Amigoscode.reqcache.RequestCache;
+import com.Amigoscode.reqcache.ReqCacheRepository;
+import com.Amigoscode.reqcache.ReqCache;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,14 +21,14 @@ public class StudentController {
 
     private final StudentService studentService;
     private final EnrolmentService enrolmentService;
-    private final CacheRepository cacheRepository;
+    private final ReqCacheRepository reqCacheRepository;
 
 
     @Autowired //govori da p^^s trebaju biti "autowired" u konstruktor
-    public StudentController(StudentService studentService, EnrolmentService enrolmentService, CacheRepository cacheRepository) {
+    public StudentController(StudentService studentService, EnrolmentService enrolmentService, ReqCacheRepository reqCacheRepository) {
         this.studentService = studentService;
         this.enrolmentService = enrolmentService;
-        this.cacheRepository = cacheRepository;
+        this.reqCacheRepository = reqCacheRepository;
     }
 
     @GetMapping
@@ -108,7 +108,7 @@ public class StudentController {
 //            stList.add(e.getStudent());
         //      }
 
-        RequestCache rc = new RequestCache();
+        ReqCache rc = new ReqCache();
         String rcname = "top graded students";
         String rcresult = "";
         Long rcid = null;
@@ -117,14 +117,14 @@ public class StudentController {
                     en.getGrade() + " in \"" + en.getSubject().getName() + "\"; " ;
         }
 
-        if (cacheRepository.existsByReqName(rcname)) {
-            rcid = cacheRepository.findByReqName(rcname).getId();
+        if (reqCacheRepository.existsByReqName(rcname)) {
+            rcid = reqCacheRepository.findByReqName(rcname).getId();
             rc.setId(rcid);
         }
 
         rc.setReqName(rcname);
         rc.setReqResult(rcresult);
 
-        cacheRepository.save(rc);
+        reqCacheRepository.save(rc);
     }
 }

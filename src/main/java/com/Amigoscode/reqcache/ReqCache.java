@@ -3,7 +3,7 @@ package com.Amigoscode.reqcache;
 import javax.persistence.*;
 
 @Entity
-public class RequestCache {
+public class ReqCache {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "reqcache_sequence")
     @SequenceGenerator(name = "reqcache_sequence", allocationSize = 1)
@@ -33,7 +33,7 @@ public class RequestCache {
         this.reqResult = reqResult;
     }
 
-    String reqName;
-    String reqResult;
+    private String reqName;
+    private String reqResult;
 
 }
