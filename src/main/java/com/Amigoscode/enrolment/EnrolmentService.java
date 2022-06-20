@@ -36,7 +36,13 @@ public class EnrolmentService {
         enrolmentRepository.deleteById(id);
     }
 
-    public void addEnrolment(Long studentId, Long subjectId) {
+    public void gradeEnrolment(Long enrId, Integer grade) {
+        Enrolment e = enrolmentRepository.getById(enrId);
+        e.setGrade(grade);
+        enrolmentRepository.save(e);
+    }
+
+    public Enrolment addEnrolment(Long studentId, Long subjectId) {
         if (!studentRepository.existsById(studentId) || !subjectRepository.existsById(subjectId)) {
             throw new IllegalStateException("no such student or subject");
         }
@@ -57,6 +63,7 @@ public class EnrolmentService {
         e.setSubject(su);
         System.out.println("saving " + e);
         enrolmentRepository.save(e);
+        return e;
     }
 
 

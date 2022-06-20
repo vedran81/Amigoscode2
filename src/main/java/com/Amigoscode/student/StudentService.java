@@ -136,4 +136,16 @@ public class StudentService {
     }
 
 
+    // ------------------------------------
+
+
+
+
+    public SubjectRepository getSubjectRepository() {
+        return subjectRepository;
+    }
+
+    public EnrolmentRepository getEnrolmentRepository() {
+        return enrolmentRepository;
+    }
 }

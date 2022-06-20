@@ -25,8 +25,8 @@ public class Student {
     private String lastName;
     private String email;
     private LocalDate dateOfBirth;
-    @Transient //označava da ovo polje ne mora biti stupac u bazi
-    private Integer age;
+    //@Transient //označava da ovo polje ne mora biti stupac u bazi
+    //private Integer age;
     private String status;
     private Integer studyYear;
 
@@ -104,11 +104,7 @@ public class Student {
         return Period.between(dateOfBirth, LocalDate.now()).getYears();
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getStatus() {
+     public String getStatus() {
         return status;
     }
 

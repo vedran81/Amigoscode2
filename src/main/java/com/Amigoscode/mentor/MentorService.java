@@ -21,7 +21,7 @@ public class MentorService {
 
     public void addNewMentor(Mentor mentor) {
 
-        if (mentorRepository.existsByEmail(mentor.getEmail())){
+        if (mentorRepository.existsByEmail(mentor.getEmail())) {
             throw new IllegalStateException("email taken");
         }
 
@@ -29,3 +29,4 @@ public class MentorService {
     }
 
 }
+
