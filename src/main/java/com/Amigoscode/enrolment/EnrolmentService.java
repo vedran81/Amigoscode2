@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
 
-import static com.Amigoscode.creator.DataCreatorController.crand;
+import static com.Amigoscode.datautils.DataCreatorController.crand;
 
 
 @Service
@@ -87,5 +87,9 @@ public class EnrolmentService {
     public List<Enrolment> findWithGradesBetween(Integer gradeLow, Integer gradeHigh) {
         EnrolmentSpecification enSpec = new EnrolmentSpecification();
         return enrolmentRepository.findAll(enSpec.allWithGradesBetween(gradeLow, gradeHigh));
+    }
+
+    public List<Enrolment> allByStudent(Long stId) {
+        return enrolmentRepository.findByStudent_Id(stId);
     }
 }

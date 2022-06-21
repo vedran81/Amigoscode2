@@ -1,4 +1,4 @@
-package com.Amigoscode.creator;
+package com.Amigoscode.datautils;
 
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentRepository;
@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Random;
 
 @RestController
-@RequestMapping(path = "util/creator")
+@RequestMapping(path = "util/datautils")
 public class DataCreatorController implements CommandLineRunner {
 
     public static final int numMentors = 8;
