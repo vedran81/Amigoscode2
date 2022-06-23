@@ -3,17 +3,15 @@ package com.Amigoscode.student;
 import com.Amigoscode.datautils.ReqResult;
 import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentService;
-import com.Amigoscode.reqcache.RequestCache;
 import com.Amigoscode.reqcache.ReqCacheRepository;
-import net.sf.jasperreports.engine.*;
-import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
+import com.Amigoscode.reqcache.RequestCache;
+import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
+import java.sql.SQLException;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -39,18 +37,9 @@ public class StudentController {
         return studentService.getStudents();
     }
 
-    @GetMapping(path = "/pdf")
-    public String GeneratePdf() throws FileNotFoundException, JRException {
-        JRBeanCollectionDataSource beanCollectionDataSource = new JRBeanCollectionDataSource(studentService.getStudents());
-        JasperReport compileReport = JasperCompileManager.compileReport(new FileInputStream("src/main/resources/students2.jrxml"));
-
-        HashMap<String, Object> map = new HashMap<>();
-
-        JasperPrint report = JasperFillManager.fillReport(compileReport, map, beanCollectionDataSource);
-
-        JasperExportManager.exportReportToPdfFile(report, "students.pdf");
-
-        return "generated.";
+    @GetMapping(path = "report/{stId}/{format}")
+    public String GenerateReport(@PathVariable String format, @PathVariable Long stId) throws JRException, SQLException, FileNotFoundException {
+    return studentService.studentInfo(format, stId);
     }
 
 

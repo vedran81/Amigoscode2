@@ -6,13 +6,18 @@ import com.Amigoscode.enrolment.EnrolmentRepository;
 import com.Amigoscode.enrolment.EnrolmentService;
 import com.Amigoscode.mentor.MentorRepository;
 import com.Amigoscode.subject.SubjectRepository;
+import net.sf.jasperreports.engine.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ResourceUtils;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.*;
 
 
 @Service //govori da se klasa mora instancirati i da je "bean" i na taj način se povezuje s studentService u controlleru
@@ -138,5 +143,40 @@ public class StudentService {
 
     // ------------------------------------
 
+    public String studentInfo(String reportFormat, Long studentId) throws FileNotFoundException, JRException, SQLException {
 
-    }
+        // java.sql.Connection dataSource = new() {
+
+
+        //load file and compile it
+        File file = ResourceUtils.getFile("src\\main\\resources\\studentInfo.jrxml");
+        JasperReport jasperReportSubject = JasperCompileManager.compileReport(file.getAbsolutePath());
+        Map<String, Object> parameters = new HashMap<>();
+        parameters.put("student_id", studentId);
+        Connection dataSource = null;
+
+
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        dataSource = DriverManager.getConnection("jdbc:mariadb://localhost:3306/amigo", "root", "ROOT");
+
+
+        //dataSource = DriverManager.("dbc:mariadb://localhost:3306/amigo");
+
+
+        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource);
+        String path = "C:\\Users\\vse20\\OneDrive\\Desktop\\Reports";
+        if (reportFormat.equalsIgnoreCase("html")) {
+            JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\studentInfo.html");
+        }
+        if (reportFormat.equalsIgnoreCase("pdf")) {
+            JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\studentInfo.pdf");
+        }
+
+
+        return"Report generated in path: "+path;
+}
+}
