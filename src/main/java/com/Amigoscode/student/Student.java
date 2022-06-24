@@ -120,17 +120,5 @@ public class Student {
         this.studyYear = studyYear;
     }
 
-   /* @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", age=" + age +
-                ", studentStatus='" + status + '\'' +
-                ", yearOfEnrollment=" + studyYear +
-                '}';
-    }*/
+
 }

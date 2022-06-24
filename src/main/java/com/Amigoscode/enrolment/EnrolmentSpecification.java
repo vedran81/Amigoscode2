@@ -26,4 +26,10 @@ public class EnrolmentSpecification extends EntitySpecification<Enrolment> {
 
         return generateSpecification();
     }
+
+    public Specification<Enrolment> allByStudent(Long stId) {
+        addCriteria(JoinEnum.STUDENT, PropertyEnum.ID, stId, SearchOperation.EQUAL);
+
+        return generateSpecification();
+    }
 }

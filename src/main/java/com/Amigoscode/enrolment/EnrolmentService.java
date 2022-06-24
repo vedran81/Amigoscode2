@@ -1,6 +1,7 @@
 package com.Amigoscode.enrolment;
 
 
+import com.Amigoscode.datautils.DataCreatorController;
 import com.Amigoscode.student.Student;
 import com.Amigoscode.student.StudentRepository;
 import com.Amigoscode.subject.Subject;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
 
-import static com.Amigoscode.datautils.DataCreatorController.crand;
+
 
 
 @Service
@@ -40,9 +41,9 @@ public class EnrolmentService {
     }
 
     public void gradeEnrolment(Long enrId, Integer grade) {
-        Enrolment e = enrolmentRepository.findMentorById(enrId);
+        Enrolment e = enrolmentRepository.findEnrolmentById(enrId);
         e.setGrade(grade);
-        e.setGradeTimeStamp(LocalDate.now().minusDays(crand.nextInt(60)));
+        e.setGradeTimeStamp(LocalDate.now().minusDays(DataCreatorController.crand.nextInt(60)));
         enrolmentRepository.save(e);
     }
 
@@ -90,6 +91,7 @@ public class EnrolmentService {
     }
 
     public List<Enrolment> allByStudent(Long stId) {
-        return enrolmentRepository.findByStudent_Id(stId);
+        EnrolmentSpecification enSpec = new EnrolmentSpecification();
+        return enrolmentRepository.findAll(enSpec.allByStudent(stId));
     }
 }
