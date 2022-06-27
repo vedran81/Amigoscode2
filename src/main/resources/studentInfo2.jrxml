@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="studentInfo" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="67490c93-30b0-4ad6-9de9-f9f5a5b40e13">
-	<property name="com.jaspersoft.studio.data.sql.tables">
-		<![CDATA[YW1pZ28uc3R1ZGVudCBBUyAsNjUsMTUsNmM5MTg0YzQtMDFlNS00NDI2LTkyNDQtMDYyMmM0ZTJk
-MzUyOwkJRlJPTSwxNSwxMjYsMjVhOGU5ODAtNjE0MS00MDcyLWFkMGMtMWUwMjFhNmY2OTQzO2Ft
-aWdvLmVucm9sbWVudCBBUyAsMjA0LDQwLDUyNjQ4NDg3LTJiN2QtNDk0NC1hZGQ1LTJhOGFiYWVl
-YzE5Mzs=]]>
-	</property>
+<jasperReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://jasperreports.sourceforge.net/jasperreports" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="studentInfo" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="67490c93-30b0-4ad6-9de9-f9f5a5b40e13">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Maria - amigo"/>
 	<parameter name="student_id" class="java.lang.String" isForPrompting="false">
-		<defaultValueExpression><![CDATA[49]]></defaultValueExpression>
+		<defaultValueExpression><![CDATA[200
+]]></defaultValueExpression>
 	</parameter>
 	<queryString language="SQL">
 		<![CDATA[SELECT amigo.student.email,
@@ -21,7 +17,7 @@ YzE5Mzs=]]>
 	amigo.enrolment.grade
 FROM 
 	amigo.enrolment
-	JOIN amigo.student ON 
+	LEFT JOIN amigo.student ON
 	 amigo.enrolment.student_id = amigo.student.id 
 WHERE 
 	 amigo.student.id = $P{student_id}]]>
