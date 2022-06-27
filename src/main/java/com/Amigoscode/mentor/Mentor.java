@@ -1,10 +1,6 @@
 package com.Amigoscode.mentor;
 
-import com.Amigoscode.student.Student;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-
 import javax.persistence.*;
-import java.util.Set;
 
 //@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @Entity
@@ -75,7 +71,7 @@ public class Mentor {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.email = email.toLowerCase();
     }
 
 }

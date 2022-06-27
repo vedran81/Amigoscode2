@@ -11,11 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
+import javax.sql.DataSource;
 import javax.transaction.Transactional;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.*;
 
@@ -28,6 +27,9 @@ public class StudentService {
     private final SubjectRepository subjectRepository;
     private final EnrolmentRepository enrolmentRepository;
     private final EnrolmentService enrolmentService;
+
+    @Autowired
+    private DataSource dataSource;
 
     @Autowired
     public StudentService(StudentRepository studentRepository, MentorRepository mentorRepository, SubjectRepository subjectRepository, EnrolmentRepository enrolmentRepository, EnrolmentService enrolmentService) {
@@ -149,34 +151,21 @@ public class StudentService {
 
 
         //load file and compile it
-        File file = ResourceUtils.getFile("src\\main\\resources\\studentInfo.jrxml");
+        File file = ResourceUtils.getFile("classpath:\\studentInfo.jrxml");
         JasperReport jasperReportSubject = JasperCompileManager.compileReport(file.getAbsolutePath());
         Map<String, Object> parameters = new HashMap<>();
         parameters.put("student_id", studentId);
-        Connection dataSource = null;
 
-
-        try {
-            Class.forName("org.mariadb.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        dataSource = DriverManager.getConnection("jdbc:mariadb://localhost:3306/amigo", "root", "ROOT");
-
-
-        //dataSource = DriverManager.("dbc:mariadb://localhost:3306/amigo");
-
-
-        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource);
-        String path = "C:\\Users\\vse20\\OneDrive\\Desktop\\Reports";
+        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource.getConnection());
+        String path = System.getProperty("user.home") + File.separator + "Desktop" + File.separator +"Reports";
         if (reportFormat.equalsIgnoreCase("html")) {
             JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\studentInfo.html");
-        }
+        } else
         if (reportFormat.equalsIgnoreCase("pdf")) {
             JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\studentInfo.pdf");
-        }
+        } else { return "Unsupported format " + reportFormat;}
 
 
-        return"Report generated in path: "+path;
-}
+        return "Report generated in path: " + path;
+    }
 }

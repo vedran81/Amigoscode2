@@ -39,13 +39,13 @@ public class RequestCache {
     @Column(columnDefinition = "LONGTEXT")
     private String reqResult;
 
-    private LocalDateTime updatedTS;
+    private LocalDateTime lastUpdateTS;
 
-    public LocalDateTime getUpdatedTS() {
-        return updatedTS;
+    public LocalDateTime getLastUpdateTS() {
+        return lastUpdateTS;
     }
 
-    public void setUpdatedTS(LocalDateTime updatedTS) {
-        this.updatedTS = updatedTS;
+    public void setLastUpdateTS(LocalDateTime lastUpdateTS) {
+        this.lastUpdateTS = lastUpdateTS;
     }
 }

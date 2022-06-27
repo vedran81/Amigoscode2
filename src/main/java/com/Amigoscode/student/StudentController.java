@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -94,11 +95,6 @@ public class StudentController {
     @Scheduled(cron = "*/5 * * * * *")
     public void saveTopStudentGrades() {
         List<Enrolment> enList = enrolmentService.findWithGradesBetween(4, 5);
-        //List<Student> stList = new ArrayList<>();
-
-        //for (Enrolment e : enList) {
-//            stList.add(e.getStudent());
-        //      }
 
         RequestCache rc = new RequestCache();
         String rcname = "top graded students";
@@ -116,6 +112,7 @@ public class StudentController {
 
         rc.setReqName(rcname);
         rc.setReqResult(rcresult);
+        rc.setLastUpdateTS(LocalDateTime.now());
 
         reqCacheRepository.save(rc);
     }
