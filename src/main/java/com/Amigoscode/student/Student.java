@@ -38,7 +38,7 @@ public class Student {
     public Student(String firstName, String lastName, String email, LocalDate dateOfBirth, String status, Integer studyYear) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.email = email;
+        this.email = email.toLowerCase();
         this.dateOfBirth = dateOfBirth;
         this.status = status;
         this.studyYear = studyYear;
@@ -89,7 +89,7 @@ public class Student {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.email = email.toLowerCase();
     }
 
     public LocalDate getDateOfBirth() {

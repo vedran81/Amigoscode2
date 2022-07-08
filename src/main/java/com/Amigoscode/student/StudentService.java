@@ -7,6 +7,7 @@ import com.Amigoscode.enrolment.EnrolmentService;
 import com.Amigoscode.mentor.MentorRepository;
 import com.Amigoscode.subject.SubjectRepository;
 import net.sf.jasperreports.engine.*;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
@@ -145,25 +146,27 @@ public class StudentService {
 
     // ------------------------------------
 
-    public String studentInfo(String reportFormat, Long studentId) throws FileNotFoundException, JRException, SQLException {
+    public String generateStudentInfoReport(@NotNull String reportFormat, Long studentId) throws FileNotFoundException, JRException, SQLException {
 
-        // java.sql.Connection dataSource = new() {
-
-
-        //load file and compile it
         File file = ResourceUtils.getFile("classpath:\\studentInfo.jrxml");
         JasperReport jasperReportSubject = JasperCompileManager.compileReport(file.getAbsolutePath());
         Map<String, Object> parameters = new HashMap<>();
-        parameters.put("student_id", studentId);
-
-        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource.getConnection());
-        String path = System.getProperty("user.home") + File.separator + "Desktop" + File.separator +"Reports";
+        Student st = studentRepository.findStudentById(studentId);
+        parameters.put("infostudent_id", studentId);
+        parameters.put("email", st.getEmail());
+        parameters.put("last_name", st.getLastName());
+        parameters.put("first_name", st.getFirstName());
+        parameters.put("study_year", st.getStudyYear());
+        parameters.put("status", st.getStatus());
+JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource.getConnection());
+        String path = System.getProperty("user.home") + File.separator + "Desktop" + File.separator + "Reports";
         if (reportFormat.equalsIgnoreCase("html")) {
-            JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\studentInfo.html");
-        } else
-        if (reportFormat.equalsIgnoreCase("pdf")) {
-            JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\studentInfo.pdf");
-        } else { return "Unsupported format " + reportFormat;}
+            JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\StudentInfoReport.html");
+        } else if (reportFormat.equalsIgnoreCase("pdf")) {
+            JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\StudentInfoReport.pdf");
+        } else {
+            return "Unsupported format " + reportFormat;
+        }
 
 
         return "Report generated in path: " + path;

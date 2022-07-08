@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
 
-
+import static java.time.LocalDateTime.now;
 
 
 @Service
@@ -43,7 +43,7 @@ public class EnrolmentService {
     public void gradeEnrolment(Long enrId, Integer grade) {
         Enrolment e = enrolmentRepository.findEnrolmentById(enrId);
         e.setGrade(grade);
-        e.setGradeTimeStamp(LocalDate.now().minusDays(DataCreatorController.crand.nextInt(60)));
+        e.setGradeTimeStamp(now().minusDays(DataCreatorController.crand.nextInt(60)));
         enrolmentRepository.save(e);
     }
 
@@ -66,7 +66,7 @@ public class EnrolmentService {
         Enrolment e = new Enrolment();
         e.setStudent(st);
         e.setSubject(su);
-        e.setEnrolTimeStamp(LocalDate.now().withMonth(9));
+        e.setEnrolTimeStamp(now().withMonth(9));
         if (LocalDate.now().getMonth().getValue() < 9) {
             e.setEnrolTimeStamp(e.getEnrolTimeStamp().minusYears(1));
         }

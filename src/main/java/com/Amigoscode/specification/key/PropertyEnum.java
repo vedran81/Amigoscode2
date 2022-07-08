@@ -23,8 +23,8 @@ public enum PropertyEnum {
     SUBJECT("subject"),
     STUDENT("student"),
     GRADE("grade"),
-    GRADE_TS("gradeTimeStamp"),
-    ENROLMENT_LIST("enrolmentList");
+    GRADE_TS("gradeTS");
+
 
     private String name;
 

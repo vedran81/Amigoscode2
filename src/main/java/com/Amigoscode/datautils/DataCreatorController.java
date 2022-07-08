@@ -150,10 +150,10 @@ public class DataCreatorController implements CommandLineRunner {
                     Enrolment enrolment = enrolmentService.addEnrolment(student.getId(), s.getId());
                     System.out.println("LOG---- ...to " + s.getName());
                     // chance to grade each
-                    if (crand.nextInt(100) <= 67) {
+                    if (crand.nextInt(100) <= 85) {
                         System.out.print("LOG---- grading them, too... ");
                         enrolmentService.gradeEnrolment(enrolment.getId(), crand.nextInt(4) + 2);
-                        System.out.println(" - got " + enrolment.getGrade() + ", oh baby");
+                        //System.out.println(" - got " + enrolmentRepository.getById(enrolment.getId()) + ", oh baby");
                     }
                 }
 

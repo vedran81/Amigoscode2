@@ -5,7 +5,9 @@ import com.Amigoscode.student.Student;
 import com.Amigoscode.subject.Subject;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import static java.time.LocalDateTime.now;
 
 @Entity
 @Table(name = "enrolment")
@@ -32,17 +34,11 @@ public class Enrolment {
 
     private Integer grade;
 
-    //@JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    //@JsonSerialize(using = LocalDateTimeSerializer.class)
-    //@DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
-    //@JsonFormat(pattern = "yyyy-dd-MM")
-    private LocalDate enrolTimeStamp;
 
-    //@JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    //@JsonSerialize(using = LocalDateTimeSerializer.class)
-    //@DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
-    //@JsonFormat(pattern = "yyyy-dd-MM")
-    private LocalDate gradeTimeStamp;
+    private LocalDateTime enrolTimeStamp;
+
+
+    private LocalDateTime gradeTimeStamp;
 
 
     public Enrolment() {
@@ -53,12 +49,12 @@ public class Enrolment {
     }
 
     public Integer getGrade() {
-        return grade;
+        return this.grade;
     }
 
     public void setGrade(Integer grade) {
         this.grade = grade;
-        this.gradeTimeStamp = LocalDate.now();
+        this.gradeTimeStamp = now();
     }
 
     public Student getStudent() {
@@ -80,19 +76,19 @@ public class Enrolment {
         return subject;
     }
 
-    public LocalDate getEnrolTimeStamp() {
+    public LocalDateTime getEnrolTimeStamp() {
         return enrolTimeStamp;
     }
 
-    public void setEnrolTimeStamp(LocalDate enrolTimeStamp) {
+    public void setEnrolTimeStamp(LocalDateTime enrolTimeStamp) {
         this.enrolTimeStamp = enrolTimeStamp;
     }
 
-    public LocalDate getGradeTimeStamp() {
+    public LocalDateTime getGradeTimeStamp() {
         return gradeTimeStamp;
     }
 
-    public void setGradeTimeStamp(LocalDate gradeTimeStamp) {
+    public void setGradeTimeStamp(LocalDateTime gradeTimeStamp) {
         this.gradeTimeStamp = gradeTimeStamp;
     }
 }

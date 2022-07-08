@@ -1,21 +1,13 @@
 package com.Amigoscode.student;
 
-import com.Amigoscode.datautils.ReqResult;
-import com.Amigoscode.enrolment.Enrolment;
 import com.Amigoscode.enrolment.EnrolmentService;
-import com.Amigoscode.reqcache.ReqCacheRepository;
-import com.Amigoscode.reqcache.RequestCache;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
-import java.time.LocalDateTime;
-import java.util.IntSummaryStatistics;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(path = "api/student")
@@ -23,14 +15,14 @@ public class StudentController {
 
     private final StudentService studentService;
     private final EnrolmentService enrolmentService;
-    private final ReqCacheRepository reqCacheRepository;
+  //  private final ReqCacheRepository reqCacheRepository;
 
 
     @Autowired //govori da p^^s trebaju biti "autowired" u konstruktor
-    public StudentController(StudentService studentService, EnrolmentService enrolmentService, ReqCacheRepository reqCacheRepository) {
+    public StudentController(StudentService studentService, EnrolmentService enrolmentService /*ReqCacheRepository reqCacheRepository*/) {
         this.studentService = studentService;
         this.enrolmentService = enrolmentService;
-        this.reqCacheRepository = reqCacheRepository;
+    //    this.reqCacheRepository = reqCacheRepository;
     }
 
     @GetMapping
@@ -40,7 +32,7 @@ public class StudentController {
 
     @GetMapping(path = "report/{stId}/{format}")
     public String GenerateReport(@PathVariable String format, @PathVariable Long stId) throws JRException, SQLException, FileNotFoundException {
-    return studentService.studentInfo(format, stId);
+    return studentService.generateStudentInfoReport(format, stId);
     }
 
 
@@ -86,56 +78,56 @@ public class StudentController {
         return studentService.findStudentsWithSubject(subjectId);
     }
 
-    @GetMapping(path = "students_graded_between")
-    public List<Student> findWithGradesBetween(Integer gradeLow, Integer gradeHigh) {
+//    @GetMapping(path = "students_graded_between")
+//    public List<Student> findWithGradesBetween(Integer gradeLow, Integer gradeHigh) {
+//
+//        return studentService.findWithGradeBetween(gradeLow, gradeHigh);
+//    }
 
-        return studentService.findWithGradeBetween(gradeLow, gradeHigh);
-    }
+//    @Scheduled(cron = "*/5 * * * * *")
+//    public void saveTopStudentGrades() {
+//        List<Enrolment> enList = enrolmentService.findWithGradesBetween(4, 5);
+//
+//        RequestCache rc = new RequestCache();
+//        String rcname = "top graded students";
+//        String rcresult = "";
+//        Long rcid;
+//        for (Enrolment en : enList) {
+//            rcresult = rcresult + en.getStudent().getLastName() + " " + en.getStudent().getFirstName() + ", " +
+//                    en.getGrade() + " in \"" + en.getSubject().getName() + "\"; ";
+//        }
+//
+//        if (reqCacheRepository.existsByReqName(rcname)) {
+//            rcid = reqCacheRepository.findByReqName(rcname).getId();
+//            rc.setId(rcid);
+//        }
+//
+//        rc.setReqName(rcname);
+//        rc.setReqResult(rcresult);
+//        rc.setLastUpdateTS(LocalDateTime.now());
+//
+//        reqCacheRepository.save(rc);
+//    }
 
-    @Scheduled(cron = "*/5 * * * * *")
-    public void saveTopStudentGrades() {
-        List<Enrolment> enList = enrolmentService.findWithGradesBetween(4, 5);
-
-        RequestCache rc = new RequestCache();
-        String rcname = "top graded students";
-        String rcresult = "";
-        Long rcid;
-        for (Enrolment en : enList) {
-            rcresult = rcresult + en.getStudent().getLastName() + " " + en.getStudent().getFirstName() + ", " +
-                    en.getGrade() + " in \"" + en.getSubject().getName() + "\"; ";
-        }
-
-        if (reqCacheRepository.existsByReqName(rcname)) {
-            rcid = reqCacheRepository.findByReqName(rcname).getId();
-            rc.setId(rcid);
-        }
-
-        rc.setReqName(rcname);
-        rc.setReqResult(rcresult);
-        rc.setLastUpdateTS(LocalDateTime.now());
-
-        reqCacheRepository.save(rc);
-    }
-
-    @GetMapping(path = "student_grades_avg")
-    public ReqResult studentGradesAvg(Long stId) {
-        ReqResult res = new ReqResult("student " + stId + " grades avg", null);
-        List<Enrolment> enList;
-        enList = enrolmentService.allByStudent(stId);
-
-        IntSummaryStatistics stats = new IntSummaryStatistics();
-
-        stats = enList.stream().map(Enrolment::getGrade).collect(Collectors.summarizingInt(integer -> integer));
-
-        stats = enList.stream().collect(Collectors.summarizingInt(Enrolment::getGrade));
-
-
-
-        //stats = enList.stream().collect(Collectors.summarizingInt(Enrolment::getGrade));
-        res.setValue(String.valueOf(stats.getAverage()));
-
-        return res;
-    }
+//    @GetMapping(path = "student_grades_avg")
+//    public ReqResult studentGradesAvg(Long stId) {
+//        ReqResult res = new ReqResult("student " + stId + " grades avg", null);
+//        List<Enrolment> enList;
+//        enList = enrolmentService.allByStudent(stId);
+//
+//        IntSummaryStatistics stats = new IntSummaryStatistics();
+//
+//        stats = enList.stream().map(Enrolment::getGrade).collect(Collectors.summarizingInt(integer -> integer));
+//
+//        stats = enList.stream().collect(Collectors.summarizingInt(Enrolment::getGrade));
+//
+//
+//
+//        //stats = enList.stream().collect(Collectors.summarizingInt(Enrolment::getGrade));
+//        res.setValue(String.valueOf(stats.getAverage()));
+//
+//        return res;
+//    }
 }
 
 

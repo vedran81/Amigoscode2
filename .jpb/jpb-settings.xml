@@ -3,4 +3,5 @@
   <component name="DatabaseMigrationSettings">
     <pkConstraintName name="pkConstraintName" />
   </component>
+  <component name="JpaPluginProjectSettings" dtoSerializableType="2" useLombokDto="false" />
 </project>
