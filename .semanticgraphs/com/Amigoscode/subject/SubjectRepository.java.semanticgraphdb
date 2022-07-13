@@ -1,38 +1,40 @@
 
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.javaù
-(com.Amigoscode.subject.SubjectRepositoryTRAIT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.javaï¿½
+(com.Edu.subject.SubjectRepositoryTRAIT]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 	(""!
 packagecom.Amigoscode.subject"
 isFinalfalse"
 inner classfalse"
 
-isAbstractfalse"¨
-declarationString’<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>SubjectRepository<mark class="modifier"> extends </mark>JpaRepository<Subject, Long><mark class="modifier">,</mark> JpaSpecificationExecutor<Subject>"
-accesspublic*SubjectRepository2³
+isAbstractfalse"ï¿½
+declarationStringï¿½<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>SubjectRepository<mark class="modifier"> extends </mark>JpaRepository<Subject, Long><mark class="modifier">,</mark> JpaSpecificationExecutor<Subject>"
+accesspublic*SubjectRepository2ï¿½
 Ecom.Amigoscode.subject.SubjectRepository.findByName(java.lang.String)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2´
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
 Fcom.Amigoscode.subject.SubjectRepository.findByYear(java.lang.Integer)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2µ
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+ 
+(2ï¿½
 Gcom.Amigoscode.subject.SubjectRepository.countByYear(java.lang.Integer)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (2Í
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (2ï¿½
 _com.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (#2Ï
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (#2ï¿½
 acom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2±
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
 Ccom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2¶
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
 Hcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)DECLARATION]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ž
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
 5org.springframework.data.jpa.repository.JpaRepositoryEXTEND]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	+ 	(82©
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	+ 	(82ï¿½
 @org.springframework.data.jpa.repository.JpaSpecificationExecutorEXTEND]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	J 	(b2•
-com.Amigoscode.subject.SubjectEXTEND_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	9 	(@2…
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	J 	(b2ï¿½
+com.Edu.subject.SubjectEXTEND_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	9 	(@2ï¿½
 java.lang.LongEXTEND_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	B 	(F2•
-com.Amigoscode.subject.SubjectEXTEND_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	c 	(jò
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	B 	(F2ï¿½
+com.Edu.subject.SubjectEXTEND_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	c 	(jï¿½
 Ecom.Amigoscode.subject.SubjectRepository.findByName(java.lang.String)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
 isFinalfalse"{
@@ -41,145 +43,160 @@ SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.
 accesspackage_private"
 
 isAbstractfalse"
-typeList<Subject>*
-findByName2¶
+type
+List<Subject>*
+findByName2ï¿½
 Jcom.Amigoscode.subject.SubjectRepository.findByName(java.lang.String)!name	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java$ ((2|
 java.util.ListRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2•
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (ù
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (ï¿½
 Jcom.Amigoscode.subject.SubjectRepository.findByName(java.lang.String)!name	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java$ (("
 typeString"
 isFinalfalse" 
 declarationStringString name*name2w
 java.lang.StringTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (#õ
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (#ï¿½
 Fcom.Amigoscode.subject.SubjectRepository.findByYear(java.lang.Integer)METHOD]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+ 
+("
 isFinalfalse"|
 declarationStringg<mark class="modifier"> </mark>List&lt;Subject&gt; <mark class="method">findByYear</mark>(Integer year)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
-typeList<Subject>*
-findByYear2·
+type
+List<Subject>*
+findByYear2ï¿½
 Kcom.Amigoscode.subject.SubjectRepository.findByYear(java.lang.Integer)!year	PARAMETER]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java% ()2|
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+% 
+()2|
 java.util.ListRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2•
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (ý
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+ 
+(2ï¿½
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+	 
+(ï¿½
 Kcom.Amigoscode.subject.SubjectRepository.findByYear(java.lang.Integer)!year	PARAMETER]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java% ()"
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+% 
+()"
 typeInteger"
 isFinalfalse"!
 declarationStringInteger year*year2x
 java.lang.IntegerTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ($Þ
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java
+ 
+($ï¿½
 Gcom.Amigoscode.subject.SubjectRepository.countByYear(java.lang.Integer)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 ("
-isFinalfalse"Œ
+isFinalfalse"ï¿½
 declarationStringw<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="method">countByYear</mark>(Integer year)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
-typelong*countByYear2¸
+typelong*countByYear2ï¿½
 Lcom.Amigoscode.subject.SubjectRepository.countByYear(java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (!2r
 longRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (þ
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½
 Lcom.Amigoscode.subject.SubjectRepository.countByYear(java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (!"
 typeInteger"
 isFinalfalse"!
 declarationStringInteger year*year2x
 java.lang.IntegerTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (Ó	
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½	
 _com.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (#"
-isFinalfalse"Í
-declarationString·<mark class="modifier"> </mark>List&lt;Subject&gt; <mark class="method">findByNameAndYear</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year)"
+isFinalfalse"ï¿½
+declarationStringï¿½<mark class="modifier"> </mark>List&lt;Subject&gt; <mark class="method">findByNameAndYear</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
-typeList<Subject>*findByNameAndYear2Ð
+type
+List<Subject>*findByNameAndYear2ï¿½
 dcom.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)!name	PARAMETER]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java+ (/2Ð
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java+ (/2ï¿½
 dcom.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java9 (=2|
 java.util.ListRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2•
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENT]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (“
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2ï¿½
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENT]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java	 (ï¿½
 dcom.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)!name	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java+ (/"
 typeString"
 isFinalfalse" 
 declarationStringString name*name2w
 java.lang.StringTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java$ (*–
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java$ (*ï¿½
 dcom.Amigoscode.subject.SubjectRepository.findByNameAndYear(java.lang.String, java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java9 (="
 typeInteger"
 isFinalfalse"!
 declarationStringInteger year*year2x
 java.lang.IntegerTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java1 (8Ê
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java1 (8ï¿½
 acom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
-isFinalfalse"á
-declarationStringË<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsByNameAndYear</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year)"
+isFinalfalse"ï¿½
+declarationStringï¿½<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsByNameAndYear</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Integer year)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
-typeboolean*existsByNameAndYear2Ò
+typeboolean*existsByNameAndYear2ï¿½
 fcom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)!name	PARAMETER]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java' (+2Ò
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java' (+2ï¿½
 fcom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java5 (92u
 booleanRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (•
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½
 fcom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)!name	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java' (+"
 typeString"
 isFinalfalse" 
 declarationStringString name*name2w
 java.lang.StringTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java  (&˜
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java  (&ï¿½
 fcom.Amigoscode.subject.SubjectRepository.existsByNameAndYear(java.lang.String, java.lang.Integer)!year	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java5 (9"
 typeInteger"
 isFinalfalse"!
 declarationStringInteger year*year2x
 java.lang.IntegerTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java- (4Ö
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java- (4ï¿½
 Ccom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
-isFinalfalse"‰
+isFinalfalse"ï¿½
 declarationStringt<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsById</mark>(Long id)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
 typeboolean*
-existsById2²
+existsById2ï¿½
 Fcom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)!id	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (2u
 booleanRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ë
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½
 Fcom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)!id	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
 typeLong"
 isFinalfalse"
 declarationStringLong id*id2u
 java.lang.LongTYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ã
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½
 Hcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)METHOD]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java ("
 isFinalfalse"p
@@ -188,11 +205,11 @@ SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.
 accesspackage_private"
 
 isAbstractfalse"
-typeSubject*findSubjectById2·
+typeSubject*findSubjectById2ï¿½
 Kcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)!id	PARAMETER]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java! (#2Œ
-com.Amigoscode.subject.SubjectRETURN_TYPE]
-SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ð
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java! (#2ï¿½
+com.Edu.subject.SubjectRETURN_TYPE]
+SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java (ï¿½
 Kcom.Amigoscode.subject.SubjectRepository.findSubjectById(java.lang.Long)!id	PARAMETER]
 SF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectRepository.java! (#"
 typeLong"

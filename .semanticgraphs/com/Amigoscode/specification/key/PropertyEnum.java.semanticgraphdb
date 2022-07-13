@@ -1,90 +1,93 @@
 
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.javaÊ
--com.Amigoscode.specification.key.PropertyEnumENUMb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.javaÔøΩ
+-com.Edu.specification.key.PropertyEnumENUMb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("D
-declarationString/<mark class="modifier">enum </mark>PropertyEnum*PropertyEnum2ø
+declarationString/<mark class="modifier">enum </mark>PropertyEnum*PropertyEnum2ÔøΩ
 Lcom.Amigoscode.specification.key.PropertyEnum.PropertyEnum(java.lang.String)DECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2´
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum.toString()DECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java! !(2±
->com.Amigoscode.specification.key.PropertyEnum?name@27.19:27.23DECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2£
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java! !(2ÔøΩ
+>com.Edu.specification.key.PropertyEnum?name@27.19:27.23DECLARATIONb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 0com.Amigoscode.specification.key.PropertyEnum?IDDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2•
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 2com.Amigoscode.specification.key.PropertyEnum?NAMEDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2•
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 2com.Amigoscode.specification.key.PropertyEnum?YEARDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2´
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?STUDY_YEARDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2´
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?NAME_FIRSTDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2™
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 7com.Amigoscode.specification.key.PropertyEnum?NAME_LASTDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2¶
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (
+2ÔøΩ
 3com.Amigoscode.specification.key.PropertyEnum?EMAILDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	2´
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	2ÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?ENROLMENTSDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2®
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 5com.Amigoscode.specification.key.PropertyEnum?SUBJECTDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2®
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 5com.Amigoscode.specification.key.PropertyEnum?STUDENTDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2¶
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
 3com.Amigoscode.specification.key.PropertyEnum?GRADEDECLARATIONb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	Ø
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	ÔøΩ
 0com.Amigoscode.specification.key.PropertyEnum?IDVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*ID≥
+enumtrue*IDÔøΩ
 2com.Amigoscode.specification.key.PropertyEnum?NAMEVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*NAME≥
+enumtrue*NAMEÔøΩ
 2com.Amigoscode.specification.key.PropertyEnum?YEARVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*YEARø
+enumtrue*YEARÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?STUDY_YEARVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
 enumtrue*
-STUDY_YEARø
+STUDY_YEARÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?NAME_FIRSTVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
 enumtrue*
-NAME_FIRSTΩ
+NAME_FIRSTÔøΩ
 7com.Amigoscode.specification.key.PropertyEnum?NAME_LASTVALUEb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*	NAME_LASTµ
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (
+"
+enumtrue*	NAME_LASTÔøΩ
 3com.Amigoscode.specification.key.PropertyEnum?EMAILVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	"
-enumtrue*EMAILø
+enumtrue*EMAILÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum?ENROLMENTSVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
 enumtrue*
-ENROLMENTSπ
+ENROLMENTSÔøΩ
 5com.Amigoscode.specification.key.PropertyEnum?SUBJECTVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*SUBJECTπ
+enumtrue*SUBJECTÔøΩ
 5com.Amigoscode.specification.key.PropertyEnum?STUDENTVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
-enumtrue*STUDENTµ
+enumtrue*STUDENTÔøΩ
 3com.Amigoscode.specification.key.PropertyEnum?GRADEVALUEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (	"
-enumtrue*GRADEç
+enumtrue*GRADEÔøΩ
 Lcom.Amigoscode.specification.key.PropertyEnum.PropertyEnum(java.lang.String)CONSTRUCTORb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("i
-declarationStringT<mark class="modifier"> </mark><mark class="method">PropertyEnum</mark>(String name)*PropertyEnum2Ω
+declarationStringT<mark class="modifier"> </mark><mark class="method">PropertyEnum</mark>(String name)*PropertyEnum2ÔøΩ
 Qcom.Amigoscode.specification.key.PropertyEnum.PropertyEnum(java.lang.String)!nameCALLb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2™
->com.Amigoscode.specification.key.PropertyEnum?name@27.19:27.23CALLb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2¬
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
+>com.Edu.specification.key.PropertyEnum?name@27.19:27.23CALLb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java
+ (2ÔøΩ
 Qcom.Amigoscode.specification.key.PropertyEnum.PropertyEnum(java.lang.String)!name	PARAMETERb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2†
--com.Amigoscode.specification.key.PropertyEnumRETURN_TYPEb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (ä
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (2ÔøΩ
+-com.Edu.specification.key.PropertyEnumRETURN_TYPEb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (ÔøΩ
 Qcom.Amigoscode.specification.key.PropertyEnum.PropertyEnum(java.lang.String)!name	PARAMETERb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
 typeString"
 isFinalfalse" 
 declarationStringString name*name2|
 java.lang.StringTYPEb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (®
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java (ÔøΩ
 8com.Amigoscode.specification.key.PropertyEnum.toString()METHODb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java! !("
 isFinalfalse"g
@@ -93,12 +96,12 @@ XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\Property
 accesspublic"
 
 isAbstractfalse"
-typeString*toString2™
->com.Amigoscode.specification.key.PropertyEnum?name@27.19:27.23CALLb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java" "(2É
+typeString*toString2ÔøΩ
+>com.Edu.specification.key.PropertyEnum?name@27.19:27.23CALLb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java" "(2ÔøΩ
 java.lang.StringRETURN_TYPEb
-XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java! !(„
->com.Amigoscode.specification.key.PropertyEnum?name@27.19:27.23VARIABLEb
+XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java! !(ÔøΩ
+>com.Edu.specification.key.PropertyEnum?name@27.19:27.23VARIABLEb
 XF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\PropertyEnum.java ("
 isFinalfalse"
 typeString"g

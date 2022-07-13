@@ -1,176 +1,186 @@
 
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java¢'
-+com.Amigoscode.student.StudentUpdateRequestCLASS`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (!"!
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ'
++com.Edu.student.StudentUpdateRequestCLASS`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (!"!
 packagecom.Amigoscode.student"
 isFinalfalse"
 inner classfalse"
 
 isAbstractfalse"r
 declarationString]<mark class="modifier">public </mark><mark class="modifier">class </mark>StudentUpdateRequest"
-accesspublic*StudentUpdateRequest2≈
-”com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2´
-:com.Amigoscode.student.StudentUpdateRequest.getStudyYear()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2º
+accesspublic*StudentUpdateRequest2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+:com.Edu.student.StudentUpdateRequest.getStudyYear()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
 Kcom.Amigoscode.student.StudentUpdateRequest.setStudyYear(java.lang.Integer)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2§
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
 3com.Amigoscode.student.StudentUpdateRequest.getId()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java! !(2≤
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java! !(2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest.setId(java.lang.Long)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(2´
-:com.Amigoscode.student.StudentUpdateRequest.getFirstName()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) )(2ª
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(2ÔøΩ
+:com.Edu.student.StudentUpdateRequest.getFirstName()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) )(2ÔøΩ
 Jcom.Amigoscode.student.StudentUpdateRequest.setFirstName(java.lang.String)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(2™
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(2ÔøΩ
 9com.Amigoscode.student.StudentUpdateRequest.getLastName()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java1 1(2∫
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java1 1(2ÔøΩ
 Icom.Amigoscode.student.StudentUpdateRequest.setLastName(java.lang.String)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5(2ß
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5(2ÔøΩ
 6com.Amigoscode.student.StudentUpdateRequest.getEmail()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java9 9(2∑
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java9 9(2ÔøΩ
 Fcom.Amigoscode.student.StudentUpdateRequest.setEmail(java.lang.String)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(2≠
-<com.Amigoscode.student.StudentUpdateRequest.getDateOfBirth()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaA A(#2¿
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(2ÔøΩ
+<com.Edu.student.StudentUpdateRequest.getDateOfBirth()DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaA A(#2ÔøΩ
 Ocom.Amigoscode.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E(2•
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E(2ÔøΩ
 4com.Amigoscode.student.StudentUpdateRequest.getAge()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaI I(2∂
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaI I(2ÔøΩ
 Ecom.Amigoscode.student.StudentUpdateRequest.setAge(java.lang.Integer)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(2®
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(2ÔøΩ
 7com.Amigoscode.student.StudentUpdateRequest.getStatus()DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaQ Q(2∏
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaQ Q(2ÔøΩ
 Gcom.Amigoscode.student.StudentUpdateRequest.setStatus(java.lang.String)DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U(2©
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U(2ÔøΩ
 8com.Amigoscode.student.StudentUpdateRequest?id@5.17:5.19DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2∞
-?com.Amigoscode.student.StudentUpdateRequest?firstName@6.19:6.28DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2Ø
->com.Amigoscode.student.StudentUpdateRequest?lastName@7.19:7.27DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2¨
-;com.Amigoscode.student.StudentUpdateRequest?email@8.19:8.24DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2≤
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+?com.Edu.student.StudentUpdateRequest?firstName@6.19:6.28DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?lastName@7.19:7.27DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?email@8.19:8.24DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?dateOfBirth@9.22:9.33DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java	 	(!2¨
-;com.Amigoscode.student.StudentUpdateRequest?age@10.20:10.23DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java	 	(!2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?age@10.20:10.23DECLARATION`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
  
-(2Ø
->com.Amigoscode.student.StudentUpdateRequest?status@11.19:11.25DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2≤
+(2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?status@11.19:11.25DECLARATION`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?studyYear@12.20:12.29DECLARATION`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (™=
-”com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)CONSTRUCTOR`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("ñ
-declarationStringÄ<mark class="modifier">public </mark><mark class="method">StudentUpdateRequest</mark>(Long id<mark class="modifier"><mark class="modifier">,</mark></mark> String firstName<mark class="modifier"><mark class="modifier">,</mark></mark> String lastName<mark class="modifier"><mark class="modifier">,</mark></mark> String email<mark class="modifier"><mark class="modifier">,</mark></mark> LocalDate dateOfBirth<mark class="modifier"><mark class="modifier">,</mark></mark> Integer age<mark class="modifier"><mark class="modifier">,</mark></mark> String studentStatus<mark class="modifier"><mark class="modifier">,</mark></mark> Integer studyYear)*StudentUpdateRequest2¡
-÷com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!idCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2»
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstNameCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2«
-‹com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastNameCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ( 2ƒ
-Ÿcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!emailCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2 
-ﬂcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirthCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (&2¬
-◊com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!ageCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2Ã
-·com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatusCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (#2»
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYearCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2¢
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ=
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)CONSTRUCTOR`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="method">StudentUpdateRequest</mark>(Long id<mark class="modifier"><mark class="modifier">,</mark></mark> String firstName<mark class="modifier"><mark class="modifier">,</mark></mark> String lastName<mark class="modifier"><mark class="modifier">,</mark></mark> String email<mark class="modifier"><mark class="modifier">,</mark></mark> LocalDate dateOfBirth<mark class="modifier"><mark class="modifier">,</mark></mark> Integer age<mark class="modifier"><mark class="modifier">,</mark></mark> String studentStatus<mark class="modifier"><mark class="modifier">,</mark></mark> Integer studyYear)*StudentUpdateRequest2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!idCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstNameCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastNameCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ( 2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!emailCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirthCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (&2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!ageCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatusCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (#2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYearCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2ÔøΩ
 8com.Amigoscode.student.StudentUpdateRequest?id@5.17:5.19CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2©
-?com.Amigoscode.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2®
->com.Amigoscode.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2•
-;com.Amigoscode.student.StudentUpdateRequest?email@8.19:8.24CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2´
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+?com.Edu.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?email@8.19:8.24CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?dateOfBirth@9.22:9.33CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2•
-;com.Amigoscode.student.StudentUpdateRequest?age@10.20:10.23CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2®
->com.Amigoscode.student.StudentUpdateRequest?status@11.19:11.25CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2´
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?age@10.20:10.23CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?status@11.19:11.25CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?studyYear@12.20:12.29CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2∆
-÷com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!id	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% ('2Õ
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstName	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java0 (92Ã
-‹com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastName	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaB (J2…
-Ÿcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!email	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaS (X2œ
-ﬂcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirth	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javad (o2«
-◊com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!age	PARAMETER`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javay (|2”
-·com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatus	PARAMETERb
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÖ (í2œ
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYear	PARAMETERb
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaú (•2ú
-+com.Amigoscode.student.StudentUpdateRequestRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (Ç
-÷com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!id	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!id	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% ('2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstName	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java0 (92ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastName	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaB (J2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!email	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaS (X2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirth	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javad (o2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!age	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javay (|2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatus	PARAMETERb
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ (ÔøΩ2ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYear	PARAMETERb
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ (ÔøΩ2ÔøΩ
++com.Edu.student.StudentUpdateRequestRETURN_TYPE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!id	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% ('"
 typeLong"
 isFinalfalse"
 declarationStringLong id*id2x
 java.lang.LongTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java  ($ù
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstName	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java  ($ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!firstName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java0 (9"
 typeString"
 isFinalfalse"%
 declarationStringString firstName*	firstName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) (/ö
-‹com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastName	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) (/ÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!lastName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaB (J"
 typeString"
 isFinalfalse"$
 declarationStringString lastName*lastName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java; (Aë
-Ÿcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!email	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java; (AÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!email	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaS (X"
 typeString"
 isFinalfalse"!
 declarationStringString email*email2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaL (R¨
-ﬂcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirth	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaL (RÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!dateOfBirth	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javad (o"
 type	LocalDate"
 isFinalfalse"*
 declarationStringLocalDate dateOfBirth*dateOfBirth2}
 java.time.LocalDateTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaZ (cé
-◊com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!age	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaZ (cÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!age	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javay (|"
 typeInteger"
 isFinalfalse" 
 declarationStringInteger age*age2{
 java.lang.IntegerTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaq (x¨
-·com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatus	PARAMETERb
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÖ (í"
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaq (xÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studentStatus	PARAMETERb
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ (ÔøΩ"
 typeString"
 isFinalfalse")
-declarationStringString studentStatus*studentStatus2{
+declarationStringString studentStatus*
+studentStatus2{
 java.lang.StringTYPEa
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java~ (Ñ§
-›com.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYear	PARAMETERb
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaú (•"
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java~ (ÔøΩÔøΩ
+ÔøΩcom.Amigoscode.student.StudentUpdateRequest.StudentUpdateRequest(java.lang.Long, java.lang.String, java.lang.String, java.lang.String, java.time.LocalDate, java.lang.Integer, java.lang.String, java.lang.Integer)!studyYear	PARAMETERb
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ (ÔøΩ"
 typeInteger"
 isFinalfalse"&
 declarationStringInteger studyYear*	studyYear2}
 java.lang.IntegerTYPEb
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaî (õ≤
-:com.Amigoscode.student.StudentUpdateRequest.getStudyYear()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaÔøΩ (ÔøΩÔøΩ
+:com.Edu.student.StudentUpdateRequest.getStudyYear()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"l
 declarationStringW<mark class="modifier">public </mark>Integer <mark class="method">getStudyYear</mark>()"
@@ -178,35 +188,36 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeInteger*getStudyYear2´
+typeInteger*getStudyYear2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?studyYear@12.20:12.29CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2Ç
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ÔøΩ
 java.lang.IntegerRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (È
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
 Kcom.Amigoscode.student.StudentUpdateRequest.setStudyYear(java.lang.Integer)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
-isFinalfalse"ô
-declarationStringÉ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStudyYear</mark>(Integer studyYear)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStudyYear</mark>(Integer studyYear)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setStudyYear2ø
+typevoid*setStudyYear2ÔøΩ
 Ucom.Amigoscode.student.StudentUpdateRequest.setStudyYear(java.lang.Integer)!studyYearCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2´
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?studyYear@12.20:12.29CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (2ƒ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
+ (2ÔøΩ
 Ucom.Amigoscode.student.StudentUpdateRequest.setStudyYear(java.lang.Integer)!studyYear	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% (.2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ó
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
 Ucom.Amigoscode.student.StudentUpdateRequest.setStudyYear(java.lang.Integer)!studyYear	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% (."
 typeInteger"
 isFinalfalse"&
 declarationStringInteger studyYear*	studyYear2{
 java.lang.IntegerTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ($ä
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ($ÔøΩ
 3com.Amigoscode.student.StudentUpdateRequest.getId()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java! !("
 isFinalfalse"b
@@ -215,36 +226,37 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeLong*getId2¢
+typeLong*getId2ÔøΩ
 8com.Amigoscode.student.StudentUpdateRequest?id@5.17:5.19CALL`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java" "(2
 java.lang.LongRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java! !(õ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java! !(ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest.setId(java.lang.Long)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %("
-isFinalfalse"á
+isFinalfalse"ÔøΩ
 declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setId</mark>(Long id)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setId2Æ
+typevoid*setId2ÔøΩ
 Dcom.Amigoscode.student.StudentUpdateRequest.setId(java.lang.Long)!idCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java& &(2¢
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java& &(2ÔøΩ
 8com.Amigoscode.student.StudentUpdateRequest?id@5.17:5.19CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java& &(2≥
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java&
+ &(2ÔøΩ
 Dcom.Amigoscode.student.StudentUpdateRequest.setId(java.lang.Long)!id	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(Ô
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(ÔøΩ
 Dcom.Amigoscode.student.StudentUpdateRequest.setId(java.lang.Long)!id	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %("
 typeLong"
 isFinalfalse"
 declarationStringLong id*id2x
 java.lang.LongTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(≠
-:com.Amigoscode.student.StudentUpdateRequest.getFirstName()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java% %(ÔøΩ
+:com.Edu.student.StudentUpdateRequest.getFirstName()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) )("
 isFinalfalse"k
 declarationStringV<mark class="modifier">public </mark>String <mark class="method">getFirstName</mark>()"
@@ -252,35 +264,36 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeString*getFirstName2©
-?com.Amigoscode.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java* *(2Å
+typeString*getFirstName2ÔøΩ
+?com.Edu.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java* *(2ÔøΩ
 java.lang.StringRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) )(„
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java) )(ÔøΩ
 Jcom.Amigoscode.student.StudentUpdateRequest.setFirstName(java.lang.String)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -("
-isFinalfalse"ò
-declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFirstName</mark>(String firstName)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFirstName</mark>(String firstName)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setFirstName2æ
+typevoid*setFirstName2ÔøΩ
 Tcom.Amigoscode.student.StudentUpdateRequest.setFirstName(java.lang.String)!firstNameCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java. .("2©
-?com.Amigoscode.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java. .(2√
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java. .("2ÔøΩ
+?com.Edu.student.StudentUpdateRequest?firstName@6.19:6.28CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java.
+ .(2ÔøΩ
 Tcom.Amigoscode.student.StudentUpdateRequest.setFirstName(java.lang.String)!firstName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java-$ -(-2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(ì
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(ÔøΩ
 Tcom.Amigoscode.student.StudentUpdateRequest.setFirstName(java.lang.String)!firstName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java-$ -(-"
 typeString"
 isFinalfalse"%
 declarationStringString firstName*	firstName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(#©
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java- -(#ÔøΩ
 9com.Amigoscode.student.StudentUpdateRequest.getLastName()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java1 1("
 isFinalfalse"j
@@ -289,35 +302,36 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeString*getLastName2®
->com.Amigoscode.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java2 2(2Å
+typeString*getLastName2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java2 2(2ÔøΩ
 java.lang.StringRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java1 1(⁄
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java1 1(ÔøΩ
 Icom.Amigoscode.student.StudentUpdateRequest.setLastName(java.lang.String)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5("
-isFinalfalse"ñ
-declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLastName</mark>(String lastName)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLastName</mark>(String lastName)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setLastName2º
+typevoid*setLastName2ÔøΩ
 Rcom.Amigoscode.student.StudentUpdateRequest.setLastName(java.lang.String)!lastNameCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java6 6( 2®
->com.Amigoscode.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java6 6(2¡
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java6 6( 2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?lastName@7.19:7.27CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java6
+ 6(2ÔøΩ
 Rcom.Amigoscode.student.StudentUpdateRequest.setLastName(java.lang.String)!lastName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5# 5(+2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5(è
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5(ÔøΩ
 Rcom.Amigoscode.student.StudentUpdateRequest.setLastName(java.lang.String)!lastName	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5# 5(+"
 typeString"
 isFinalfalse"$
 declarationStringString lastName*lastName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5("ù
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java5 5("ÔøΩ
 6com.Amigoscode.student.StudentUpdateRequest.getEmail()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java9 9("
 isFinalfalse"g
@@ -326,36 +340,37 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeString*getEmail2•
-;com.Amigoscode.student.StudentUpdateRequest?email@8.19:8.24CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java: :(2Å
+typeString*getEmail2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?email@8.19:8.24CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java: :(2ÔøΩ
 java.lang.StringRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java9 9(æ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java9 9(ÔøΩ
 Fcom.Amigoscode.student.StudentUpdateRequest.setEmail(java.lang.String)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =("
-isFinalfalse"è
+isFinalfalse"ÔøΩ
 declarationStringz<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEmail</mark>(String email)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setEmail2∂
+typevoid*setEmail2ÔøΩ
 Lcom.Amigoscode.student.StudentUpdateRequest.setEmail(java.lang.String)!emailCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java> >(2•
-;com.Amigoscode.student.StudentUpdateRequest?email@8.19:8.24CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java> >(2ª
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java> >(2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?email@8.19:8.24CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java>
+ >(2ÔøΩ
 Lcom.Amigoscode.student.StudentUpdateRequest.setEmail(java.lang.String)!email	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java=  =(%2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(É
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(ÔøΩ
 Lcom.Amigoscode.student.StudentUpdateRequest.setEmail(java.lang.String)!email	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java=  =(%"
 typeString"
 isFinalfalse"!
 declarationStringString email*email2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(æ
-<com.Amigoscode.student.StudentUpdateRequest.getDateOfBirth()METHOD`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java= =(ÔøΩ
+<com.Edu.student.StudentUpdateRequest.getDateOfBirth()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaA A(#"
 isFinalfalse"p
 declarationString[<mark class="modifier">public </mark>LocalDate <mark class="method">getDateOfBirth</mark>()"
@@ -363,35 +378,36 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-type	LocalDate*getDateOfBirth2´
+type	LocalDate*getDateOfBirth2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?dateOfBirth@9.22:9.33CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaB B(2Ñ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaB B(2ÔøΩ
 java.time.LocalDateRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaA A(Å	
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaA A(ÔøΩ	
 Ocom.Amigoscode.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E("
-isFinalfalse"ü
-declarationStringâ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDateOfBirth</mark>(LocalDate dateOfBirth)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDateOfBirth</mark>(LocalDate dateOfBirth)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setDateOfBirth2≈
-[com.Amigoscode.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirthCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaF F(&2´
+typevoid*setDateOfBirth2ÔøΩ
+[com.Edu.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirthCALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaF F(&2ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?dateOfBirth@9.22:9.33CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaF F(2 
-[com.Amigoscode.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaF
+ F(2ÔøΩ
+[com.Edu.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE) E(42u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E(ß
-[com.Amigoscode.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETER`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E(ÔøΩ
+[com.Edu.student.StudentUpdateRequest.setDateOfBirth(java.time.LocalDate)!dateOfBirth	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE) E(4"
 type	LocalDate"
 isFinalfalse"*
 declarationStringLocalDate dateOfBirth*dateOfBirth2}
 java.time.LocalDateTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E((ö
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaE E((ÔøΩ
 4com.Amigoscode.student.StudentUpdateRequest.getAge()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaI I("
 isFinalfalse"f
@@ -400,35 +416,36 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeInteger*getAge2•
-;com.Amigoscode.student.StudentUpdateRequest?age@10.20:10.23CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaJ J(2Ç
+typeInteger*getAge2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?age@10.20:10.23CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaJ J(2ÔøΩ
 java.lang.IntegerRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaI I(≤
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaI I(ÔøΩ
 Ecom.Amigoscode.student.StudentUpdateRequest.setAge(java.lang.Integer)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M("
-isFinalfalse"å
+isFinalfalse"ÔøΩ
 declarationStringw<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAge</mark>(Integer age)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setAge2≥
+typevoid*setAge2ÔøΩ
 Icom.Amigoscode.student.StudentUpdateRequest.setAge(java.lang.Integer)!ageCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaN N(2•
-;com.Amigoscode.student.StudentUpdateRequest?age@10.20:10.23CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaN N(2∏
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaN N(2ÔøΩ
+;com.Edu.student.StudentUpdateRequest?age@10.20:10.23CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaN
+ N(2ÔøΩ
 Icom.Amigoscode.student.StudentUpdateRequest.setAge(java.lang.Integer)!age	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M("2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(ˇ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(ÔøΩ
 Icom.Amigoscode.student.StudentUpdateRequest.setAge(java.lang.Integer)!age	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(""
 typeInteger"
 isFinalfalse" 
 declarationStringInteger age*age2{
 java.lang.IntegerTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(£
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaM M(ÔøΩ
 7com.Amigoscode.student.StudentUpdateRequest.getStatus()METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaQ Q("
 isFinalfalse"h
@@ -437,35 +454,37 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 accesspublic"
 
 isAbstractfalse"
-typeString*	getStatus2®
->com.Amigoscode.student.StudentUpdateRequest?status@11.19:11.25CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaR R(2Å
+typeString*	getStatus2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?status@11.19:11.25CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaR R(2ÔøΩ
 java.lang.StringRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaQ Q(…
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaQ Q(ÔøΩ
 Gcom.Amigoscode.student.StudentUpdateRequest.setStatus(java.lang.String)METHOD`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U("
-isFinalfalse"ë
+isFinalfalse"ÔøΩ
 declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStatus</mark>(String status)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*	setStatus2∏
+typevoid*	setStatus2ÔøΩ
 Ncom.Amigoscode.student.StudentUpdateRequest.setStatus(java.lang.String)!statusCALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaV V(2®
->com.Amigoscode.student.StudentUpdateRequest?status@11.19:11.25CALL`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaV V(2Ω
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaV V(2ÔøΩ
+>com.Edu.student.StudentUpdateRequest?status@11.19:11.25CALL`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaV
+ V(2ÔøΩ
 Ncom.Amigoscode.student.StudentUpdateRequest.setStatus(java.lang.String)!status	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU! U('2u
 voidRETURN_TYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U(á
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U(ÔøΩ
 Ncom.Amigoscode.student.StudentUpdateRequest.setStatus(java.lang.String)!status	PARAMETER`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU! U('"
 typeString"
 isFinalfalse""
-declarationStringString status*status2z
+declarationString
+String status*status2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U( œ
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.javaU U( ÔøΩ
 8com.Amigoscode.student.StudentUpdateRequest?id@5.17:5.19VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"
@@ -474,8 +493,8 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*id2x
 java.lang.LongTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (Í
-?com.Amigoscode.student.StudentUpdateRequest?firstName@6.19:6.28VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
+?com.Edu.student.StudentUpdateRequest?firstName@6.19:6.28VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"
 typeString"l
@@ -483,8 +502,8 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*	firstName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (Á
->com.Amigoscode.student.StudentUpdateRequest?lastName@7.19:7.27VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
+>com.Edu.student.StudentUpdateRequest?lastName@7.19:7.27VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"
 typeString"k
@@ -492,8 +511,8 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*lastName2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ﬁ
-;com.Amigoscode.student.StudentUpdateRequest?email@8.19:8.24VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
+;com.Edu.student.StudentUpdateRequest?email@8.19:8.24VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"
 typeString"h
@@ -501,7 +520,7 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*email2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (˘
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?dateOfBirth@9.22:9.33VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java	 	(!"
 isFinalfalse"
@@ -510,8 +529,8 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*dateOfBirth2}
 java.time.LocalDateTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java	 	(›
-;com.Amigoscode.student.StudentUpdateRequest?age@10.20:10.23VARIABLE`
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java	 	(ÔøΩ
+;com.Edu.student.StudentUpdateRequest?age@10.20:10.23VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
  
 ("
@@ -523,8 +542,8 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 java.lang.IntegerTYPE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java
  
-(„
->com.Amigoscode.student.StudentUpdateRequest?status@11.19:11.25VARIABLE`
+(ÔøΩ
+>com.Edu.student.StudentUpdateRequest?status@11.19:11.25VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"
 typeString"i
@@ -532,7 +551,7 @@ VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateReque
 isStaticfalse"
 accessprivate*status2z
 java.lang.StringTYPE`
-VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (Ô
+VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java (ÔøΩ
 Acom.Amigoscode.student.StudentUpdateRequest?studyYear@12.20:12.29VARIABLE`
 VF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\student\StudentUpdateRequest.java ("
 isFinalfalse"

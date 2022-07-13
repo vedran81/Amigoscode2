@@ -1,59 +1,64 @@
 
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java›
-)com.Amigoscode.specification.key.JoinEnumENUM^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.javaï¿½
+)com.Edu.specification.key.JoinEnumENUM^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("@
-declarationString+<mark class="modifier">enum </mark>JoinEnum*JoinEnum2³
+declarationString+<mark class="modifier">enum </mark>JoinEnum*JoinEnum2ï¿½
 Dcom.Amigoscode.specification.key.JoinEnum.JoinEnum(java.lang.String)DECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2£
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
 4com.Amigoscode.specification.key.JoinEnum.toString()DECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java   (2©
-:com.Amigoscode.specification.key.JoinEnum?name@26.19:26.23DECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2 
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java   (2ï¿½
+:com.Edu.specification.key.JoinEnum?name@26.19:26.23DECLARATION^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
 1com.Amigoscode.specification.key.JoinEnum?STUDENTDECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2 
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
 1com.Amigoscode.specification.key.JoinEnum?SUBJECTDECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2Ÿ
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
 0com.Amigoscode.specification.key.JoinEnum?MENTORDECLARATION^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (
-2¢
+2ï¿½
 3com.Amigoscode.specification.key.JoinEnum?ENROLMENTDECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2¦
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (
+2ï¿½
 7com.Amigoscode.specification.key.JoinEnum?ENROLMENT_SETDECLARATION^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (±
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (ï¿½
 1com.Amigoscode.specification.key.JoinEnum?STUDENTVALUE^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
-enumtrue*STUDENT±
+enumtrue*STUDENTï¿½
 1com.Amigoscode.specification.key.JoinEnum?SUBJECTVALUE^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
-enumtrue*SUBJECT¯
+enumtrue*SUBJECTï¿½
 0com.Amigoscode.specification.key.JoinEnum?MENTORVALUE^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (
 "
-enumtrue*MENTORµ
+enumtrue*MENTORï¿½
 3com.Amigoscode.specification.key.JoinEnum?ENROLMENTVALUE^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
-enumtrue*	ENROLMENT½
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (
+"
+enumtrue*	ENROLMENTï¿½
 7com.Amigoscode.specification.key.JoinEnum?ENROLMENT_SETVALUE^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
-enumtrue*ENROLMENT_SETÑ
+enumtrue*
+ENROLMENT_SETï¿½
 Dcom.Amigoscode.specification.key.JoinEnum.JoinEnum(java.lang.String)CONSTRUCTOR^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("e
-declarationStringP<mark class="modifier"> </mark><mark class="method">JoinEnum</mark>(String name)*JoinEnum2±
+declarationStringP<mark class="modifier"> </mark><mark class="method">JoinEnum</mark>(String name)*JoinEnum2ï¿½
 Icom.Amigoscode.specification.key.JoinEnum.JoinEnum(java.lang.String)!nameCALL^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2¢
-:com.Amigoscode.specification.key.JoinEnum?name@26.19:26.23CALL^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2¶
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
+:com.Edu.specification.key.JoinEnum?name@26.19:26.23CALL^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java
+ (2ï¿½
 Icom.Amigoscode.specification.key.JoinEnum.JoinEnum(java.lang.String)!name	PARAMETER^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2˜
-)com.Amigoscode.specification.key.JoinEnumRETURN_TYPE^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (ú
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (2ï¿½
+)com.Edu.specification.key.JoinEnumRETURN_TYPE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (ï¿½
 Icom.Amigoscode.specification.key.JoinEnum.JoinEnum(java.lang.String)!name	PARAMETER^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
 typeString"
 isFinalfalse" 
 declarationStringString name*name2x
 java.lang.StringTYPE^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java (“
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java
+ (ï¿½
 4com.Amigoscode.specification.key.JoinEnum.toString()METHOD^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java   ("
 isFinalfalse"g
@@ -62,12 +67,12 @@ TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum
 accesspublic"
 
 isAbstractfalse"
-typeString*toString2¢
-:com.Amigoscode.specification.key.JoinEnum?name@26.19:26.23CALL^
+typeString*toString2ï¿½
+:com.Edu.specification.key.JoinEnum?name@26.19:26.23CALL^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java! !(2
 java.lang.StringRETURN_TYPE^
-TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java   (×
-:com.Amigoscode.specification.key.JoinEnum?name@26.19:26.23VARIABLE^
+TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java   (ï¿½
+:com.Edu.specification.key.JoinEnum?name@26.19:26.23VARIABLE^
 TF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\key\JoinEnum.java ("
 isFinalfalse"
 typeString"g

@@ -1,194 +1,215 @@
 
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaç
-%com.Amigoscode.subject.SubjectServiceCLASSZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ("!
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaÔøΩ
+%com.Edu.subject.SubjectServiceCLASSZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ ("!
 packagecom.Amigoscode.subject"
 isFinalfalse"
 inner classfalse"
 
-isAbstractfalse"ö
-declarationStringÑ<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SubjectService"
-accesspublic*SubjectService2…
-^com.Amigoscode.subject.SubjectService.SubjectService(com.Amigoscode.subject.SubjectRepository)DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2£
+isAbstractfalse"ÔøΩ
+declarationStringÔøΩ<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SubjectService"
+accesspublic*SubjectService2ÔøΩ
+^com.Edu.subject.SubjectService.SubjectService(com.Edu.subject.SubjectRepository)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ 
+(2ÔøΩ
 8com.Amigoscode.subject.SubjectService.findAllByYear(int)DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2∞
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2ÔøΩ
 Ecom.Amigoscode.subject.SubjectService.findAllByName(java.lang.String)DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2æ
-Scom.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2Æ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2ÔøΩ
+Scom.Amigoscode.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "(2ô
-.com.Amigoscode.subject.SubjectService.getAll()DECLARATIONZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(2Æ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "(2ÔøΩ
+.com.Edu.subject.SubjectService.getAll()DECLARATIONZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53DECLARATIONZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
 $ 
-(5Ö	
-^com.Amigoscode.subject.SubjectService.SubjectService(com.Amigoscode.subject.SubjectRepository)CONSTRUCTORZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ("π
-declarationString£<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">SubjectService</mark>(SubjectRepository subjectRepository)*SubjectService2‘
-pcom.Amigoscode.subject.SubjectService.SubjectService(com.Amigoscode.subject.SubjectRepository)!subjectRepositoryCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (22ß
+(5ÔøΩ	
+^com.Edu.subject.SubjectService.SubjectService(com.Edu.subject.SubjectRepository)CONSTRUCTORZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ 
+("ÔøΩ
+declarationStringÔøΩ<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="method">SubjectService</mark>(SubjectRepository subjectRepository)*SubjectService2ÔøΩ
+pcom.Amigoscode.subject.SubjectService.SubjectService(com.Edu.subject.SubjectRepository)!subjectRepositoryCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (22ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2Ÿ
-pcom.Amigoscode.subject.SubjectService.SubjectService(com.Amigoscode.subject.SubjectRepository)!subjectRepository	PARAMETERZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (=2ê
-%com.Amigoscode.subject.SubjectServiceRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (‚
-pcom.Amigoscode.subject.SubjectService.SubjectService(com.Amigoscode.subject.SubjectRepository)!subjectRepository	PARAMETERZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (="
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ (2ÔøΩ
+pcom.Amigoscode.subject.SubjectService.SubjectService(com.Edu.subject.SubjectRepository)!subjectRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+, 
+(=2ÔøΩ
+%com.Edu.subject.SubjectServiceRETURN_TYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ 
+(ÔøΩ
+pcom.Amigoscode.subject.SubjectService.SubjectService(com.Edu.subject.SubjectRepository)!subjectRepository	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+, 
+(="
 typeSubjectRepository"
 isFinalfalse"8
-declarationString#SubjectRepository subjectRepository*subjectRepository2å
-(com.Amigoscode.subject.SubjectRepositoryTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (+Á
+declarationString#SubjectRepository subjectRepository*subjectRepository2ÔøΩ
+(com.Edu.subject.SubjectRepositoryTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
+ 
+(+ÔøΩ
 
 8com.Amigoscode.subject.SubjectService.findAllByYear(int)METHODZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&"
-isFinalfalse"†
-declarationStringä<mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">findAllByYear</mark>(<mark class="modifier">int</mark> year)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">findAllByYear</mark>(<mark class="modifier">int</mark> year)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typeList<Subject>*findAllByYear2™
+type
+List<Subject>*
+findAllByYear2ÔøΩ
 Fcom.Amigoscode.subject.SubjectRepository.findByYear(java.lang.Integer)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (+2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (+2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ( 2°
-=com.Amigoscode.subject.SubjectService.findAllByYear(int)!yearCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (02¶
-=com.Amigoscode.subject.SubjectService.findAllByYear(int)!year	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ( 2ÔøΩ
+=com.Edu.subject.SubjectService.findAllByYear(int)!yearCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (02ÔøΩ
+=com.Edu.subject.SubjectService.findAllByYear(int)!year	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ (/2y
 java.util.ListRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2í
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENTZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (Ò
-=com.Amigoscode.subject.SubjectService.findAllByYear(int)!year	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ÔøΩ
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (ÔøΩ
+=com.Edu.subject.SubjectService.findAllByYear(int)!year	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ (/"
 typeint"
 isFinalfalse";
 declarationString&<mark class="modifier">int</mark> year*year2g
 intTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java' (*Ò
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java' (*ÔøΩ
 
 Ecom.Amigoscode.subject.SubjectService.findAllByName(java.lang.String)METHODZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&"
-isFinalfalse"Ñ
+isFinalfalse"ÔøΩ
 declarationStringo<mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">findAllByName</mark>(String name)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typeList<Subject>*findAllByName2©
+type
+List<Subject>*
+findAllByName2ÔøΩ
 Ecom.Amigoscode.subject.SubjectRepository.findByName(java.lang.String)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (+2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java! (+2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ( 2Æ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ( 2ÔøΩ
 Jcom.Amigoscode.subject.SubjectService.findAllByName(java.lang.String)!nameCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (02≥
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, (02ÔøΩ
 Jcom.Amigoscode.subject.SubjectService.findAllByName(java.lang.String)!name	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java. (22y
 java.util.ListRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2í
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENTZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (Û
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ÔøΩ
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (ÔøΩ
 Jcom.Amigoscode.subject.SubjectService.findAllByName(java.lang.String)!name	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java. (2"
 typeString"
 isFinalfalse" 
 declarationStringString name*name2t
 java.lang.StringTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java' (-€
-Scom.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java' (-ÔøΩ
+Scom.Amigoscode.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)METHODZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java ("
-isFinalfalse"ò
-declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addNewSubject</mark>(Subject subject)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addNewSubject</mark>(Subject subject)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*addNewSubject2å
-(com.Amigoscode.subject.Subject.getName()CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java: (A2å
-(com.Amigoscode.subject.Subject.getYear()CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaM (T2´
+typevoid*
+addNewSubject2ÔøΩ
+(com.Edu.subject.Subject.getName()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java: (A2ÔøΩ
+(com.Edu.subject.Subject.getYear()CALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaM (T2ÔøΩ
 Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (+2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (+2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ø
-[com.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)!subjectCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java2 (92ø
-[com.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)!subjectCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaE (L2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ÔøΩ
+[com.Edu.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)!subjectCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java2 (92ÔøΩ
+[com.Edu.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)!subjectCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.javaE (L2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ø
-[com.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)!subjectCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2ƒ
-[com.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)!subject	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (2ÔøΩ
+[com.Edu.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)!subjectCALLZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (&2ÔøΩ
+[com.Edu.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)!subject	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java& (-2o
 voidRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (õ
-[com.Amigoscode.subject.SubjectService.addNewSubject(com.Amigoscode.subject.Subject)!subject	PARAMETERZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (ÔøΩ
+[com.Edu.subject.SubjectService.addNewSubject(com.Edu.subject.Subject)!subject	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java& (-"
 typeSubject"
 isFinalfalse"$
-declarationStringSubject subject*subject2Ç
-com.Amigoscode.subject.SubjectTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (%ü
+declarationStringSubject subject*subject2ÔøΩ
+com.Edu.subject.SubjectTYPEZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java (%ÔøΩ
 Ccom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)METHODZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "("
-isFinalfalse"ó
-declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deletesubject</mark>(Long studentId)"
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deletesubject</mark>(Long studentId)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*deletesubject2ß
+typevoid*
+deletesubject2ÔøΩ
 Ccom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#+ #(52´
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#+ #(52ÔøΩ
 Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java& &(+2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java& &(+2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(*2±
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(*2ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentIdCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#6 #(?2∫
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#6 #(?2ÔøΩ
 Vcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)?exists@35.16:35.22CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java% %(2±
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java%
+ %(2ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentIdCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java&A &(J2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java&A &(J2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java( ((2±
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java( ((2ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentIdCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java(% ((.2∂
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java(% ((.2ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentId	PARAMETERZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java"# "(,2¡
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java"# "(,2ÔøΩ
 Vcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)?exists@35.16:35.22DECLARATIONZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(2o
 voidRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "(ç
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "(ÔøΩ
 Vcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)?exists@35.16:35.22VARIABLEZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #("
 typeboolean"
-isFinalfalse"¨
-declarationStringñ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">exists</mark> = subjectRepository.existsById(studentId)*exists2k
+isFinalfalse"ÔøΩ
+declarationStringÔøΩ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">exists</mark> = subjectRepository.existsById(studentId)*exists2k
 booleanTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(2ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(2ÔøΩ
 Ccom.Amigoscode.subject.SubjectRepository.existsById(java.lang.Long)CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#+ #(52ß
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#+ #(52ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(*2±
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java# #(*2ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentIdCALLZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#6 #(?˙
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java#6 #(?ÔøΩ
 Mcom.Amigoscode.subject.SubjectService.deletesubject(java.lang.Long)!studentId	PARAMETERZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java"# "(,"
 typeLong"
 isFinalfalse"#
 declarationStringLong studentId*	studentId2r
 java.lang.LongTYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "("≠
-.com.Amigoscode.subject.SubjectService.getAll()METHODZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java" "("ÔøΩ
+.com.Edu.subject.SubjectService.getAll()METHODZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +("
 isFinalfalse"r
 declarationString]<mark class="modifier">public </mark>List&lt;Subject&gt; <mark class="method">getAll</mark>()"
@@ -196,23 +217,24 @@ PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.jav
 accesspublic"
 
 isAbstractfalse"
-typeList<Subject>*getAll2ß
+type
+List<Subject>*getAll2ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53CALLZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java, ,( 2y
 java.util.ListRETURN_TYPEZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(2í
-com.Amigoscode.subject.SubjectRETURN_TYPE_ARGUMENTZ
-PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(√
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(2ÔøΩ
+com.Edu.subject.SubjectRETURN_TYPE_ARGUMENTZ
+PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java+ +(ÔøΩ
 Ccom.Amigoscode.subject.SubjectService?subjectRepository@10.36:10.53VALUEZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
 $ 
 (5"
 isFinaltrue"
-typeSubjectRepository"§
-declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>SubjectRepository <mark class="class-field">subjectRepository</mark>"
+typeSubjectRepository"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">private </mark><mark class="modifier">final </mark>SubjectRepository <mark class="class-field">subjectRepository</mark>"
 isStaticfalse"
-accessprivate*subjectRepository2å
-(com.Amigoscode.subject.SubjectRepositoryTYPEZ
+accessprivate*subjectRepository2ÔøΩ
+(com.Edu.subject.SubjectRepositoryTYPEZ
 PF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\subject\SubjectService.java
  
 (#

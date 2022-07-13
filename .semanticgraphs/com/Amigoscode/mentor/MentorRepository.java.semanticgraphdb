@@ -1,27 +1,27 @@
 
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java˜
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.javaï¿½
 
-&com.Amigoscode.mentor.MentorRepositoryTRAIT[
+&com.Edu.mentor.MentorRepositoryTRAIT[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (!" 
 packagecom.Amigoscode.mentor"
 isFinalfalse"
 inner classfalse"
 
-isAbstractfalse"å
-declarationStringÏ<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>MentorRepository<mark class="modifier"> extends </mark>JpaRepository<Mentor, Long>"
-accesspublic*MentorRepository2°
+isAbstractfalse"ï¿½
+declarationStringï¿½<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>MentorRepository<mark class="modifier"> extends </mark>JpaRepository<Mentor, Long>"
+accesspublic*MentorRepository2ï¿½
 Dcom.Amigoscode.mentor.MentorRepository.findByEmail(java.lang.String)DECLARATION[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (2²
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (2ï¿½
 Fcom.Amigoscode.mentor.MentorRepository.existsByEmail(java.lang.String)DECLARATION[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java
  
-(2œ
+(2ï¿½
 5org.springframework.data.jpa.repository.JpaRepositoryEXTEND[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java* (72‘
-com.Amigoscode.mentor.MentorEXTEND_TYPE_ARGUMENT[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java8 (>2ƒ
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java* (72ï¿½
+com.Edu.mentor.MentorEXTEND_TYPE_ARGUMENT[
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java8 (>2ï¿½
 java.lang.LongEXTEND_TYPE_ARGUMENT[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java@ (DÑ
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java@ (Dï¿½
 Dcom.Amigoscode.mentor.MentorRepository.findByEmail(java.lang.String)METHOD[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java ("
 isFinalfalse"p
@@ -30,30 +30,31 @@ QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.ja
 accesspackage_private"
 
 isAbstractfalse"
-typeMentor*findByEmail2´
+typeMentor*findByEmail2ï¿½
 Jcom.Amigoscode.mentor.MentorRepository.findByEmail(java.lang.String)!email	PARAMETER[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (#2ˆ
-com.Amigoscode.mentor.MentorRETURN_TYPE[
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (#2ï¿½
+com.Edu.mentor.MentorRETURN_TYPE[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (
-÷
+ï¿½
 Jcom.Amigoscode.mentor.MentorRepository.findByEmail(java.lang.String)!email	PARAMETER[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (#"
 typeString"
 isFinalfalse"!
 declarationStringString email*email2u
 java.lang.StringTYPE[
-QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (ä
+QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java (ï¿½
 Fcom.Amigoscode.mentor.MentorRepository.existsByEmail(java.lang.String)METHOD[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java
  
 ("
-isFinalfalse"‘
+isFinalfalse"ï¿½
 declarationString|<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">existsByEmail</mark>(String email)"
 isStaticfalse"
 accesspackage_private"
 
 isAbstractfalse"
-typeboolean*existsByEmail2¶
+typeboolean*
+existsByEmail2ï¿½
 Lcom.Amigoscode.mentor.MentorRepository.existsByEmail(java.lang.String)!email	PARAMETER[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java
 ! 
@@ -61,7 +62,7 @@ QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.ja
 booleanRETURN_TYPE[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java
  
-(ù
+(ï¿½
 Lcom.Amigoscode.mentor.MentorRepository.existsByEmail(java.lang.String)!email	PARAMETER[
 QF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\mentor\MentorRepository.java
 ! 

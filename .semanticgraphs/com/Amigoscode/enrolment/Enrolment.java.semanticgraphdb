@@ -1,61 +1,62 @@
 
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.javaº
-"com.Amigoscode.enrolment.EnrolmentCLASSW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("#
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.javaÔøΩ
+"com.Edu.enrolment.EnrolmentCLASSW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java
+ ("#
 packagecom.Amigoscode.enrolment"
 isFinalfalse"
 inner classfalse"
 
-isAbstractfalse"”
-declarationStringΩ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Table(name = "enrolment")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Enrolment"
-accesspublic*	Enrolment2ñ
-.com.Amigoscode.enrolment.Enrolment.Enrolment()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ù
+isAbstractfalse"ÔøΩ
+declarationStringÔøΩ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Table(name = "enrolment")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Enrolment"
+accesspublic*	Enrolment2ÔøΩ
+.com.Edu.enrolment.Enrolment.Enrolment()DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ÔøΩ
 5com.Amigoscode.enrolment.Enrolment.isCourseFinished()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java   (#2ï
--com.Amigoscode.enrolment.Enrolment.getGrade()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java" "(2Æ
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java   (#2ÔøΩ
+-com.Edu.enrolment.Enrolment.getGrade()DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java" "(2ÔøΩ
 Fcom.Amigoscode.enrolment.Enrolment.setGrade(javax.persistence.Integer)DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &(2µ
-Mcom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *(2ó
-/com.Amigoscode.enrolment.Enrolment.getSubject()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java. .(2ó
-/com.Amigoscode.enrolment.Enrolment.getStudent()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2 2(2µ
-Mcom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6(2í
-*com.Amigoscode.enrolment.Enrolment.getId()DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java: :(2®
-@com.Amigoscode.enrolment.Enrolment.setId(javax.persistence.Long)DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(2ô
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &(2ÔøΩ
+Mcom.Amigoscode.enrolment.Enrolment.setSubject(com.Edu.subject.Subject)DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *(2ÔøΩ
+/com.Edu.enrolment.Enrolment.getSubject()DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java. .(2ÔøΩ
+/com.Edu.enrolment.Enrolment.getStudent()DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2 2(2ÔøΩ
+Mcom.Amigoscode.enrolment.Enrolment.setStudent(com.Edu.student.Student)DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6(2ÔøΩ
+*com.Edu.enrolment.Enrolment.getId()DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java: :(2ÔøΩ
+@com.Edu.enrolment.Enrolment.setId(javax.persistence.Long)DECLARATIONW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(2ÔøΩ
 1com.Amigoscode.enrolment.Enrolment?id@15.17:15.19DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2û
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?student@20.20:20.27DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2û
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?subject@25.20:25.27DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ú
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (2ÔøΩ
 4com.Amigoscode.enrolment.Enrolment?grade@27.20:27.25DECLARATIONW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ë
-.com.Amigoscode.enrolment.Enrolment.Enrolment()CONSTRUCTORW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ÔøΩ
+.com.Edu.enrolment.Enrolment.Enrolment()CONSTRUCTORW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("a
-declarationStringL<mark class="modifier">public </mark><mark class="method">Enrolment</mark>()*	Enrolment2ä
-"com.Amigoscode.enrolment.EnrolmentRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (°
+declarationStringL<mark class="modifier">public </mark><mark class="method">Enrolment</mark>()*	Enrolment2ÔøΩ
+"com.Edu.enrolment.EnrolmentRETURN_TYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ÔøΩ
 5com.Amigoscode.enrolment.Enrolment.isCourseFinished()METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java   (#"
-isFinalfalse"é
+isFinalfalse"ÔøΩ
 declarationStringy<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isCourseFinished</mark>()"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typeboolean*isCourseFinished2ï
+typeboolean*isCourseFinished2ÔøΩ
 4com.Amigoscode.enrolment.Enrolment?grade@27.20:27.25CALLW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java 0  (52o
 booleanRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java   (˝
--com.Amigoscode.enrolment.Enrolment.getGrade()METHODW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java   (ÔøΩ
+-com.Edu.enrolment.Enrolment.getGrade()METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java" "("
 isFinalfalse"h
 declarationStringS<mark class="modifier">public </mark>Integer <mark class="method">getGrade</mark>()"
@@ -63,61 +64,64 @@ MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java"
 accesspublic"
 
 isAbstractfalse"
-typeInteger*getGrade2ï
+typeInteger*getGrade2ÔøΩ
 4com.Amigoscode.enrolment.Enrolment?grade@27.20:27.25CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java# #(2Å
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java# #(2ÔøΩ
 javax.persistence.IntegerRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java" "(ã
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java" "(ÔøΩ
 Fcom.Amigoscode.enrolment.Enrolment.setGrade(javax.persistence.Integer)METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &("
-isFinalfalse"ê
+isFinalfalse"ÔøΩ
 declarationString{<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setGrade</mark>(Integer grade)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setGrade2≠
+typevoid*setGrade2ÔøΩ
 Lcom.Amigoscode.enrolment.Enrolment.setGrade(javax.persistence.Integer)!gradeCALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java' '(2ï
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java' '(2ÔøΩ
 4com.Amigoscode.enrolment.Enrolment?grade@27.20:27.25CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java' '(2≤
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java'
+ '(2ÔøΩ
 Lcom.Amigoscode.enrolment.Enrolment.setGrade(javax.persistence.Integer)!grade	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java&! &(&2l
 voidRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &(¸
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &(ÔøΩ
 Lcom.Amigoscode.enrolment.Enrolment.setGrade(javax.persistence.Integer)!grade	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java&! &(&"
 typeInteger"
 isFinalfalse""
-declarationStringInteger grade*grade2z
+declarationString
+Integer grade*grade2z
 javax.persistence.IntegerTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &( ¨
-Mcom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)METHODW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java& &( ÔøΩ
+Mcom.Amigoscode.enrolment.Enrolment.setSubject(com.Edu.subject.Subject)METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *("
-isFinalfalse"î
+isFinalfalse"ÔøΩ
 declarationString<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSubject</mark>(Subject subject)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
 typevoid*
-setSubject2∂
-Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)!subjectCALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java+ +(2ó
+setSubject2ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Edu.subject.Subject)!subjectCALLW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java+ +(2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?subject@25.20:25.27CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java+ +(2ª
-Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)!subject	PARAMETERW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java+
+ +(2ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Edu.subject.Subject)!subject	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java*# *(*2l
 voidRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *(é
-Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Amigoscode.subject.Subject)!subject	PARAMETERW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *(ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setSubject(com.Edu.subject.Subject)!subject	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java*# *(*"
 typeSubject"
 isFinalfalse"$
 declarationStringSubject subject*subject2
-com.Amigoscode.subject.SubjectTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *("ä
-/com.Amigoscode.enrolment.Enrolment.getSubject()METHODW
+com.Edu.subject.SubjectTYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java* *("ÔøΩ
+/com.Edu.enrolment.Enrolment.getSubject()METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java. .("
 isFinalfalse"j
 declarationStringU<mark class="modifier">public </mark>Subject <mark class="method">getSubject</mark>()"
@@ -126,12 +130,12 @@ MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java.
 
 isAbstractfalse"
 typeSubject*
-getSubject2ó
+getSubject2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?subject@25.20:25.27CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java/ /(2Ü
-com.Amigoscode.subject.SubjectRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java. .(ä
-/com.Amigoscode.enrolment.Enrolment.getStudent()METHODW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java/ /(2ÔøΩ
+com.Edu.subject.SubjectRETURN_TYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java. .(ÔøΩ
+/com.Edu.enrolment.Enrolment.getStudent()METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2 2("
 isFinalfalse"j
 declarationStringU<mark class="modifier">public </mark>Student <mark class="method">getStudent</mark>()"
@@ -140,37 +144,38 @@ MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2
 
 isAbstractfalse"
 typeStudent*
-getStudent2ó
+getStudent2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?student@20.20:20.27CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java3 3(2Ü
-com.Amigoscode.student.StudentRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2 2(¨
-Mcom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)METHODW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java3 3(2ÔøΩ
+com.Edu.student.StudentRETURN_TYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java2 2(ÔøΩ
+Mcom.Amigoscode.enrolment.Enrolment.setStudent(com.Edu.student.Student)METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6("
-isFinalfalse"î
+isFinalfalse"ÔøΩ
 declarationString<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStudent</mark>(Student student)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
 typevoid*
-setStudent2∂
-Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)!studentCALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java7 7(2ó
+setStudent2ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Edu.student.Student)!studentCALLW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java7 7(2ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?student@20.20:20.27CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java7 7(2ª
-Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)!student	PARAMETERW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java7
+ 7(2ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Edu.student.Student)!student	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6# 6(*2l
 voidRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6(é
-Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Amigoscode.student.Student)!student	PARAMETERW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6(ÔøΩ
+Ucom.Amigoscode.enrolment.Enrolment.setStudent(com.Edu.student.Student)!student	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6# 6(*"
 typeStudent"
 isFinalfalse"$
 declarationStringStudent student*student2
-com.Amigoscode.student.StudentTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6("Á
-*com.Amigoscode.enrolment.Enrolment.getId()METHODW
+com.Edu.student.StudentTYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java6 6("ÔøΩ
+*com.Edu.enrolment.Enrolment.getId()METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java: :("
 isFinalfalse"b
 declarationStringM<mark class="modifier">public </mark>Long <mark class="method">getId</mark>()"
@@ -178,68 +183,69 @@ MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java:
 accesspublic"
 
 isAbstractfalse"
-typeLong*getId2í
+typeLong*getId2ÔøΩ
 1com.Amigoscode.enrolment.Enrolment?id@15.17:15.19CALLW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java; ;(2~
 javax.persistence.LongRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java: :(‰
-@com.Amigoscode.enrolment.Enrolment.setId(javax.persistence.Long)METHODW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java: :(ÔøΩ
+@com.Edu.enrolment.Enrolment.setId(javax.persistence.Long)METHODW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >("
-isFinalfalse"á
+isFinalfalse"ÔøΩ
 declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setId</mark>(Long id)"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
-typevoid*setId2§
+typevoid*setId2ÔøΩ
 Ccom.Amigoscode.enrolment.Enrolment.setId(javax.persistence.Long)!idCALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java? ?(2í
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java? ?(2ÔøΩ
 1com.Amigoscode.enrolment.Enrolment?id@15.17:15.19CALLW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java? ?(2©
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java?
+ ?(2ÔøΩ
 Ccom.Amigoscode.enrolment.Enrolment.setId(javax.persistence.Long)!id	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(2l
 voidRETURN_TYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(‰
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(ÔøΩ
 Ccom.Amigoscode.enrolment.Enrolment.setId(javax.persistence.Long)!id	PARAMETERW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >("
 typeLong"
 isFinalfalse"
 declarationStringLong id*id2w
 javax.persistence.LongTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(Ú
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java> >(ÔøΩ
 1com.Amigoscode.enrolment.Enrolment?id@15.17:15.19VARIABLEW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("
 isFinalfalse"
-typeLong"ñ
-declarationStringÄ<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.SEQUENCE, generator = "enrolment_sequence")
+typeLong"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.SEQUENCE, generator = "enrolment_sequence")
 @SequenceGenerator(name = "enrolment_sequence"<mark class="modifier">,</mark> allocationSize = 1)
 private Long id;"
 isStaticfalse"
 accessprivate*id2w
 javax.persistence.LongTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (õ
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?student@20.20:20.27VARIABLEW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("
 isFinalfalse"
-typeStudent"™
-declarationStringî<mark class="modifier">private </mark>Student <mark class="class-field">student</mark> = "student_id")
+typeStudent"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">private </mark>Student <mark class="class-field">student</mark> = "student_id")
 @JsonBackReference
 private Student student;"
 isStaticfalse"
 accessprivate*student2
-com.Amigoscode.student.StudentTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (õ
+com.Edu.student.StudentTYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ÔøΩ
 6com.Amigoscode.enrolment.Enrolment?subject@25.20:25.27VARIABLEW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("
 isFinalfalse"
-typeSubject"™
-declarationStringî<mark class="modifier">private </mark>Subject <mark class="class-field">subject</mark> = "subject_id")
+typeSubject"ÔøΩ
+declarationStringÔøΩ<mark class="modifier">private </mark>Subject <mark class="class-field">subject</mark> = "subject_id")
 @JsonBackReference
 private Subject subject;"
 isStaticfalse"
 accessprivate*subject2
-com.Amigoscode.subject.SubjectTYPEW
-MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (–
+com.Edu.subject.SubjectTYPEW
+MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java (ÔøΩ
 4com.Amigoscode.enrolment.Enrolment?grade@27.20:27.25VARIABLEW
 MF:/Projects/Amigoscode2/src/main/java/com/Amigoscode/enrolment/Enrolment.java ("
 isFinalfalse"

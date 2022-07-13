@@ -1,76 +1,86 @@
 
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.javaœ
-,com.Amigoscode.specification.SearchOperationENUMa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.javaï¿½
+,com.Edu.specification.SearchOperationENUMa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("G
-declarationString2<mark class="modifier">enum </mark>SearchOperation*SearchOperation2«
+declarationString2<mark class="modifier">enum </mark>SearchOperation*SearchOperation2ï¿½
 9com.Amigoscode.specification.SearchOperation?GREATER_THANDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¨
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2ï¿½
 6com.Amigoscode.specification.SearchOperation?LESS_THANDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2±
-?com.Amigoscode.specification.SearchOperation?GREATER_THAN_EQUALDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2®
-<com.Amigoscode.specification.SearchOperation?LESS_THAN_EQUALDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¨
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+2ï¿½
+?com.Edu.specification.SearchOperation?GREATER_THAN_EQUALDECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2ï¿½
+<com.Edu.specification.SearchOperation?LESS_THAN_EQUALDECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2ï¿½
 6com.Amigoscode.specification.SearchOperation?NOT_EQUALDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¤
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+2ï¿½
 2com.Amigoscode.specification.SearchOperation?EQUALDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java	 	(	2¤
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java	 	(	2ï¿½
 2com.Amigoscode.specification.SearchOperation?MATCHDECLARATIONa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java
  
-(	2ª
+(	2ï¿½
 8com.Amigoscode.specification.SearchOperation?MATCH_STARTDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¨
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2ï¿½
 6com.Amigoscode.specification.SearchOperation?MATCH_ENDDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¡
-/com.Amigoscode.specification.SearchOperation?INDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2¥
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+2ï¿½
+/com.Edu.specification.SearchOperation?INDECLARATIONa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java
+ 
+(2ï¿½
 3com.Amigoscode.specification.SearchOperation?NOT_INDECLARATIONa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
-2£
+2ï¿½
 1com.Amigoscode.specification.SearchOperation?NULLDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2§
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (2ï¿½
 5com.Amigoscode.specification.SearchOperation?NOT_NULLDECLARATIONa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (Á
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (ï¿½
 9com.Amigoscode.specification.SearchOperation?GREATER_THANVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*GREATER_THAN»
+enumtrue*GREATER_THANï¿½
 6com.Amigoscode.specification.SearchOperation?LESS_THANVALUEa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*	LESS_THANÍ
-?com.Amigoscode.specification.SearchOperation?GREATER_THAN_EQUALVALUEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+"
+enumtrue*	LESS_THANï¿½
+?com.Edu.specification.SearchOperation?GREATER_THAN_EQUALVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*GREATER_THAN_EQUALÇ
-<com.Amigoscode.specification.SearchOperation?LESS_THAN_EQUALVALUEa
+enumtrue*GREATER_THAN_EQUALï¿½
+<com.Edu.specification.SearchOperation?LESS_THAN_EQUALVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*LESS_THAN_EQUAL»
+enumtrue*LESS_THAN_EQUALï¿½
 6com.Amigoscode.specification.SearchOperation?NOT_EQUALVALUEa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*	NOT_EQUAL³
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+"
+enumtrue*	NOT_EQUALï¿½
 2com.Amigoscode.specification.SearchOperation?EQUALVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java	 	(	"
-enumtrue*EQUAL³
+enumtrue*EQUALï¿½
 2com.Amigoscode.specification.SearchOperation?MATCHVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java
  
 (	"
-enumtrue*MATCH¿
+enumtrue*MATCHï¿½
 8com.Amigoscode.specification.SearchOperation?MATCH_STARTVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*MATCH_START»
+enumtrue*MATCH_STARTï¿½
 6com.Amigoscode.specification.SearchOperation?MATCH_ENDVALUEa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*	MATCH_END­
-/com.Amigoscode.specification.SearchOperation?INVALUEa
-WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*INµ
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
+"
+enumtrue*	MATCH_ENDï¿½
+/com.Edu.specification.SearchOperation?INVALUEa
+WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java
+ 
+("
+enumtrue*INï¿½
 3com.Amigoscode.specification.SearchOperation?NOT_INVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java (
 "
-enumtrue*NOT_IN±
+enumtrue*NOT_INï¿½
 1com.Amigoscode.specification.SearchOperation?NULLVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
-enumtrue*NULL¹
+enumtrue*NULLï¿½
 5com.Amigoscode.specification.SearchOperation?NOT_NULLVALUEa
 WF:\Projects\Amigoscode2\src\main\java\com\Amigoscode\specification\SearchOperation.java ("
 enumtrue*NOT_NULL

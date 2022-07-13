@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Amigoscode</artifactId>
+    <artifactId>EduDemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Amigoscode</name>
+    <name>EduDemo</name>
     <description>UniDatabase for Spring Boot</description>
     <properties>
         <net.sf.jasperreports-jasperreports.version>6.19.1</net.sf.jasperreports-jasperreports.version>
