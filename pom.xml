@@ -14,6 +14,7 @@
     <name>Amigoscode</name>
     <description>UniDatabase for Spring Boot</description>
     <properties>
+        <net.sf.jasperreports-jasperreports.version>6.19.1</net.sf.jasperreports-jasperreports.version>
         <jasperreports.version>6.19.1</jasperreports.version>
         <annotations.version>23.0.0</annotations.version>
         <springdoc-openapi-ui.version>1.6.9</springdoc-openapi-ui.version>
@@ -77,11 +78,13 @@
             <optional>true</optional>
          dependency> -->
 
+        <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
             <artifactId>jasperreports</artifactId>
             <version>6.19.1</version>
         </dependency>
+
 
 
     </dependencies>

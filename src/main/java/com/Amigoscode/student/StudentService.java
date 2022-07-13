@@ -17,6 +17,7 @@ import javax.transaction.Transactional;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 
@@ -149,21 +150,24 @@ public class StudentService {
     public String generateStudentInfoReport(@NotNull String reportFormat, Long studentId) throws FileNotFoundException, JRException, SQLException {
 
         File file = ResourceUtils.getFile("classpath:\\studentInfo.jrxml");
-        JasperReport jasperReportSubject = JasperCompileManager.compileReport(file.getAbsolutePath());
+        String abspath = file.getAbsolutePath();
+        JasperReport jasperReport = JasperCompileManager.compileReport(abspath);
         Map<String, Object> parameters = new HashMap<>();
         Student st = studentRepository.findStudentById(studentId);
         parameters.put("infostudent_id", studentId);
         parameters.put("email", st.getEmail());
+        //LocalDate bdate = st.getDateOfBirth();
+        parameters.put("date_of_birth", st.getDateOfBirth().format(DateTimeFormatter.ISO_LOCAL_DATE));
         parameters.put("last_name", st.getLastName());
         parameters.put("first_name", st.getFirstName());
         parameters.put("study_year", st.getStudyYear());
         parameters.put("status", st.getStatus());
-JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReportSubject, parameters, dataSource.getConnection());
+        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource.getConnection());
         String path = System.getProperty("user.home") + File.separator + "Desktop" + File.separator + "Reports";
         if (reportFormat.equalsIgnoreCase("html")) {
-            JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\StudentInfoReport.html");
+            JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\StudentInfoReport " + st.getId() +  ".html" );
         } else if (reportFormat.equalsIgnoreCase("pdf")) {
-            JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\StudentInfoReport.pdf");
+            JasperExportManager.exportReportToPdfFile(jasperPrint, path + "\\StudentInfoReport " + st.getId() + ".pdf");
         } else {
             return "Unsupported format " + reportFormat;
         }
