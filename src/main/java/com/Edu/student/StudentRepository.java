@@ -1,5 +1,6 @@
 package com.Edu.student;
 
+import org.jetbrains.annotations.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
@@ -15,7 +16,8 @@ public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpec
     Student findByEmail(String email);
 
     @Override
-    Optional<Student> findById(Long aLong);
+    @NotNull
+    Optional<Student> findById(@NotNull Long aLong);
 
     boolean existsByEmail(String email);
 
@@ -23,7 +25,7 @@ public interface StudentRepository extends JpaRepository<Student, Long>, JpaSpec
     @Query("select s from Student s where s.studyYear = ?1")
     List<Student> findByStudyYear(Integer studyYear);
 
-    boolean existsById(Long id);
+    boolean existsById(@NotNull Long id);
 
     Student findStudentById(Long id);
 

@@ -162,7 +162,7 @@ public class StudentService {
         parameters.put("study_year", st.getStudyYear());
         parameters.put("status", st.getStatus());
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource.getConnection());
-        String path = "w:";
+        String path = "C:\\Users\\VSmolec\\Desktop\\Reports";
                 // "System.getProperty("user.home") + File.separator + "Desktop" + File.separator + "Reports";
         if (reportFormat.equalsIgnoreCase("html")) {
             JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\StudentInfoReport " + st.getId() +  ".html" );
